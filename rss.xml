@@ -48,25 +48,11 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;安裝hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安裝hexo&#34;&gt;#&lt;/a&gt; 安裝 hexo&lt;/h2&gt;
 &lt;p&gt;在心怡的目录下打开 cmd&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;# 创建安装目录,dirName为目录名称
-md dirName
-# 加快安装过程
-npm i cnpm -g
-# 安装hexo
-cnpm i hexo-cli -g
-# hexo初始化
-hexo init
-# 安装组件
-cnpm install
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;安裝主題shoka&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安裝主題shoka&#34;&gt;#&lt;/a&gt; 安裝主題 shoka&lt;/h2&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 创建安装目录，dirName 为目录名称&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;md dirName&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 加快安装过程&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; i cnpm -g&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 安装 hexo&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cnpm i hexo-cli -g&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# hexo 初始化&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo init&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 安装组件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cnpm &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;安裝主題shoka&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安裝主題shoka&#34;&gt;#&lt;/a&gt; 安裝主題 shoka&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;shoka 主题项目地址 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==&#34;&gt;https://github.com/amehime/hexo-theme-shoka&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;# 镜像 git clone https://hub.fastgit.xyz/amehime/hexo-theme-shoka.git ./themes/shoka
-git clone https://github.com/amehime/hexo-theme-shoka.git ./themes/shoka
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;配置hexo和shoka&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置hexo和shoka&#34;&gt;#&lt;/a&gt; 配置 hexo 和 shoka&lt;/h2&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 镜像 git clone https://hub.fastgit.xyz/amehime/hexo-theme-shoka.git ./themes/shoka&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; clone https://github.com/amehime/hexo-theme-shoka.git ./themes/shoka&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;配置hexo和shoka&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置hexo和shoka&#34;&gt;#&lt;/a&gt; 配置 hexo 和 shoka&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;shoka 配置文档 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY2F0ZWdvcmllcy9jb21wdXRlci1zY2llbmNlL25vdGUvdGhlbWUtc2hva2EtZG9jLw==&#34;&gt;https://shoka.lostyu.me/categories/computer-science/note/theme-shoka-doc/&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -81,14 +67,7 @@ git clone https://github.com/amehime/hexo-theme-shoka.git ./themes/shoka
 &lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/06/17/gH5e1CkMZnt9SmW.jpg&#34; alt=&#34;目录结构&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;插件安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插件安装&#34;&gt;#&lt;/a&gt; 插件安装&lt;/h3&gt;
 &lt;p&gt;内容整合于&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy9kZXBlbmRlbnRzLw==&#34;&gt; Step.1 依赖插件&lt;/span&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;cnpm un hexo-renderer-marked --save
-cnpm i hexo-renderer-multi-markdown-it --save
-cnpm i hexo-autoprefixer --save
-cnpm i hexo-algoliasearch --save
-cnpm i hexo-symbols-count-time --save
-cnpm i hexo-feed --save-dev
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;特殊问题说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#特殊问题说明&#34;&gt;#&lt;/a&gt; 特殊问题说明&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cnpm un hexo-renderer-marked --save&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cnpm i hexo-renderer-multi-markdown-it --save&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cnpm i hexo-autoprefixer --save&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cnpm i hexo-algoliasearch --save&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cnpm i hexo-symbols-count-time --save&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cnpm i hexo-feed --save-dev&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;特殊问题说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#特殊问题说明&#34;&gt;#&lt;/a&gt; 特殊问题说明&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;邮箱 hash 值？&lt;/li&gt;
 &lt;/ol&gt;
@@ -100,9 +79,7 @@ cnpm i hexo-feed --save-dev
 &lt;li&gt;hexo git 报错&lt;br /&gt;
 安装 hexo-deployer-git&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;cnpm i hexo-deployer-git --save
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;参考配置文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参考配置文件&#34;&gt;#&lt;/a&gt; 参考配置文件&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cnpm i hexo-deployer-git --save&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;参考配置文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参考配置文件&#34;&gt;#&lt;/a&gt; 参考配置文件&lt;/h3&gt;
 &lt;p&gt;配置中用到其他网站 api，需要去获取相应的 appID 和 appKey&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jb25zb2xlLmxlYW5jbG91ZC5jbi9sb2dpbg==&#34;&gt;LeanCloud&lt;/span&gt; 用于数据储存&lt;/li&gt;
@@ -116,17 +93,8 @@ cnpm i hexo-feed --save-dev
 &lt;p&gt;可参考 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC83NjA2MzYxNA==&#34;&gt;https://zhuanlan.zhihu.com/p/76063614&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;生成网页发布到github&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#生成网页发布到github&#34;&gt;#&lt;/a&gt; 生成网页发布到 github&lt;/h2&gt;
 &lt;p&gt;发布命令流程&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;# 清除生成的静态页面
-hexo clean
-# 生成静态页面
-hexo g
-# 将静态页面推送到配置的远程仓库
-hexo d
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;本地服务&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;hexo s
-&lt;/code&gt;&lt;/pre&gt;
- ]]></description>
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 清除生成的静态页面，可以不用&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo clean&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 生成静态页面&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo g&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 将静态页面推送到配置的远程仓库&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo d&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;本地服务&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo s&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
     </channel>
 </rss>
