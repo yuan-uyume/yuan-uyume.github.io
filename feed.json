@@ -7,13 +7,14 @@
     "home_page_url": "https://yuan-uyume.github.io",
     "items": [
         {
-            "id": "https://yuan-uyume.github.io/2022/06/17/Yuan-u-Yume/",
-            "url": "https://yuan-uyume.github.io/2022/06/17/Yuan-u-Yume/",
+            "id": "https://yuan-uyume.github.io/2022/06/17/about/Yuan-u-Yume/",
+            "url": "https://yuan-uyume.github.io/2022/06/17/about/Yuan-u-Yume/",
             "title": "Yuan u Yume的垃圾桶",
             "date_published": "2022-06-17T06:51:17.000Z",
             "content_html": "<h1 id=\"这里是垃圾桶\"><a class=\"anchor\" href=\"#这里是垃圾桶\">#</a> 这里是垃圾桶</h1>\n<ul class=\"task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"cbx_0\" checked=\"true\" disabled=\"true\" /><label for=\"cbx_0\"> 存放垃圾</label></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"cbx_1\" checked=\"true\" disabled=\"true\" /><label for=\"cbx_1\"> 不要生气（生气寿命 - 1s）</label></li>\n</ul>\n<h2 id=\"垃圾桶的诞生~duang\"><a class=\"anchor\" href=\"#垃圾桶的诞生~duang\">#</a> 垃圾桶的诞生～duang!</h2>\n<p>在很久很久以前，22 年的 6 月 17 日。卑劣的垃圾桶之主窃取了<span class=\"exturl\" data-url=\"aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvYWJvdXQveXVtZQ==\"> Ruri Shimotsuki @優萌初華</span> 的 hexo 主题！！！垃圾桶诞生了！！！</p>\n<h2 id=\"垃圾桶在哪里\"><a class=\"anchor\" href=\"#垃圾桶在哪里\">#</a> 垃圾桶在哪里？</h2>\n<ul>\n<li><span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL3l1YW4tdXl1bWUveXVhbi11eXVtZS5naXRodWIuaW8=\">github</span></li>\n</ul>\n",
             "tags": [
-                "about"
+                "垃圾桶",
+                "垃圾桶"
             ]
         }
     ]

@@ -13,9 +13,9 @@
     <category term="draw" />
     <category term="uyume" />
     <entry>
-        <id>https://yuan-uyume.github.io/2022/06/17/Yuan-u-Yume/</id>
+        <id>https://yuan-uyume.github.io/2022/06/17/about/Yuan-u-Yume/</id>
         <title>Yuan u Yume的垃圾桶</title>
-        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/17/Yuan-u-Yume/"/>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/17/about/Yuan-u-Yume/"/>
         <content type="html">&lt;h1 id=&#34;这里是垃圾桶&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#这里是垃圾桶&#34;&gt;#&lt;/a&gt; 这里是垃圾桶&lt;/h1&gt;
 &lt;ul class=&#34;task-list&#34;&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; 存放垃圾&lt;/label&gt;&lt;/li&gt;
@@ -28,7 +28,8 @@
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3l1YW4tdXl1bWUveXVhbi11eXVtZS5naXRodWIuaW8=&#34;&gt;github&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="about" scheme="https://yuan-uyume.github.io/tags/about/" />
+        <category term="垃圾桶" scheme="https://yuan-uyume.github.io/categories/about/" />
+        <category term="垃圾桶" scheme="https://yuan-uyume.github.io/tags/about/" />
         <updated>2022-06-17T06:51:17.000Z</updated>
     </entry>
 </feed>

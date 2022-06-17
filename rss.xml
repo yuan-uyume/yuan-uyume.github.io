@@ -16,10 +16,11 @@
         <category term="draw" />
         <category term="uyume" />
         <item>
-            <guid isPermalink="true">https://yuan-uyume.github.io/2022/06/17/Yuan-u-Yume/</guid>
+            <guid isPermalink="true">https://yuan-uyume.github.io/2022/06/17/about/Yuan-u-Yume/</guid>
             <title>Yuan u Yume的垃圾桶</title>
-            <link>https://yuan-uyume.github.io/2022/06/17/Yuan-u-Yume/</link>
-            <category term="about" scheme="https://yuan-uyume.github.io/tags/about/" />
+            <link>https://yuan-uyume.github.io/2022/06/17/about/Yuan-u-Yume/</link>
+            <category term="垃圾桶" scheme="https://yuan-uyume.github.io/categories/about/" />
+            <category term="垃圾桶" scheme="https://yuan-uyume.github.io/tags/about/" />
             <pubDate>Fri, 17 Jun 2022 14:51:17 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;这里是垃圾桶&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#这里是垃圾桶&#34;&gt;#&lt;/a&gt; 这里是垃圾桶&lt;/h1&gt;
 &lt;ul class=&#34;task-list&#34;&gt;
