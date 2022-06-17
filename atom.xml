@@ -27,6 +27,438 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3l1YW4tdXl1bWUveXVhbi11eXVtZS5naXRodWIuaW8=&#34;&gt;github&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;垃圾桶怎麼建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#垃圾桶怎麼建&#34;&gt;#&lt;/a&gt; 垃圾桶怎麼建？&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;安裝 hexo&lt;/li&gt;
+&lt;li&gt;安裝主題 shoka&lt;/li&gt;
+&lt;li&gt;配置 hexo 和 shoka&lt;/li&gt;
+&lt;li&gt;准备 github 仓库配置 page&lt;/li&gt;
+&lt;li&gt;生成网页发布到 github&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;环境准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#环境准备&#34;&gt;#&lt;/a&gt; 环境准备&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;如果未安装 node.js 请前往 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL25vZGVqcy5jbi9kb3dubG9hZC8=&#34;&gt;http://nodejs.cn/download/&lt;/span&gt; 下载安装 node&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;如果未安装 git 请前往 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZA==&#34;&gt;https://git-scm.com/download&lt;/span&gt; 下载安装 git&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;安裝hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安裝hexo&#34;&gt;#&lt;/a&gt; 安裝 hexo&lt;/h2&gt;
+&lt;p&gt;在心怡的目录下打开 cmd&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;# 创建安装目录,dirName为目录名称
+md dirName
+# 加快安装过程
+npm i cnpm -g
+# 安装hexo
+cnpm i hexo-cli -g
+# hexo初始化
+hexo init
+# 安装组件
+cnpm install
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;安裝主題shoka&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安裝主題shoka&#34;&gt;#&lt;/a&gt; 安裝主題 shoka&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;shoka 主题项目地址 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==&#34;&gt;https://github.com/amehime/hexo-theme-shoka&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;# 镜像 git clone https://hub.fastgit.xyz/amehime/hexo-theme-shoka.git ./themes/shoka
+git clone https://github.com/amehime/hexo-theme-shoka.git ./themes/shoka
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;配置hexo和shoka&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置hexo和shoka&#34;&gt;#&lt;/a&gt; 配置 hexo 和 shoka&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;shoka 配置文档 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY2F0ZWdvcmllcy9jb21wdXRlci1zY2llbmNlL25vdGUvdGhlbWUtc2hva2EtZG9jLw==&#34;&gt;https://shoka.lostyu.me/categories/computer-science/note/theme-shoka-doc/&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy8=&#34;&gt;Hexo 主题 Shoka &amp;amp; multi-markdown-it 渲染器使用说明&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy9kZXBlbmRlbnRzLw==&#34;&gt;Step.1 依赖插件&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy9jb25maWcv&#34;&gt;Step.2 基本配置&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy9kaXNwbGF5Lw==&#34;&gt;Step.3 界面显示&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy9zcGVjaWFsLw==&#34;&gt;Step.4 主题特殊功能&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;目录结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#目录结构&#34;&gt;#&lt;/a&gt; 目录结构&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/06/17/gH5e1CkMZnt9SmW.jpg&#34; alt=&#34;目录结构&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;插件安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插件安装&#34;&gt;#&lt;/a&gt; 插件安装&lt;/h3&gt;
+&lt;p&gt;内容整合于&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy9kZXBlbmRlbnRzLw==&#34;&gt; Step.1 依赖插件&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;cnpm un hexo-renderer-marked --save
+cnpm i hexo-renderer-multi-markdown-it --save
+npm i hexo-autoprefixer --save
+npm i hexo-algoliasearch --save
+npm i hexo-symbols-count-time
+npm i hexo-feed --save-dev
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;特殊问题说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#特殊问题说明&#34;&gt;#&lt;/a&gt; 特殊问题说明&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;邮箱 hash 值？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在线 md5 哈希 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90b29sLmlwMTM4LmNvbS9oYXNoLw==&#34;&gt;https://tool.ip138.com/hash/&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;32 位 md5 哈希算法，小写字母&lt;/p&gt;
+&lt;h3 id=&#34;参考配置文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参考配置文件&#34;&gt;#&lt;/a&gt; 参考配置文件&lt;/h3&gt;
+&lt;p&gt;配置中用到其他网站 api，需要去获取相应的 appID 和 appKey&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jb25zb2xlLmxlYW5jbG91ZC5jbi9sb2dpbg==&#34;&gt;LeanCloud&lt;/span&gt; 用于数据储存&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYWxnb2xpYS5jb20vYWNjb3VudC9hcGkta2V5cw==&#34;&gt;Algolia&lt;/span&gt; 用于文章搜索&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;hexo 参考配置&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: 嗨~垃圾桶在哪？
+subtitle: &#39;舒服的家&#39;
+description: &#39;uyume a i shi te ru&#39;
+#站点关键词，用 “,” 分隔
+keywords: anime,draw,uyume
+author: Yuan u Yume
+language: zh-CN
+timezone: &#39;Asia/Shanghai&#39;
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as &#39;https://username.github.io/project&#39;
+url: 
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing &#39;index.html&#39; from permalinks
+  trailing_html: true # Set to false to remove trailing &#39;.html&#39; from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: &#39;&#39;
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+#  停用默认代码高亮功能，否则代码块的 mac 样式不能正常显示。
+#  找到 highlight 和 prismjs ，把 enable 改成 false 。
+highlight:
+  enable: false
+  line_number: true
+  auto_detect: false
+  tab_replace: &#39;&#39;
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: &#39;&#39;
+
+# Home page setting
+# path: Root path for your blogs index page. (default = &#39;&#39;)
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: &#39;&#39;
+  per_page: 10
+  order_by: -date
+
+# Category &amp;amp; Tag
+default_category: uncategorized
+category_map:
+#  垃圾桶: about
+tag_map:
+#  垃圾桶: about
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports &#39;mtime&#39;, &#39;date&#39;, &#39;empty&#39;
+updated_option: &#39;mtime&#39;
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the &#39;source/&#39; folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: shoka
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  - type: git
+    repo: 
+    branch: master
+#  - type: git
+#    repo: 
+#    branch: master
+
+#加入 markdown 配置，用来渲染 md 文件
+markdown:
+  render: # 渲染器设置
+    html: false # 过滤 HTML 标签
+    xhtmlOut: true # 使用 &#39;/&#39; 来闭合单标签 （比如 &amp;lt;br /&amp;gt;）。
+    breaks: true # 转换段落里的 &#39;\n&#39; 到 &amp;lt;br&amp;gt;。
+    linkify: true # 将类似 URL 的文本自动转换为链接。
+    typographer:
+    quotes: &#39;“”‘’&#39;
+  plugins: # markdown-it 插件设置
+    - plugin:
+        name: markdown-it-toc-and-anchor
+        enable: true
+        options: # 文章目录以及锚点应用的 class 名称，shoka 主题必须设置成这样
+          tocClassName: &#39;toc&#39;
+          anchorClassName: &#39;anchor&#39;
+    - plugin:
+        name: markdown-it-multimd-table
+        enable: true
+        options:
+          multiline: true
+          rowspan: true
+          headerless: true
+    - plugin:
+        name: ./markdown-it-furigana
+        enable: true
+        options:
+          fallbackParens: &amp;quot;()&amp;quot;
+    - plugin:
+        name: ./markdown-it-spoiler
+        enable: true
+        options:
+          title: &amp;quot;你知道得太多了&amp;quot;
+
+#加入 minify 配置，压缩 css/js/html
+minify:
+  html:
+    enable: true
+    exclude: # 排除 hexo-feed 用到的模板文件
+      - &#39;**/json.ejs&#39;
+      - &#39;**/atom.ejs&#39;
+      - &#39;**/rss.ejs&#39;
+  css:
+    enable: true
+    exclude:
+      - &#39;**/*.min.css&#39;
+  js:
+    enable: true
+    mangle:
+      toplevel: true
+    output:
+    compress:
+    exclude:
+      - &#39;**/*.min.js&#39;
+      -
+
+#缺少这个插件，首页卡片翻转效果在部分浏览器中无法正确显示。
+autoprefixer:
+  exclude:
+    - &#39;*.min.css&#39;
+
+# algolia 配置建议
+algolia:
+  appId: 
+  apiKey: 
+  adminApiKey: 
+  chunkSize: 5000
+  indexName: 
+  fields:
+    - title #必须配置
+    - path #必须配置
+    - categories #推荐配置
+    - content:strip:truncate,0,2000
+    - gallery
+    - photos
+    - tags
+
+#feed 配置建议
+feed:
+  limit: 20
+  order_by: &amp;quot;-date&amp;quot;
+  tag_dir: false
+  category_dir: false
+  rss:
+    enable: true
+    template: &amp;quot;themes/shoka/layout/_alternate/rss.ejs&amp;quot;
+    output: &amp;quot;rss.xml&amp;quot;
+  atom:
+    enable: true
+    template: &amp;quot;themes/shoka/layout/_alternate/atom.ejs&amp;quot;
+    output: &amp;quot;atom.xml&amp;quot;
+  jsonFeed:
+    enable: true
+    template: &amp;quot;themes/shoka/layout/_alternate/json.ejs&amp;quot;
+    output: &amp;quot;feed.json&amp;quot;
+
+#symbols_count_time:
+#  symbols: true
+#  time: true
+#  total_symbols: true
+#  total_time: true
+#  exclude_codeblock: false
+#  awl: 4
+#  wpm: 275
+#  suffix: &amp;quot;mins.&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;shoka 配置&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;alternate: Yuan u Yume
+statics: / #//cdn.jsdelivr.net/gh/amehime/shoka@latest/
+css: css
+js: js
+images: images
+loader:
+  start: true # 当初次打开页面时，显示加载动画
+  switch: false # tab 切换到其他页面时，显示加载动画
+fireworks:
+  enable: true # 是否启用
+  color: # 烟花颜色
+    - &amp;quot;rgba(255,182,185,.9)&amp;quot;
+    - &amp;quot;rgba(250,227,217,.9)&amp;quot;
+    - &amp;quot;rgba(187,222,214,.9)&amp;quot;
+    - &amp;quot;rgba(138,198,209,.9)&amp;quot;
+font:
+  enable: true
+  global:
+    external: true
+    family: Mulish
+    size:
+  # Font settings for alternate title.
+  logo:
+    external: true
+    family: Fredericka the Great
+    size: 3.5
+  # Font settings for site title.
+  title:
+    external: true
+    family: Noto Serif JP
+    size: 2.5
+  # Font settings for headlines (&amp;lt;h1&amp;gt; to &amp;lt;h6&amp;gt;).
+  headings:
+    external: true
+    family: Noto Serif SC
+    size:
+  # Font settings for posts.
+  posts:
+    external: true
+    family:
+  # Font settings for &amp;lt;code&amp;gt; and code blocks.
+  codes:
+    external: true
+    family: Inconsolata
+iconfont: &amp;quot;1832207_c8i9n1ulxlt&amp;quot;
+menu:
+  home: / || home
+  about: /about/ || user
+  posts:
+    default: / || feather
+    archives: /archives/ || list-alt
+    categories: /categories/ || th
+    tags: /tags/ || tags
+  # friends: /friends/ || heart
+  # links: /links/ || magic
+
+social:
+  github: #https://github.com/yuan-uyume || github || &amp;quot;#191717&amp;quot;
+  bilibili: #https://space.bilibili.com/140490285 || sakura || &amp;quot;#1e88e5&amp;quot;
+  music: #https://music.163.com/#/user/home?id=1288901248 || cloud-music || &amp;quot;#e60026&amp;quot;
+  about: #https://yuan-uyume.github.io//2022/06/17/Yuan-u-Yume/ || address-card || &amp;quot;#3b5998&amp;quot;
+  email: #mailto:dakerj@qq.com || envelope || &amp;quot;#55acd5&amp;quot;
+
+
+sidebar:
+  # Sidebar Position.
+  position: right
+  #position: right
+  # Replace the default avatar image and set the url here.
+  avatar: avatar.jpg
+
+widgets:
+  random_posts: true # 显示随机文章
+  recent_comments: true # 显示最近评论
+
+# 页尾全站统计
+footer:
+  since: 2022
+  count: true
+# 文章界面统计
+post:
+  count: true
+
+# 评论系统
+valine:
+  appId: 
+  appKey: 
+  placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
+  avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
+  pageSize: 10 # Pagination size
+  lang: zh-CN
+  visitor: true # 文章访问量统计
+  NoRecordIP: false # 不记录 IP
+  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  powerMode: true # 默认打开评论框输入特效
+  tagMeta:
+    visitor: 一般路过吃瓜群众
+    master: 垃圾桶之主
+    friend: 正义的伙伴
+    investor: 环保局长
+  tagColor:
+#    visitor: &amp;quot;#855194&amp;quot;
+#    master: &amp;quot;#a77c59&amp;quot;
+#    investor: &amp;quot;#ed6ea0&amp;quot;
+    master: &amp;quot;var(--color-orange)&amp;quot;
+    friend: &amp;quot;var(--color-aqua)&amp;quot;
+    investor: &amp;quot;var(--color-pink)&amp;quot;
+  tagMember:
+    master:
+      #- 58a34de1858595ed1524017dc7fafac3
+    friend:
+    # - hash of friend@email.com
+    investor:
+    # - hash of investor1@email.com
+
+# 页面音乐
+audio:
+  - title: #灯呦丶2021
+    list:
+      #- https://music.163.com/#/playlist?id=7175381197
+  - title: #灯呦丶2020
+    list:
+      #- https://music.163.com/#/playlist?id=5437015204
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;准备github仓库配置page&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备github仓库配置page&#34;&gt;#&lt;/a&gt; 准备 github 仓库配置 page&lt;/h2&gt;
+&lt;p&gt;创建一个名为 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL1hYWC5naXRodWIuaW8=&#34;&gt;XXX.github.io&lt;/span&gt; 的仓库， XXX 为你的 github 用户名&lt;/p&gt;
+&lt;p&gt;将仓库地址填入 hexo 配置文件中去&lt;/p&gt;
+&lt;p&gt;可参考 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC83NjA2MzYxNA==&#34;&gt;https://zhuanlan.zhihu.com/p/76063614&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;生成网页发布到github&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#生成网页发布到github&#34;&gt;#&lt;/a&gt; 生成网页发布到 github&lt;/h2&gt;
+&lt;p&gt;发布命令流程&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;# 清除生成的静态页面
+hexo clean
+# 生成静态页面
+hexo g
+# 将静态页面推送到配置的远程仓库
+hexo d
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;本地服务&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;hexo s
+&lt;/code&gt;&lt;/pre&gt;
 </content>
         <category term="垃圾桶" scheme="https://yuan-uyume.github.io/categories/about/" />
         <category term="垃圾桶" scheme="https://yuan-uyume.github.io/tags/about/" />
