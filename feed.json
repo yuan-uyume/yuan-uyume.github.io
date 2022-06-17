@@ -1,7 +1,7 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "uyume a i",
-    "subtitle": "uyume",
+    "title": "嗨~垃圾桶在哪？",
+    "subtitle": "舒服的家",
     "icon": "https://yuan-uyume.github.io/images/favicon.ico",
     "description": "uyume a i shi te ru",
     "home_page_url": "https://yuan-uyume.github.io",
@@ -9,18 +9,12 @@
         {
             "id": "https://yuan-uyume.github.io/2022/06/17/Yuan-u-Yume/",
             "url": "https://yuan-uyume.github.io/2022/06/17/Yuan-u-Yume/",
-            "title": "Yuan u Yume",
+            "title": "Yuan u Yume的垃圾桶",
             "date_published": "2022-06-17T06:51:17.000Z",
-            "content_html": "",
-            "tags": []
-        },
-        {
-            "id": "https://yuan-uyume.github.io/2022/06/17/hello-world/",
-            "url": "https://yuan-uyume.github.io/2022/06/17/hello-world/",
-            "title": "Hello World",
-            "date_published": "2022-06-17T05:54:35.500Z",
-            "content_html": "<p>Welcome to <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvLw==\">Hexo</span>! This is your very first post. Check <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv\">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=\">troubleshooting</span> or you can ask me on <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==\">GitHub</span>.</p>\n<h2 id=\"quick-start\"><a class=\"anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo new <span class=\"token string\">\"My New Post\"</span></pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s\">Writing</span></p>\n<h3 id=\"run-server\"><a class=\"anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=\">Server</span></p>\n<h3 id=\"generate-static-files\"><a class=\"anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s\">Generating</span></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s\">Deployment</span></p>\n",
-            "tags": []
+            "content_html": "<h1 id=\"这里是垃圾桶\"><a class=\"anchor\" href=\"#这里是垃圾桶\">#</a> 这里是垃圾桶</h1>\n<ul class=\"task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"cbx_0\" checked=\"true\" disabled=\"true\" /><label for=\"cbx_0\"> 存放垃圾</label></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"cbx_1\" checked=\"true\" disabled=\"true\" /><label for=\"cbx_1\"> 不要生气（生气寿命 - 1s）</label></li>\n</ul>\n<h2 id=\"垃圾桶的诞生~duang\"><a class=\"anchor\" href=\"#垃圾桶的诞生~duang\">#</a> 垃圾桶的诞生～duang!</h2>\n<p>在很久很久以前，22 年的 6 月 17 日。卑劣的垃圾桶之主窃取了<span class=\"exturl\" data-url=\"aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvYWJvdXQveXVtZQ==\"> Ruri Shimotsuki @優萌初華</span> 的 hexo 主题！！！垃圾桶诞生了！！！</p>\n<h2 id=\"垃圾桶在哪里\"><a class=\"anchor\" href=\"#垃圾桶在哪里\">#</a> 垃圾桶在哪里？</h2>\n<ul>\n<li><span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL3l1YW4tdXl1bWUveXVhbi11eXVtZS5naXRodWIuaW8=\">github</span></li>\n</ul>\n",
+            "tags": [
+                "about"
+            ]
         }
     ]
 }
