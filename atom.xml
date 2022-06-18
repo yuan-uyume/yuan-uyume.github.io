@@ -8,8 +8,1248 @@
     <author>
       <name>Yuan u Yume</name>
     </author>
-    <updated>2022-06-17T17:56:05.914Z</updated>
+    <updated>2022-06-18T04:45:25.000Z</updated>
     <category term="anime" />
     <category term="draw" />
     <category term="uyume" />
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/computer/environment/Idea_free/</id>
+        <title>idea无限免费试用</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/computer/environment/Idea_free/"/>
+        <content type="html">&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;支持到 2021.2.2 版本，可以在官网下载历史版本&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;添加插件仓库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#添加插件仓库&#34;&gt;#&lt;/a&gt; 添加插件仓库&lt;/h1&gt;
+&lt;p&gt;添加第三方仓库地址 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9wbHVnaW5zLnpoaWxlLmlv&#34;&gt;https://plugins.zhile.io&lt;/span&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://s2.loli.net/2022/06/18/2qiauTbDNrRW4LZ.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;搜索-ide-eval-reset-安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#搜索-ide-eval-reset-安装&#34;&gt;#&lt;/a&gt; 搜索 IDE Eval Reset 安装&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/06/18/icphvdNyOr5RqK9.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="计算机领域" scheme="https://yuan-uyume.github.io/categories/computer/" />
+        <category term="环境配置" scheme="https://yuan-uyume.github.io/categories/computer/environment/" />
+        <category term="idea" scheme="https://yuan-uyume.github.io/tags/idea/" />
+        <category term="配置" scheme="https://yuan-uyume.github.io/tags/config/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/computer/environment/idea_template/</id>
+        <title>idea注释模板配置</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/computer/environment/idea_template/"/>
+        <content type="html">&lt;h2 id=&#34;类模板&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#类模板&#34;&gt;#&lt;/a&gt; 类模板&lt;/h2&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/**&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; * @description: TODO $&amp;#123;TODO&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; * @author uyume&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; * @date $&amp;#123;DATE&amp;#125; $&amp;#123;TIME&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; * @version #if ($&amp;#123;VERSION&amp;#125; &amp;amp;&amp;amp; $&amp;#123;VERSION&amp;#125; != &#34;&#34;) $&amp;#123;VERSION&amp;#125; #else 0.0.1 #end&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;代码模板&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#代码模板&#34;&gt;#&lt;/a&gt; 代码模板&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.nlark.com/yuque/0/2021/png/2894414/1632377072432-777f7f33-262a-463b-b366-5a9eb55a9fbd.png#crop=0&amp;amp;crop=0&amp;amp;crop=1&amp;amp;crop=1&amp;amp;height=619&amp;amp;id=eMlTA&amp;amp;margin=%5Bobject%20Object%5D&amp;amp;name=image.png&amp;amp;originHeight=1237&amp;amp;originWidth=1599&amp;amp;originalType=binary&amp;amp;ratio=1&amp;amp;rotation=0&amp;amp;showTitle=false&amp;amp;size=191480&amp;amp;status=done&amp;amp;style=none&amp;amp;title=&amp;amp;width=799.5&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
+ 使用方法： /mm + tab&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token annotation punctuation&#34;&gt;@author&lt;/span&gt; uyume&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token annotation punctuation&#34;&gt;@description&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;//TODO $end$&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token annotation punctuation&#34;&gt;@date&lt;/span&gt; $date$ $time$&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token annotation punctuation&#34;&gt;@params&lt;/span&gt; $param$&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token annotation punctuation&#34;&gt;@return&lt;/span&gt; $&lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt;$&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token annotation punctuation&#34;&gt;@author&lt;/span&gt; uyume&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token annotation punctuation&#34;&gt;@description&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;//TODO $end$&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token annotation punctuation&#34;&gt;@date&lt;/span&gt; $date$ $time$&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.nlark.com/yuque/0/2021/png/2894414/1632377182034-b41ca504-ae9d-4ba2-873a-690c4b84027b.png#crop=0&amp;amp;crop=0&amp;amp;crop=1&amp;amp;crop=1&amp;amp;height=320&amp;amp;id=yuGrZ&amp;amp;margin=%5Bobject%20Object%5D&amp;amp;name=image.png&amp;amp;originHeight=639&amp;amp;originWidth=1085&amp;amp;originalType=binary&amp;amp;ratio=1&amp;amp;rotation=0&amp;amp;showTitle=false&amp;amp;size=56017&amp;amp;status=done&amp;amp;style=none&amp;amp;title=&amp;amp;width=542.5&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
+param&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;groovyScript(&amp;quot;
+def result = &#39;&#39;;
+def params = \&amp;quot;$&amp;#123;_1&amp;#125;\&amp;quot;.replaceAll(&#39;[\\\\[|\\\\]|\\\\s]&#39;, &#39;&#39;);
+if (params.trim() == &#39;&#39;) &amp;#123;
+	return result;
+&amp;#125; else &amp;#123;
+	params = params.split(&#39;,&#39;).toList();
+  result = params[0];
+  for (i = 1; i &amp;lt; params.size; i++) &amp;#123;
+  	result += &#39;\\n * @Param &#39; + params[i];
+  &amp;#125;;
+  return result;
+&amp;#125;
+&amp;quot;
+, methodParameters())
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+        <category term="计算机领域" scheme="https://yuan-uyume.github.io/categories/computer/" />
+        <category term="环境配置" scheme="https://yuan-uyume.github.io/categories/computer/environment/" />
+        <category term="idea" scheme="https://yuan-uyume.github.io/tags/idea/" />
+        <category term="配置" scheme="https://yuan-uyume.github.io/tags/config/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/computer/environment/office_kms_enable/</id>
+        <title>windows系统激活</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/computer/environment/office_kms_enable/"/>
+        <content type="html">&lt;p&gt;#office kms 激活&lt;/p&gt;
+&lt;p&gt;#首先 office 版本要为 vol 版&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cueXVxdWUuY29tL2F0dGFjaG1lbnRzL3l1cXVlLzAvMjAyMS9iYXQvMjg5NDQxNC8xNjM0NDUwODM4ODQ0LTY4ZGViYzU0LTEwYjAtNDRmNC05NDM0LTI1MDI3YjMwNmJkMS5iYXQ/X2xha2VfY2FyZD0lN0IlMjJzcmMlMjIlM0ElMjJodHRwcyUzQSUyRiUyRnd3dy55dXF1ZS5jb20lMkZhdHRhY2htZW50cyUyRnl1cXVlJTJGMCUyRjIwMjElMkZiYXQlMkYyODk0NDE0JTJGMTYzNDQ1MDgzODg0NC02OGRlYmM1NC0xMGIwLTQ0ZjQtOTQzNC0yNTAyN2IzMDZiZDEuYmF0JTIyJTJDJTIybmFtZSUyMiUzQSUyMjIwMTklRTglQkQlQUMlRTYlOEQlQTIuYmF0JTIyJTJDJTIyc2l6ZSUyMiUzQTYxMCUyQyUyMnR5cGUlMjIlM0ElMjIlMjIlMkMlMjJleHQlMjIlM0ElMjJiYXQlMjIlMkMlMjJzdGF0dXMlMjIlM0ElMjJkb25lJTIyJTJDJTIydGFza0lkJTIyJTNBJTIydWIwZWQ1MDVkLTlmNmEtNGNkMi04Y2UwLTdjNWQzY2U1N2FiJTIyJTJDJTIydGFza1R5cGUlMjIlM0ElMjJ1cGxvYWQlMjIlMkMlMjJpZCUyMiUzQSUyMnVmYjBhNWU0YyUyMiUyQyUyMmNhcmQlMjIlM0ElMjJmaWxlJTIyJTdE&#34;&gt; 2019 转换.bat&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cueXVxdWUuY29tL2F0dGFjaG1lbnRzL3l1cXVlLzAvMjAyMS9iYXQvMjg5NDQxNC8xNjM0NDUxMDE5NjkyLWIxYThhZmQ4LTY2MDItNDBlMi1hODkwLWZkOTBjNmYxYTRhZS5iYXQ/X2xha2VfY2FyZD0lN0IlMjJzcmMlMjIlM0ElMjJodHRwcyUzQSUyRiUyRnd3dy55dXF1ZS5jb20lMkZhdHRhY2htZW50cyUyRnl1cXVlJTJGMCUyRjIwMjElMkZiYXQlMkYyODk0NDE0JTJGMTYzNDQ1MTAxOTY5Mi1iMWE4YWZkOC02NjAyLTQwZTItYTg5MC1mZDkwYzZmMWE0YWUuYmF0JTIyJTJDJTIybmFtZSUyMiUzQSUyMjIwMTYlRTglQkQlQUMlRTYlOEQlQTIuYmF0JTIyJTJDJTIyc2l6ZSUyMiUzQTUxNDElMkMlMjJ0eXBlJTIyJTNBJTIyJTIyJTJDJTIyZXh0JTIyJTNBJTIyYmF0JTIyJTJDJTIyc3RhdHVzJTIyJTNBJTIyZG9uZSUyMiUyQyUyMnRhc2tJZCUyMiUzQSUyMnU4NWI0YzViMi03ODdiLTRmNDgtOTFjNy02YmI2NWEwODliNCUyMiUyQyUyMnRhc2tUeXBlJTIyJTNBJTIydXBsb2FkJTIyJTJDJTIyaWQlMjIlM0ElMjJ1ZmI3OWMxYWIlMjIlMkMlMjJjYXJkJTIyJTNBJTIyZmlsZSUyMiU3RA==&#34;&gt;2016 转换.bat&lt;/span&gt;&lt;br /&gt;
+ 如不是，复制下面批处理转化。&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;@echo off&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;:ADMIN&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;openfiles &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;nul &lt;span class=&#34;token operator&#34;&gt;&lt;span class=&#34;token file-descriptor important&#34;&gt;2&lt;/span&gt;&gt;&lt;/span&gt;nul &lt;span class=&#34;token operator&#34;&gt;||&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;echo&lt;/span&gt; Set UAC &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; CreateObject^&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Shell.Application&#34;&lt;/span&gt;^&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;%temp%\getadmin.vbs&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;echo&lt;/span&gt; UAC.ShellExecute &lt;span class=&#34;token string&#34;&gt;&#34;%~s0&#34;&lt;/span&gt;, &lt;span class=&#34;token string&#34;&gt;&#34;&#34;&lt;/span&gt;, &lt;span class=&#34;token string&#34;&gt;&#34;&#34;&lt;/span&gt;, &lt;span class=&#34;token string&#34;&gt;&#34;runas&#34;&lt;/span&gt;, &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;%temp%\getadmin.vbs&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token string&#34;&gt;&#34;%temp%\getadmin.vbs&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;nul &lt;span class=&#34;token operator&#34;&gt;&lt;span class=&#34;token file-descriptor important&#34;&gt;2&lt;/span&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token file-descriptor important&#34;&gt;&amp;amp;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;goto:eof&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;del /f /q &lt;span class=&#34;token string&#34;&gt;&#34;%temp%\getadmin.vbs&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;nul &lt;span class=&#34;token operator&#34;&gt;&lt;span class=&#34;token file-descriptor important&#34;&gt;2&lt;/span&gt;&gt;&lt;/span&gt;nul&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; /f &lt;span class=&#34;token string&#34;&gt;&#34;tokens=6 delims=[]. &#34;&lt;/span&gt; %%G &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;ver&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;token builtin class-name&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;token assign-left variable&#34;&gt;win&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;%%G&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;pushd&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;%~dp0&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Title Office &lt;span class=&#34;token number&#34;&gt;2016&lt;/span&gt; Retail to Volume License Converter&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;echo&lt;/span&gt; Press Enter to start VL-Conversion&lt;span class=&#34;token punctuation&#34;&gt;..&lt;/span&gt;.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;echo.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pause&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;echo.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;cd&lt;/span&gt; /D &lt;span class=&#34;token string&#34;&gt;&#34;%SystemRoot%\System32&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; %win% GEQ &lt;span class=&#34;token number&#34;&gt;9200&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16\ProPlusVL_KMS_Client-ppd.xrm-ms&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16\ProPlusVL_KMS_Client-ul.xrm-ms&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16\ProPlusVL_KMS_Client-ul-oob.xrm-ms&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16\ProjectProVL_KMS_Client-ppd.xrm-ms&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16\ProjectProVL_KMS_Client-ul-oob.xrm-ms&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16\ProjectProVL_KMS_Client-ul.xrm-ms&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16\VisioProVL_KMS_Client-ppd.xrm-ms&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16\VisioProVL_KMS_Client-ul-oob.xrm-ms&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16\VisioProVL_KMS_Client-ul.xrm-ms&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16&lt;span class=&#34;token entity&#34; title=&#34;\c&#34;&gt;\c&lt;/span&gt;lient-issuance-bridge-office.xrm-ms&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;client-issuance-root.xrm-ms&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16&lt;span class=&#34;token entity&#34; title=&#34;\c&#34;&gt;\c&lt;/span&gt;lient-issuance-root-bridge-test.xrm-ms&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;client-issuance-stil.xrm-ms&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16&lt;span class=&#34;token entity&#34; title=&#34;\c&#34;&gt;\c&lt;/span&gt;lient-issuance-ul.xrm-ms&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;client-issuance-ul-oob.xrm-ms&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript slmgr.vbs /ilc &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16\pkeyconfig-office.xrm-ms&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;if %win% LSS 9200 (&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Office16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ospp.vbs&lt;span class=&#34;token string&#34;&gt;&#34; /inslic:&#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ProPlusVL_KMS_Client-ppd.xrm-ms&lt;span class=&#34;token string&#34;&gt;&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Office16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ospp.vbs&lt;span class=&#34;token string&#34;&gt;&#34; /inslic:&#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ProPlusVL_KMS_Client-ul.xrm-ms&lt;span class=&#34;token string&#34;&gt;&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Office16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ospp.vbs&lt;span class=&#34;token string&#34;&gt;&#34; /inslic:&#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ProPlusVL_KMS_Client-ul-oob.xrm-ms&lt;span class=&#34;token string&#34;&gt;&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Office16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ospp.vbs&lt;span class=&#34;token string&#34;&gt;&#34; /inslic:&#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ProjectProVL_KMS_Client-ppd.xrm-ms&lt;span class=&#34;token string&#34;&gt;&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Office16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ospp.vbs&lt;span class=&#34;token string&#34;&gt;&#34; /inslic:&#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ProjectProVL_KMS_Client-ul-oob.xrm-ms&lt;span class=&#34;token string&#34;&gt;&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Office16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ospp.vbs&lt;span class=&#34;token string&#34;&gt;&#34; /inslic:&#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ProjectProVL_KMS_Client-ul.xrm-ms&lt;span class=&#34;token string&#34;&gt;&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Office16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ospp.vbs&lt;span class=&#34;token string&#34;&gt;&#34; /inslic:&#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;VisioProVL_KMS_Client-ppd.xrm-ms&lt;span class=&#34;token string&#34;&gt;&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Office16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ospp.vbs&lt;span class=&#34;token string&#34;&gt;&#34; /inslic:&#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;VisioProVL_KMS_Client-ul-oob.xrm-ms&lt;span class=&#34;token string&#34;&gt;&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Office16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ospp.vbs&lt;span class=&#34;token string&#34;&gt;&#34; /inslic:&#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;VisioProVL_KMS_Client-ul.xrm-ms&lt;span class=&#34;token string&#34;&gt;&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Office16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ospp.vbs&lt;span class=&#34;token string&#34;&gt;&#34; /inslic:&#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;client-issuance-bridge-office.xrm-ms&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;47&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office\Office16\ospp.vbs&#34;&lt;/span&gt; /inslic:&lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16&lt;span class=&#34;token entity&#34; title=&#34;\c&#34;&gt;\c&lt;/span&gt;lient-issuance-root.xrm-ms&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;48&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Office16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ospp.vbs&lt;span class=&#34;token string&#34;&gt;&#34; /inslic:&#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;client-issuance-root-bridge-test.xrm-ms&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;49&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office\Office16\ospp.vbs&#34;&lt;/span&gt; /inslic:&lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16&lt;span class=&#34;token entity&#34; title=&#34;\c&#34;&gt;\c&lt;/span&gt;lient-issuance-stil.xrm-ms&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;50&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Office16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ospp.vbs&lt;span class=&#34;token string&#34;&gt;&#34; /inslic:&#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;client-issuance-ul.xrm-ms&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;51&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office\Office16\ospp.vbs&#34;&lt;/span&gt; /inslic:&lt;span class=&#34;token string&#34;&gt;&#34;C:\Program Files (x86)\Microsoft Office&lt;span class=&#34;token entity&#34; title=&#34;\r&#34;&gt;\r&lt;/span&gt;oot\Licenses16&lt;span class=&#34;token entity&#34; title=&#34;\c&#34;&gt;\c&lt;/span&gt;lient-issuance-ul-oob.xrm-ms&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;52&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cscript &#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Office16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;ospp.vbs&lt;span class=&#34;token string&#34;&gt;&#34; /inslic:&#34;&lt;/span&gt;C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Program Files &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x86&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft Office&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Licenses16&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;pkeyconfig-office.xrm-ms&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;53&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;54&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;echo.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;55&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;echo&lt;/span&gt; Retail to Volume License conversion finished.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;56&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;echo.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;57&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pause&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;#密钥&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vRGVwbG95T2ZmaWNlL3ZsYWN0aXZhdGlvbi9ndmxrcz9yZWRpcmVjdGVkZnJvbT1NU0RO&#34;&gt; https://docs.microsoft.com/zh-cn/DeployOffice/vlactivation/gvlks?redirectedfrom=MSDN&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;office-2019-的-gvlk&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#office-2019-的-gvlk&#34;&gt;#&lt;/a&gt; &lt;strong&gt;Office 2019 的 GVLK&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Product&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;GVLK&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Office 专业增强版 2019&lt;/td&gt;
+&lt;td&gt;NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Office 标准版 2019&lt;/td&gt;
+&lt;td&gt;6NWWJ-YQWMR-QKGCB-6TMB3-9D9HK&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Project 专业版 2019&lt;/td&gt;
+&lt;td&gt;B4NPR-3FKK7-T2MBV-FRQ4W-PKD2B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Project 标准版 2019&lt;/td&gt;
+&lt;td&gt;C4F7P-NCP8C-6CQPT-MQHV9-JXD2M&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Visio 专业版 2019&lt;/td&gt;
+&lt;td&gt;9BGNQ-K37YR-RQHF2-38RQ3-7VCBB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Visio 标准版 2019&lt;/td&gt;
+&lt;td&gt;7TQNQ-K3YQQ-3PFH7-CCPPM-X4VQ2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Access 2019&lt;/td&gt;
+&lt;td&gt;9N9PT-27V4Y-VJ2PD-YXFMF-YTFQT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Excel 2019&lt;/td&gt;
+&lt;td&gt;TMJWT-YYNMB-3BKTF-644FC-RVXBD&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Outlook 2019&lt;/td&gt;
+&lt;td&gt;7HD7K-N4PVK-BHBCQ-YWQRW-XW4VK&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PowerPoint 2019&lt;/td&gt;
+&lt;td&gt;RRNCX-C64HY-W2MM7-MCH9G-TJHMQ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Publisher 2019&lt;/td&gt;
+&lt;td&gt;G2KWX-3NW6P-PY93R-JXK2T-C9Y9V&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skype for Business 2019&lt;/td&gt;
+&lt;td&gt;NCJ33-JHBBY-HTK98-MYCV8-HMKHJ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Word 2019&lt;/td&gt;
+&lt;td&gt;PBX3G-NWMT6-Q7XBW-PYJGG-WXD33&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;** 备注 **&lt;br /&gt;
+OneNote 没有 2019 版本，但 OneNote 2016 可用于 Office 2019。 有关详细信息，请参阅 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vRGVwbG95T2ZmaWNlL2RlcGxveW1lbnQtZ3VpZGUtb25lbm90ZQ==&#34;&gt;OneNote 部署指南&lt;/span&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;office-2016-的-gvlk&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#office-2016-的-gvlk&#34;&gt;#&lt;/a&gt; &lt;strong&gt;Office 2016 的 GVLK&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Product&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;GVLK&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Office 专业增强版 2016&lt;/td&gt;
+&lt;td&gt;XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Office Standard 2016&lt;/td&gt;
+&lt;td&gt;JNRGM-WHDWX-FJJG3-K47QV-DRTFM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Project Professional 2016&lt;/td&gt;
+&lt;td&gt;YG9NW-3K39V-2T3HJ-93F3Q-G83KT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Project Standard 2016&lt;/td&gt;
+&lt;td&gt;GNFHQ-F6YQM-KQDGJ-327XX-KQBVC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Visio Professional 2016&lt;/td&gt;
+&lt;td&gt;PD3PC-RHNGV-FXJ29-8JK7D-RJRJK&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Visio Standard 2016&lt;/td&gt;
+&lt;td&gt;7WHWN-4T7MP-G96JF-G33KR-W8GF4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Access 2016&lt;/td&gt;
+&lt;td&gt;GNH9Y-D2J4T-FJHGG-QRVH7-QPFDW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Excel 2016&lt;/td&gt;
+&lt;td&gt;9C2PK-NWTVB-JMPW8-BFT28-7FTBF&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;OneNote 2016&lt;/td&gt;
+&lt;td&gt;DR92N-9HTF2-97XKM-XW2WJ-XW3J6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Outlook 2016&lt;/td&gt;
+&lt;td&gt;R69KK-NTPKF-7M3Q4-QYBHW-6MT9B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PowerPoint 2016&lt;/td&gt;
+&lt;td&gt;J7MQP-HNJ4Y-WJ7YM-PFYGF-BY6C6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Publisher 2016&lt;/td&gt;
+&lt;td&gt;F47MM-N3XJP-TQXJ9-BP99D-8 837 K&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skype for Business 2016&lt;/td&gt;
+&lt;td&gt;869NQ-FJ69K-466HW-QYCP2-DDBV6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Word 2016&lt;/td&gt;
+&lt;td&gt;WXY84-JN2Q9-RBCCQ-3Q3J3-3PFJ6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;管理员权限 ps 在 office 对应目录下输入命令&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安装 key&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99&lt;br /&gt;
+cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;设置 kms 服务器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;cscript ospp.vbs /sethst:&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ttcy4wM2sub3JnLw==&#34;&gt;kms.03k.org&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;激活&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;cscript ospp.vbs /act&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;查看状态&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;cscript ospp.vbs /dstatus&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;卸载&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;cscript ospp.vbs /unpkey:WFG99&lt;/p&gt;
+</content>
+        <category term="计算机领域" scheme="https://yuan-uyume.github.io/categories/computer/" />
+        <category term="环境配置" scheme="https://yuan-uyume.github.io/categories/computer/environment/" />
+        <category term="kms激活" scheme="https://yuan-uyume.github.io/tags/kms/" />
+        <category term="office" scheme="https://yuan-uyume.github.io/tags/office/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/computer/environment/windows_kms_enable/</id>
+        <title>windows系统激活</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/computer/environment/windows_kms_enable/"/>
+        <content type="html">&lt;p&gt;#卸载安装的密钥&lt;br /&gt;
+ slmgr /upk&lt;/p&gt;
+&lt;p&gt;#安装密钥&lt;br /&gt;
+ slmgr /ipk&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vd2luZG93cy1zZXJ2ZXIvZ2V0LXN0YXJ0ZWQva21zLWNsaWVudC1hY3RpdmF0aW9uLWtleXM=&#34;&gt;https://docs.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys&lt;/span&gt;&lt;br /&gt;
+2019 lstc M7XTQ-FN8P6-TTKYV-9D4CC-J462D&lt;/p&gt;
+&lt;p&gt;#测试 kms 服务商联通性&lt;br /&gt;
+ ping &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3poLnVzLnRv&#34;&gt;zh.us.to&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ttcy4wM2sub3JnLw==&#34;&gt;kms.03k.org&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;#设置 kms 服务商&lt;br /&gt;
+ slmgr /skms &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ttcy4wM2sub3JnLw==&#34;&gt;kms.03k.org&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;#激活密钥&lt;br /&gt;
+ slmgr /ato&lt;/p&gt;
+&lt;p&gt;#查看到期时间&lt;br /&gt;
+ slmgr –xpr&lt;/p&gt;
+&lt;p&gt;#确认激活状态&lt;br /&gt;
+ slmgr -dlv&lt;/p&gt;
+</content>
+        <category term="计算机领域" scheme="https://yuan-uyume.github.io/categories/computer/" />
+        <category term="环境配置" scheme="https://yuan-uyume.github.io/categories/computer/environment/" />
+        <category term="kms激活" scheme="https://yuan-uyume.github.io/tags/kms/" />
+        <category term="windows" scheme="https://yuan-uyume.github.io/tags/windows/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/info/markdown/markdowm/</id>
+        <title>mardown语法</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/info/markdown/markdowm/"/>
+        <content type="html">&lt;p&gt;#space 标题 1&lt;/p&gt;
+&lt;h1 id=&#34;标题1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#标题1&#34;&gt;#&lt;/a&gt; 标题 1&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;-space 无序列表&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;无序列表&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;粗体&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;语雀斜体&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;语雀斜体&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;space 引用块&lt;br /&gt;
+应用块&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;code&gt;代码&lt;/code&gt; &lt;br /&gt;
+ &lt;code&gt;代码&lt;/code&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;--- 分割线&lt;/p&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZXhhbXBsZS5jb20=&#34;&gt;链接&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZXhhbXBsZS5jb20=&#34;&gt;链接&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img data-src=&#34;image.jpg&#34; alt=&#34;提示&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;image.jpg#crop=0&amp;amp;crop=0&amp;amp;crop=1&amp;amp;crop=1&amp;amp;id=f6xjB&amp;amp;originalType=binary&amp;amp;ratio=1&amp;amp;rotation=0&amp;amp;showTitle=false&amp;amp;status=done&amp;amp;style=none&amp;amp;title=&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mtext&gt;公式&lt;/mtext&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;公式
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.68333em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;公&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;式&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;代码块
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;代码块
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;p&gt;生成一个脚注 1&lt;sup class=&#34;footnote-ref&#34;&gt;&lt;a href=&#34;#fn1&#34; id=&#34;fnref1&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h1 id=&#34;语雀markdown&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语雀markdown&#34;&gt;#&lt;/a&gt; 语雀 Markdown&lt;/h1&gt;
+&lt;h3 id=&#34;快捷输入对照表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#快捷输入对照表&#34;&gt;#&lt;/a&gt; 快捷输入对照表&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;示例&lt;/th&gt;
+&lt;th&gt;快捷输入&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;大标题，技术范叫 H1&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;#&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，魔法就会发生&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中标题，对，H2&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;##&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;小标题，H3&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;###&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;|&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;有序列表&lt;br /&gt;
+ |  &lt;code&gt;1&lt;/code&gt;  +  &lt;code&gt;.&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，魔法又发生，尝试回车和  &lt;code&gt;tab&lt;/code&gt;  看看更多神奇的效果吧。 |&lt;br /&gt;
+|&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;无序列表&lt;br /&gt;
+ |  &lt;code&gt;-&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，当然也可以使用  &lt;code&gt;*&lt;/code&gt;  代替  &lt;code&gt;-&lt;/code&gt;  |&lt;br /&gt;
+|&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; 未完成任务列表&lt;br /&gt;
+ |  &lt;code&gt;[&lt;/code&gt;  +  &lt;code&gt;]&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，秒建 TODO 功能 |&lt;br /&gt;
+|&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_1&#34;&gt; 已完成任务列表&lt;br /&gt;
+ |  &lt;code&gt;[&lt;/code&gt;  +  &lt;code&gt;x&lt;/code&gt;  +  &lt;code&gt;]&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，任务完成！😊 |&lt;br /&gt;
+| &amp;gt; 引用文本，引用名人名句，引用大大的发言&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;|  &lt;code&gt;&amp;gt;&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  |&lt;br /&gt;
+| 快速创建表格 |  &lt;code&gt;&amp;amp;#124;&lt;/code&gt;  +  &lt;code&gt;A&lt;/code&gt;  +  &lt;code&gt;&amp;amp;#124;&lt;/code&gt;  +  &lt;code&gt;B&lt;/code&gt;  +  &lt;code&gt;&amp;amp;#124;&lt;/code&gt;  +  &lt;code&gt;回车&lt;/code&gt;  ，快速创建两列表格 |&lt;br /&gt;
+| 快速创建代码块 | 连续 3 个  &lt;code&gt;+ `回车` ，出现工程师最😍的代码块 | | 长长的分割线 | 连续 3 个 `-` + `回车` ，会出现一条长长的分割线 | | **粗体文本** | `*` + `*` + `文本` + `*` + `*` + `Space` ，文本变粗！ | | _斜体文本_ | `_` +_ _`文本` + `_` + `Space` ，文本变右倾斜了。 | | ~~删除线~~ | `~` + `~` + `文本` + `~` + `~` + `Space`，文本加删除线 | | `行内代码 foo = bar` |&lt;/code&gt;  +  &lt;code&gt;代码文本&lt;/code&gt;  + ``` +  &lt;code&gt;Space&lt;/code&gt; ，不明白程序员为何就喜欢写代码 |&lt;br /&gt;
+| 上标 21th 1st 邮票 🎫 |  &lt;code&gt;^&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  +  &lt;code&gt;^&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  ，文本飘上去了 |&lt;br /&gt;
+| 下标 H2O 是水，化学没白学 |  &lt;code&gt;~&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  +  &lt;code&gt;~&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  ，各种公式少不了的技能 |&lt;br /&gt;
+| 高亮，亮瞎眼的文本 |  &lt;code&gt;=&lt;/code&gt;  +  &lt;code&gt;=&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  +  &lt;code&gt;=&lt;/code&gt;  +  &lt;code&gt;=&lt;/code&gt;  ，就像荧光笔一笔划过 |&lt;/p&gt;
+&lt;hr class=&#34;footnotes-sep&#34; /&gt;
+&lt;section class=&#34;footnotes&#34;&gt;
+&lt;ol class=&#34;footnotes-list&#34;&gt;
+&lt;li id=&#34;fn1&#34; class=&#34;footnote-item&#34;&gt;&lt;p&gt;这里是脚注的内容 &lt;a href=&#34;#fnref1&#34; class=&#34;footnote-backref&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+        <category term="说明" scheme="https://yuan-uyume.github.io/categories/info/" />
+        <category term="markdown" scheme="https://yuan-uyume.github.io/categories/info/markdown/" />
+        <category term="markdown" scheme="https://yuan-uyume.github.io/tags/markdown/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/aLIEz/</id>
+        <title>aLIEz</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/aLIEz/"/>
+        <content type="html">&lt;p&gt;決めつけ    ばかり&lt;/p&gt;
+&lt;p&gt;自惚れ    を着た&lt;/p&gt;
+&lt;p&gt;チープな　hokori で　音荒げても&lt;/p&gt;
+&lt;p&gt;棚に隠して　哀れな　恥に濡れた    鏡の中&lt;/p&gt;
+&lt;p&gt;都合の　傷だけ　ひけらかして&lt;/p&gt;
+&lt;p&gt;手軽な強さて　勝ち取るすべを&lt;/p&gt;
+&lt;p&gt;どれだけ    問でも　気はやつれる&lt;/p&gt;
+&lt;p&gt;ふらついた    思想通りだ&lt;/p&gt;
+&lt;p&gt;愛 - same-CRIER 愛撫 - save-LIAR&lt;/p&gt;
+&lt;p&gt;Eid - 聖 - Rising HELL&lt;/p&gt;
+&lt;p&gt;愛してる Game 世界の Day&lt;/p&gt;
+&lt;p&gt;Don&#39;t - 生 - War Lie - 兵士 - War-World&lt;/p&gt;
+&lt;p&gt;Eyes-Hate-War&lt;/p&gt;
+&lt;p&gt;A-Z Looser-Krankheit-Was IS das?&lt;/p&gt;
+&lt;p&gt;受け売り盾に 見下してても そこには地面しかない事さえ&lt;/p&gt;
+&lt;p&gt;気付かぬままに 壊れた 過去に負けた鏡の奥&lt;/p&gt;
+&lt;p&gt;どこまで叫べば位置を知れる とどめもないまま息が切れる&lt;/p&gt;
+&lt;p&gt;堂々さらした罪の群れと 後ろ向きにあらがう&lt;/p&gt;
+&lt;p&gt;愛 - same-CRIER 愛撫 - save-LIAR&lt;/p&gt;
+&lt;p&gt;Aid - 聖 - Rising HELL&lt;/p&gt;
+&lt;p&gt;I&#39;ll-ness Reset-End じゃない Burst&lt;/p&gt;
+&lt;p&gt;Don&#39;t - 生 - War Lie - 兵士 - War-World&lt;/p&gt;
+&lt;p&gt;Eyes-Hate-War&lt;/p&gt;
+&lt;p&gt;A-Z 想像 High-de-Siehst YOU das?&lt;/p&gt;
+&lt;p&gt;偽の態度な 臆病 Loud Voice&lt;/p&gt;
+&lt;p&gt;気高さを 勘違いした心臓音&lt;/p&gt;
+&lt;p&gt;狙い通りの 幻見ても&lt;/p&gt;
+&lt;p&gt;満たせない 何度も目を開けても&lt;/p&gt;
+&lt;p&gt;どこまで叫べば位置を知れる とどめもないまま息が切れる&lt;/p&gt;
+&lt;p&gt;堂々さらした罪の群れと 後ろ向きにあらがう&lt;/p&gt;
+&lt;p&gt;愛 - same-CRIER 愛撫 - save-LIAR&lt;/p&gt;
+&lt;p&gt;Eid - 聖 - Rising HELL&lt;/p&gt;
+&lt;p&gt;愛してる Game 世界の Day&lt;/p&gt;
+&lt;p&gt;Don&#39;t - 生 - War Lie - 兵士 - War-World&lt;/p&gt;
+&lt;p&gt;Eyes-Hate-War&lt;/p&gt;
+&lt;p&gt;A-Z Looser-Krankheit-Was IS das?&lt;/p&gt;
+&lt;p&gt;Leben,was ist das?&lt;/p&gt;
+&lt;p&gt;Signal,Siehst du das?&lt;/p&gt;
+&lt;p&gt;Rade,die du nicht weisst&lt;/p&gt;
+&lt;p&gt;Aus eigenem Willen&lt;/p&gt;
+&lt;p&gt;Leben,was ist das?&lt;/p&gt;
+&lt;p&gt;Signal,Siehst du das?&lt;/p&gt;
+&lt;p&gt;Rade,die du nicht weisst&lt;/p&gt;
+&lt;p&gt;Sieh mit deinen Augen&lt;/p&gt;
+</content>
+        <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
+        <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
+        <category term="日语" scheme="https://yuan-uyume.github.io/tags/jp/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E4%BC%AF%E8%99%8E%E8%AF%B4/</id>
+        <title>伯虎说</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E4%BC%AF%E8%99%8E%E8%AF%B4/"/>
+        <content type="html">&lt;p&gt;一枝春风叩柴门&lt;br /&gt;
+一声鹊啼我自珍&lt;br /&gt;
+不见对弈人 落子定乾坤&lt;br /&gt;
+酩酊寄此身&lt;br /&gt;
+一壶炊烟煮黄昏&lt;br /&gt;
+一盏旧茶浮亦沉&lt;br /&gt;
+清风无人问&lt;br /&gt;
+拭尽万般尘&lt;br /&gt;
+与君酌星辰&lt;br /&gt;
+戏腔：&lt;br /&gt;
+明月万年无前身&lt;br /&gt;
+照见古今独醒人&lt;br /&gt;
+公子王孙何必问&lt;br /&gt;
+虚度我青春&lt;br /&gt;
+明月万年无前身&lt;br /&gt;
+照见古今独醒人&lt;br /&gt;
+公子王孙何必问&lt;br /&gt;
+和光也同尘&lt;br /&gt;
+鼠来宝：&lt;br /&gt;
+别人笑我太疯癫&lt;br /&gt;
+我笑他人看不穿&lt;br /&gt;
+不见五陵豪杰墓&lt;br /&gt;
+无花无酒锄作田&lt;br /&gt;
+桃花坞里桃花庵&lt;br /&gt;
+桃花庵下桃花仙&lt;br /&gt;
+桃花仙人种桃树&lt;br /&gt;
+又摘桃花卖酒钱&lt;br /&gt;
+卖酒钱&lt;br /&gt;
+一枝春风叩柴门&lt;br /&gt;
+一声鹊啼我自珍&lt;br /&gt;
+不见对弈人 落子定乾坤&lt;br /&gt;
+酩酊寄此身&lt;br /&gt;
+一壶炊烟煮黄昏&lt;br /&gt;
+一盏旧茶浮亦沉&lt;br /&gt;
+清风无人问&lt;br /&gt;
+拭尽万般尘&lt;br /&gt;
+与君酌星辰&lt;br /&gt;
+戏腔：&lt;br /&gt;
+明月万年无前身&lt;br /&gt;
+照见古今独醒人&lt;br /&gt;
+公子王孙何必问&lt;br /&gt;
+虚度我青春&lt;br /&gt;
+明月万年无前身&lt;br /&gt;
+照见古今独醒人&lt;br /&gt;
+公子王孙何必问&lt;br /&gt;
+和光也同尘&lt;br /&gt;
+明月万年无前身&lt;br /&gt;
+照见古今独醒人&lt;br /&gt;
+公子王孙何必问&lt;br /&gt;
+虚度我青春&lt;br /&gt;
+明月万年无前身&lt;br /&gt;
+照见古今独醒人&lt;br /&gt;
+公子王孙何必问&lt;br /&gt;
+和光也同尘&lt;br /&gt;
+公子王孙何必问&lt;br /&gt;
+和光也同尘&lt;/p&gt;
+</content>
+        <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
+        <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
+        <category term="中文" scheme="https://yuan-uyume.github.io/tags/zh/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E5%83%95%E3%81%8B%E6%AD%BB%E3%81%AE%E3%81%86%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%AF/</id>
+        <title>我也曾想过去死</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E5%83%95%E3%81%8B%E6%AD%BB%E3%81%AE%E3%81%86%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%AF/"/>
+        <content type="html">&lt;p&gt;僕が死のうと思ったのは&lt;/p&gt;
+&lt;p&gt;ウミネコが桟橋で鳴いたから&lt;/p&gt;
+&lt;p&gt;波のまにまに浮かんで消える&lt;/p&gt;
+&lt;p&gt;過去も啄ばんで飛んでいけ&lt;/p&gt;
+&lt;p&gt;僕が死のうと思ったのは&lt;/p&gt;
+&lt;p&gt;誕生日に杏の花が咲いたから&lt;/p&gt;
+&lt;p&gt;その木漏れ日でうたた寝したら&lt;/p&gt;
+&lt;p&gt;虫の死骸と土になれるかな&lt;/p&gt;
+&lt;p&gt;薄荷飴　漁港の灯台&lt;/p&gt;
+&lt;p&gt;錆びたいアーチ橋&lt;/p&gt;
+&lt;p&gt;捨てた自転車&lt;/p&gt;
+&lt;p&gt;木造の駅のストーブの前で&lt;/p&gt;
+&lt;p&gt;どこにも旅立てない心&lt;/p&gt;
+&lt;p&gt;今日はまるで昨日みたいだ&lt;/p&gt;
+&lt;p&gt;明日を変えるなら&lt;/p&gt;
+&lt;p&gt;今日を変えなきゃ&lt;/p&gt;
+&lt;p&gt;分かってる    分かってる　けれど&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;僕&lt;/strong&gt; (ぼく)&lt;strong&gt; が死&lt;/strong&gt; (し)&lt;strong&gt; のうと思&lt;/strong&gt; (おも)&lt;strong&gt; ったのは&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;ウミネコが桟橋&lt;/strong&gt; (さんばし)&lt;strong&gt; で&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;鳴&lt;/strong&gt; (な)&lt;strong&gt; いたから&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;波&lt;/strong&gt; (なみ)&lt;strong&gt; のまにまに&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;浮&lt;/strong&gt; (ふ)&lt;strong&gt; かんで消&lt;/strong&gt; (き)** える **&lt;br /&gt;
+&lt;strong&gt; 過去&lt;/strong&gt; (かこ)&lt;strong&gt; も啄&lt;/strong&gt; (つい)&lt;strong&gt; ばんで飛&lt;/strong&gt; (と)&lt;strong&gt; んでいけ&lt;/strong&gt;&lt;br /&gt;
+ ** **&lt;br /&gt;
+&lt;strong&gt; 僕&lt;/strong&gt; (ぼく)&lt;strong&gt; が死&lt;/strong&gt; (し)&lt;strong&gt; のうと思&lt;/strong&gt; (おも)&lt;strong&gt; ったのは **&lt;br /&gt;
+&lt;strong&gt; 誕生日&lt;/strong&gt; (たんじょうび)&lt;strong&gt; に&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;杏&lt;/strong&gt; (あんず)&lt;strong&gt; の花&lt;/strong&gt; (はな)&lt;strong&gt; が咲&lt;/strong&gt; (さ)&lt;strong&gt; いたから&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;その木漏&lt;/strong&gt; (こも)&lt;strong&gt; れ日&lt;/strong&gt; (び)&lt;strong&gt; で&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;うたた寝&lt;/strong&gt; (ね)&lt;strong&gt; したら **&lt;br /&gt;
+&lt;strong&gt; 虫&lt;/strong&gt; (むし)&lt;strong&gt; の死骸&lt;/strong&gt; (しがい)&lt;strong&gt; と&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;土&lt;/strong&gt; (つち)&lt;strong&gt; になれるかな&lt;/strong&gt;&lt;br /&gt;
+ ** **&lt;br /&gt;
+&lt;strong&gt; 薄荷&lt;/strong&gt; (はっか)&lt;strong&gt; 飴&lt;/strong&gt; (あめ)&lt;br /&gt;
+&lt;strong&gt; 漁港&lt;/strong&gt; (ぎょこう)&lt;strong&gt; の灯台&lt;/strong&gt; (とうだい)&lt;/strong&gt; **&lt;br /&gt;
+&lt;strong&gt; 錆&lt;/strong&gt; (さ)&lt;strong&gt; びたアーチ橋&lt;/strong&gt; (きょう)&lt;/strong&gt; **&lt;br /&gt;
+&lt;strong&gt; 捨&lt;/strong&gt; (す)&lt;strong&gt; てた自転車&lt;/strong&gt; (じてんしゃ)&lt;br /&gt;
+&lt;strong&gt; 木造&lt;/strong&gt; (もくぞう)&lt;strong&gt; の駅&lt;/strong&gt; (えき)&lt;strong&gt; の&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;ストーブの前&lt;/strong&gt; (まえ)** で **&lt;br /&gt;
+&lt;strong&gt; どこにも旅立&lt;/strong&gt; (たびだ)&lt;strong&gt; てない心&lt;/strong&gt; (こころ)&lt;br /&gt;
+ &lt;br /&gt;
+&lt;strong&gt;今日&lt;/strong&gt; (きょう)&lt;strong&gt; はまるで昨日&lt;/strong&gt; (きのう)** みたいだ **&lt;br /&gt;
+&lt;strong&gt; 明日&lt;/strong&gt; (あす)&lt;strong&gt; を変&lt;/strong&gt; (か)&lt;strong&gt; えるなら&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;今日&lt;/strong&gt; (きょう)&lt;strong&gt; を変&lt;/strong&gt; (か)&lt;strong&gt; えなきゃ&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;分&lt;/strong&gt; (わ)** かってる **&lt;br /&gt;
+&lt;strong&gt; 分&lt;/strong&gt; (わ)** かってる **&lt;br /&gt;
+&lt;strong&gt; けれど&lt;/strong&gt;&lt;/p&gt;
+</content>
+        <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
+        <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
+        <category term="日语" scheme="https://yuan-uyume.github.io/tags/jp/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E5%8D%83%E6%9C%AC%E6%A1%9C/</id>
+        <title>千本樱</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E5%8D%83%E6%9C%AC%E6%A1%9C/"/>
+        <content type="html">&lt;p&gt;大胆不敵に ハイカラ革命&lt;/p&gt;
+&lt;p&gt;磊々落々 反戦国家&lt;/p&gt;
+&lt;p&gt;日の丸印の二輪車転がし&lt;/p&gt;
+&lt;p&gt;悪霊退散 ICBM&lt;/p&gt;
+&lt;p&gt;環状線を走り抜けて&lt;/p&gt;
+&lt;p&gt;東奔西走なんのその&lt;/p&gt;
+&lt;p&gt;少年少女戦国無双&lt;/p&gt;
+&lt;p&gt;浮世の随に&lt;/p&gt;
+&lt;p&gt;千本桜&lt;/p&gt;
+&lt;p&gt;夜ニ紛レ&lt;/p&gt;
+&lt;p&gt;君ノ声モ届カナイヨ&lt;/p&gt;
+&lt;p&gt;此処は宴&lt;/p&gt;
+&lt;p&gt;鋼の檻&lt;/p&gt;
+&lt;p&gt;その断頭台で見下ろして&lt;/p&gt;
+&lt;p&gt;三千世界 常世之闇&lt;/p&gt;
+&lt;p&gt;嘆ク唄モ聞コエナイヨ&lt;/p&gt;
+&lt;p&gt;青藍の空 遥か彼方&lt;/p&gt;
+&lt;p&gt;その光線銃で打ち抜いて&lt;/p&gt;
+&lt;p&gt;百戦錬磨の見た目は将校&lt;/p&gt;
+&lt;p&gt;いったりきたりの花魁道中&lt;/p&gt;
+&lt;p&gt;アイツもコイツも皆で集まれ&lt;/p&gt;
+&lt;p&gt;聖者の行進&lt;/p&gt;
+&lt;p&gt;ワン ツー サン シー&lt;/p&gt;
+&lt;p&gt;禅定門を潜り抜けて&lt;/p&gt;
+&lt;p&gt;安楽浄土厄払い&lt;/p&gt;
+&lt;p&gt;きっと終幕は大団円&lt;/p&gt;
+&lt;p&gt;拍手の合間に&lt;/p&gt;
+&lt;p&gt;千本桜 夜ニ紛レ&lt;/p&gt;
+&lt;p&gt;君ノ声モ届カナイヨ&lt;/p&gt;
+&lt;p&gt;此処は宴 鋼の檻&lt;/p&gt;
+&lt;p&gt;その断頭台で見下ろして&lt;/p&gt;
+&lt;p&gt;三千世界 常世之闇&lt;/p&gt;
+&lt;p&gt;嘆ク唄モ聞コエナイヨ&lt;/p&gt;
+&lt;p&gt;希望の丘 遥か彼方&lt;/p&gt;
+&lt;p&gt;その閃光弾を打ち上げろ&lt;/p&gt;
+&lt;p&gt;環状線を走り抜けて&lt;/p&gt;
+&lt;p&gt;東奔西走なんのその&lt;/p&gt;
+&lt;p&gt;少年少女戦国無双&lt;/p&gt;
+&lt;p&gt;浮世の随に&lt;/p&gt;
+&lt;p&gt;千本桜 夜ニ紛レ&lt;/p&gt;
+&lt;p&gt;君ノ声モ届カナイヨ&lt;/p&gt;
+&lt;p&gt;此処は宴 鋼の檻&lt;/p&gt;
+&lt;p&gt;その断頭台を飛び降りて&lt;/p&gt;
+&lt;p&gt;千本桜 夜ニ紛レ&lt;/p&gt;
+&lt;p&gt;君が歌い僕は踊る&lt;/p&gt;
+&lt;p&gt;此処は宴 鋼の檻&lt;/p&gt;
+&lt;p&gt;さあ光線銃を撃ちまくれ&lt;/p&gt;
+</content>
+        <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
+        <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
+        <category term="日语" scheme="https://yuan-uyume.github.io/tags/jp/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E5%A5%B3%E9%A9%B8%E9%A9%AC/</id>
+        <title>女驸马</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E5%A5%B3%E9%A9%B8%E9%A9%AC/"/>
+        <content type="html">&lt;p&gt;公主：驸马，一路行来，风光可美？&lt;br /&gt;
+驸马：锦绣河山，美在天地自然。&lt;br /&gt;
+公主：驸马，那…… 洞房花烛，公主可美？&lt;br /&gt;
+驸马：这、这……&lt;br /&gt;
+ 驸马：&lt;br /&gt;
+救李郎离家园 皇榜中状元&lt;br /&gt;
+曾赴琼林宴 打马御街前 帽插宫花好新鲜&lt;br /&gt;
+一朝误承恩典 非有心瞒骗&lt;br /&gt;
+多情良辰借 分明初照面 如何似梦中来见&lt;br /&gt;
+驸马：&lt;br /&gt;
+为救李郎离家园&lt;br /&gt;
+谁料皇榜中状元&lt;br /&gt;
+是鸳鸯谱乱点&lt;br /&gt;
+错成一段镜花水月缘&lt;br /&gt;
+错到洞房夜（戏腔和声：洞房夜 花烛前）&lt;br /&gt;
+又错花烛前&lt;br /&gt;
+她霞帔凤冠&lt;br /&gt;
+眼波婉转拙文亲评阅&lt;br /&gt;
+她犀利破文眼&lt;br /&gt;
+假圣真贤好一番思辨&lt;br /&gt;
+纵女儿如我&lt;br /&gt;
+亦拍案击节&lt;br /&gt;
+三更烛不灭&lt;br /&gt;
+续上交杯酒饮下知己盏&lt;br /&gt;
+公主：&lt;br /&gt;
+帝王家廿载闲 奉旨配状元&lt;br /&gt;
+初见琼林宴 芳园遇少年 折枝宫花四月天&lt;br /&gt;
+笑他春宵帐前 衣带怯宽解&lt;br /&gt;
+（驸马：呀呀呀，公主万万不可也）&lt;br /&gt;
+亲把手来牵 他躬身致歉 言语间奇闻惊现&lt;br /&gt;
+（公主：驸马何出此言）&lt;br /&gt;
+公主：&lt;br /&gt;
+为救李郎离家园&lt;br /&gt;
+谁料皇榜中状元&lt;br /&gt;
+是鸳鸯谱乱点&lt;br /&gt;
+错成一段镜花水月缘&lt;br /&gt;
+错到洞房夜（驸马：惴惴不安步推延）&lt;br /&gt;
+又错花烛前&lt;br /&gt;
+是情有可原&lt;br /&gt;
+待我与她细细共谋略&lt;br /&gt;
+是金殿生死签（驸马：竟是女中豪杰）&lt;br /&gt;
+必护她与情郎两周全&lt;br /&gt;
+纵女儿如我&lt;br /&gt;
+亦豪情万千&lt;br /&gt;
+三更难成眠&lt;br /&gt;
+恨不能将她来时路行遍&lt;br /&gt;
+（合唱）&lt;br /&gt;
+花烛前 竟与她&lt;br /&gt;
+成全一段镜花水月缘&lt;br /&gt;
+从诗书千篇&lt;br /&gt;
+至江山万卷&lt;br /&gt;
+是相逢恨晚（戏腔：相惜此夜）&lt;br /&gt;
+可笑深闺二字却觉浅&lt;br /&gt;
+是灯影中摇曳&lt;br /&gt;
+夜半心事从不拘风月&lt;br /&gt;
+纵女儿如我&lt;br /&gt;
+亦应历人间&lt;br /&gt;
+三更不知倦&lt;br /&gt;
+相约待别后各寻各团圆&lt;br /&gt;
+（合唱）&lt;br /&gt;
+离了家园（她与她的花烛前）&lt;br /&gt;
+皇榜中状元（宫墙外携与花开连成片）&lt;br /&gt;
+各有各团圆（来去间长路不歇）&lt;br /&gt;
+各有各（长念悠远）&lt;br /&gt;
+但得见 天心月&lt;br /&gt;
+莫使忘 那一夜&lt;br /&gt;
+曾与她 花烛前&lt;br /&gt;
+倾长梦 续长约&lt;/p&gt;
+</content>
+        <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
+        <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
+        <category term="中文" scheme="https://yuan-uyume.github.io/tags/zh/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E6%80%AA%E7%89%A9/</id>
+        <title>怪物</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E6%80%AA%E7%89%A9/"/>
+        <content type="html">&lt;p&gt;素晴（すば）らしき世界（せかい）に今日（きょう）も乾杯（かんぱい）&lt;br /&gt;
+今天也为美妙的世界干杯&lt;/p&gt;
+&lt;p&gt;街（まち）に飛（と）び交（か）う笑（わら）い声（ごえ）も&lt;br /&gt;
+街道上飞舞着的笑声&lt;/p&gt;
+&lt;p&gt;見（み）て見（み）ぬフリしてるだけの作（つく）りもんさ&lt;br /&gt;
+我也只是装作看不见罢了&lt;/p&gt;
+&lt;p&gt;気（き）が触（ふ）れそうだ&lt;br /&gt;
+就快失控了&lt;/p&gt;
+&lt;p&gt;クラクラするほどの良（い）い匂（にお）いが&lt;br /&gt;
+令人头晕目眩的诱人味道&lt;/p&gt;
+&lt;p&gt;ツンと刺（さ）した鼻（はな）の奥（おく）&lt;br /&gt;
+刺入我的鼻腔深处&lt;/p&gt;
+&lt;p&gt;目（め）を覚（さ）ます本能（ほんのう）のまま&lt;br /&gt;
+唤醒我的本能&lt;/p&gt;
+&lt;p&gt;今日（きょう）は誰（だれ）の番（ばん）だ？&lt;br /&gt;
+ 今日又轮到谁了？&lt;/p&gt;
+&lt;p&gt;この世界（せかい）で何（なに）が出来（でき）るのか&lt;br /&gt;
+在这个世界能做些什么&lt;/p&gt;
+&lt;p&gt;僕（ぼく）には何（なに）が出来（でき）るのか&lt;br /&gt;
+我能够做到的有什么&lt;/p&gt;
+&lt;p&gt;ただその真（ま）っ黒（くろ）な目（め）から&lt;br /&gt;
+我只愿你那漆黑的眼眸&lt;/p&gt;
+&lt;p&gt;涙（なみだ）溢（こぼ）れ落（お）ちないように&lt;br /&gt;
+不会有泪水溢出&lt;/p&gt;
+&lt;p&gt;願（ねが）う未来（みらい）に何度（なんど）でもずっと&lt;br /&gt;
+不论几次也要紧咬住我所期盼的未来&lt;/p&gt;
+&lt;p&gt;喰（く）らいつく绝不松口 この間違（まちが）いだらけの世界（せかい）の中（なか）&lt;br /&gt;
+在这个错漏百出的世界之中&lt;/p&gt;
+&lt;p&gt;君（きみ）には笑（わら）ってほしいから&lt;br /&gt;
+只为让你保持微笑&lt;/p&gt;
+&lt;p&gt;もう誰（だれ）も傷（きず）付（つ）けない&lt;br /&gt;
+我不会再伤害任何人&lt;/p&gt;
+&lt;p&gt;強（つよ）く強（つよ）くなりたいんだよ&lt;br /&gt;
+只要我能够变得更加强大&lt;/p&gt;
+&lt;p&gt;僕（ぼく）が僕（ぼく）でいられるように&lt;br /&gt;
+为了让我能够成为真正的自己&lt;/p&gt;
+&lt;p&gt;素晴（すば）らしき世界（せかい）は今日（きょう）も安泰（あんたい）&lt;br /&gt;
+美妙的世界今天也一切安泰&lt;/p&gt;
+&lt;p&gt;街（まち）に渦巻（うずま）く悪（わる）い話（はなし）も&lt;br /&gt;
+街道上席卷而来的坏消息&lt;/p&gt;
+&lt;p&gt;知（し）らない知（し）らないフリして目（め）を逸（そ）らした&lt;br /&gt;
+我也假装不知道的样子　转移视线&lt;/p&gt;
+&lt;p&gt;正気（しょうき）の沙汰（さた）じゃないな&lt;br /&gt;
+一点也不正常&lt;/p&gt;
+&lt;p&gt;真面目（まじめ）に着飾（きかざ）った行進（こうしん）&lt;br /&gt;
+假装很认真地前行&lt;/p&gt;
+&lt;p&gt;鳴（な）らす足音（あしおと）が弾（はず）む行（い）き先（さき）は&lt;br /&gt;
+回响起脚步声的目的地是&lt;/p&gt;
+&lt;p&gt;消（き）えない消（き）えない味（あじ）が染（し）み付（つ）いている&lt;br /&gt;
+渗透着永不散去的味道&lt;/p&gt;
+&lt;p&gt;裏側（うらがわ）の世界（せかい）&lt;br /&gt;
+背面的世界&lt;/p&gt;
+&lt;p&gt;清（きよ）く正（ただ）しく生（い）きること&lt;br /&gt;
+想要清白正确地活着&lt;/p&gt;
+&lt;p&gt;誰（だれ）も悲（かな）しませずに生（い）きること&lt;br /&gt;
+不会让谁悲伤地活着&lt;/p&gt;
+&lt;p&gt;はみ出（だ）さず真（ま）っ直（す）ぐに生（い）きること&lt;br /&gt;
+要不逾矩直率地活着&lt;/p&gt;
+&lt;p&gt;それが間違（まちが）わないで生（い）きること？&lt;br /&gt;
+ 要正确不犯错地活着&lt;/p&gt;
+&lt;p&gt;ありのまま生（い）きることが正義（せいぎ）か&lt;br /&gt;
+实事求是的活着是正义吗&lt;/p&gt;
+&lt;p&gt;騙（だま）し騙（だま）し生（い）きるのは正義（せいぎ）か&lt;br /&gt;
+以欺骗谋生才是正义吗&lt;/p&gt;
+&lt;p&gt;僕（ぼく）の在（あ）るべき姿（すがた）とはなんだ&lt;br /&gt;
+我应该存在的姿态是什么&lt;/p&gt;
+&lt;p&gt;本当（ほんとう）の僕（ぼく）は何者（なにもの）なんだ&lt;br /&gt;
+我到底是什么人&lt;/p&gt;
+&lt;p&gt;教（おし）えてくれよ　教（おし）えてくれよ&lt;br /&gt;
+教给我吧　教教我吧&lt;/p&gt;
+&lt;p&gt;今日（きょう）も&lt;br /&gt;
+今天也&lt;/p&gt;
+&lt;p&gt;答（こた）えのない世界（せかい）の中（なか）で&lt;br /&gt;
+在没有答案的世界里活着&lt;/p&gt;
+&lt;p&gt;願（ねが）ってるんだよ&lt;br /&gt;
+我祈祷着&lt;/p&gt;
+&lt;p&gt;不器用（ぶきよう）だけれど&lt;br /&gt;
+虽然我不中用&lt;/p&gt;
+&lt;p&gt;いつまでも君（きみ）とただ&lt;br /&gt;
+但我想要永远和你在一起&lt;/p&gt;
+&lt;p&gt;笑（わら）っていたいから&lt;br /&gt;
+因为想和你一起欢笑&lt;/p&gt;
+&lt;p&gt;跳（は）ねる心臓（しんぞう）が&lt;br /&gt;
+跳动的心脏&lt;/p&gt;
+&lt;p&gt;体（からだ）揺（ゆ）らし叫（さけ）ぶんだよ&lt;br /&gt;
+我为之颤抖着　呐喊着&lt;/p&gt;
+&lt;p&gt;今（いま）こそ動（うご）き出（だ）せ&lt;br /&gt;
+现在开始行动吧&lt;/p&gt;
+&lt;p&gt;弱（よわ）い自分（じぶん）を何度（なんど）でもずっと&lt;br /&gt;
+无论几次&lt;/p&gt;
+&lt;p&gt;喰（く）らい尽（つ）くす&lt;br /&gt;
+也要把懦弱的自己吞噬殆尽&lt;/p&gt;
+&lt;p&gt;この間違（まちが）いだらけの世界（せかい）の中（なか）&lt;br /&gt;
+在这个错漏百出的世界里&lt;/p&gt;
+&lt;p&gt;君（きみ）には笑（わら）ってほしいから&lt;br /&gt;
+只为了让你保持微笑&lt;/p&gt;
+&lt;p&gt;もう誰（だれ）も泣（な）かないよう&lt;br /&gt;
+为了让谁也不必再哭泣&lt;/p&gt;
+&lt;p&gt;強（つよ）く強（つよ）くなりたいんだよ&lt;br /&gt;
+渴望自己能够变得更强大&lt;/p&gt;
+&lt;p&gt;僕（ぼく）が僕（ぼく）でいられるように&lt;br /&gt;
+为了让我能够成为真正的自己&lt;/p&gt;
+&lt;p&gt;ただ君（きみ）を守（まも）るそのために&lt;br /&gt;
+为了能够守护你&lt;/p&gt;
+&lt;p&gt;走（はし）る走（はし）る走（はし）るんだよ&lt;br /&gt;
+拼尽全力地奔跑&lt;/p&gt;
+&lt;p&gt;僕（ぼく）の中（なか）の僕（ぼく）を超（こ）える&lt;br /&gt;
+超越我心中的自己&lt;/p&gt;
+</content>
+        <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
+        <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
+        <category term="日语" scheme="https://yuan-uyume.github.io/tags/jp/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E6%89%93%E4%B8%8A%E8%8A%B1%E7%81%AB/</id>
+        <title>打上花火</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E6%89%93%E4%B8%8A%E8%8A%B1%E7%81%AB/"/>
+        <content type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;日文歌词&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;罗马音歌词&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;あの日 (ひ) 见渡 (みわ、た) した、渚 (なぎさ) を&lt;/td&gt;
+&lt;td&gt;a no hi mi wa ta shi ta na gi sa wo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;今 (いま) も、思 (おも) い、出 (だ) すんだ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;i ma mo o mo i da su n da&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;砂 (すな) の、上 (うえ) に、刻 (きざ) ん、だ言叶 (ことば)&lt;/td&gt;
+&lt;td&gt;su na no u e ni ki za n da ko to ba&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;君 (きみ) の後 (う、し、) ろ姿 (すがた)&lt;/td&gt;
+&lt;td&gt;ki mi no u shi ro su ga ta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;寄 (よ) り返 (かえ)、す波 (なみ) が&lt;/td&gt;
+&lt;td&gt;yo ri ka e su na mi ga&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;足元 (あし、もと) を、よぎり、何 (なに) かを、攫 (さら) う&lt;/td&gt;
+&lt;td&gt;a shi mo to wo yo gi ri na ni ka wo sa ra u&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;夕凪 (ゆうな、ぎ) の中 (なか)&lt;/td&gt;
+&lt;td&gt;yu u na gi no na ka&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;日暮 (ひぐ) れ、だけが通 (とお)、り过 (す) ぎてゆく&lt;/td&gt;
+&lt;td&gt;hi gu re da ke ga to o ri su gi te yu ku&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;パッと光 (ひか) って咲 (さ) いた&lt;/td&gt;
+&lt;td&gt;pa tto hi ka tte sa i ta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;花火 (はなび) を见み) てぃた&lt;/td&gt;
+&lt;td&gt;ha na bi wo mi te i ta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;きっとまだ终 (お) わらない夏 (なつ) が&lt;/td&gt;
+&lt;td&gt;ki tto ma da o wa ra na i na tsu ga&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;暧昧 (あいまい) な心 (こころ) を解 (と) かして繋 (つな) いだ&lt;/td&gt;
+&lt;td&gt;a i ma i na ko ko ro wo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;to ka shi te tsu na i da&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;この夜 (よる) が続 (つづ) いて欲 (ほ) しかった&lt;/td&gt;
+&lt;td&gt;ko no yo ru ga tsu zu i te ho shi ka tta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;「あと何度 (なんど) 君 (きみ) と同 (おな) じ花火 (はなび) を见 (み) られるかな」って&lt;/td&gt;
+&lt;td&gt;a to na n do ki mi to o na ji ha na bi wo mi ra re ru ka na tte&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;笑 (わら) う颜 (かお) に何 (なに) ができるだろうか&lt;/td&gt;
+&lt;td&gt;wa r au ka o ni na ni ga de ki ru da rou ka&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;伤 (きず) つくこと 喜 (よろこ) ぶこと&lt;/td&gt;
+&lt;td&gt;ki zu tsu ku ko to yo ro ko bu ko to&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;缲 (く) り返 (かえ) す波 (なみ) と情动 (じょうどう)&lt;/td&gt;
+&lt;td&gt;ku ri ka e su na mi to jyou dou&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;焦燥 (しょうそう) 最终列车 (さいしゅうれっしゃ) の音 (おと)&lt;/td&gt;
+&lt;td&gt;sho u sou sai shu u re ssha no o to&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;何度 (なんど) でも言叶 (ことば) にして君 (きみ) を呼 (よ) ぶよ&lt;/td&gt;
+&lt;td&gt;na n do de mo ko to ba ni shi te ki mi wo yo bu yo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;波间 (なみま) を选 (えら) びもう一度 (いちど)...&lt;/td&gt;
+&lt;td&gt;na mi ma wo e ra bi mo u i chi do do do do do&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;もう二度 (にど) と悲 (かな) しまずに済 (す) むように&lt;/td&gt;
+&lt;td&gt;mo u ni do to ka na shi ma zu ni su mu yo u ni&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;はっと息 (いき) を饮 (の) めば&lt;/td&gt;
+&lt;td&gt;ha tto i ki wo no me ba&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;消（き）えちゃいそうな光（ひかり）が&lt;/td&gt;
+&lt;td&gt;ki e cha i sou na hi ka ri ga&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;きっとまだ 胸 (むね) に住 (す) んでいた&lt;/td&gt;
+&lt;td&gt;ki tto ma da mune ni su n de i ta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;手 (て) を伸 (の) ばせば触 (ふ) れた&lt;/td&gt;
+&lt;td&gt;te wo no ba se ba hu re ta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;暖 (あった) かい未来 (みらい) は&lt;/td&gt;
+&lt;td&gt;a tta ka i mi ra i wa&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;密 (ひそ) かに二人 (ふたり) を见 (み) ていた&lt;/td&gt;
+&lt;td&gt;hi so ka ni hu ta ri wo mi te i ta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;パッと花火 (はなび) が「パッと花火 (はなび) が」&lt;/td&gt;
+&lt;td&gt;pa tto ha na bi ga「pa tto ha na bi ga」&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;夜 (よる) に咲 (さ) いた「夜 (よる) に咲 (さ) いた」&lt;/td&gt;
+&lt;td&gt;yo ru ni sa i ta「yo ru ni sa i ta」&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;夜 (よる) に咲 (さ) いて「夜 (よる) に咲 (さ) いて」&lt;/td&gt;
+&lt;td&gt;yo ru ni sai te「yo ru ni sa i te」&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;静 (しず) かに消 (き) えた「静 (しず) かに消 (き) えた」&lt;/td&gt;
+&lt;td&gt;shi zu ka ni ki e ta「shi zu ka ni ki e ta」&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;离 (はな) さないで 「离 (はな) れないで」&lt;/td&gt;
+&lt;td&gt;ha na sa na i de「ha na re na i de」&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;もう少 (すこ) しだけ「もう少 (すこ) しだけ」&lt;/td&gt;
+&lt;td&gt;mo u su ko shi da ke「mo u su ko shi da ke」&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;もう少 (すこ) しだけ&lt;/td&gt;
+&lt;td&gt;mo u su ko shi da ke&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;このままで&lt;/td&gt;
+&lt;td&gt;ko no ma ma de&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;あの日 (ひ) 见渡 (みわた) した渚 (なぎさ) を&lt;/td&gt;
+&lt;td&gt;a no hi mi wa ta shi ta na gi sa wo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;今 (いま) も思 (おも) い出 (だ) すんだ&lt;/td&gt;
+&lt;td&gt;i ma mo o mo i da su n da&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;砂 (すな) の上 (うえ) に刻 (きざ) んだ言叶 (ことば)&lt;/td&gt;
+&lt;td&gt;su na no u e ni ki za n da ko to ba&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;君 (きみ) の後 (うし) ろ姿 (すがた)&lt;/td&gt;
+&lt;td&gt;ki mi no u shi ro su ga ta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;パッと光 (ひか) って咲 (さ) いた&lt;/td&gt;
+&lt;td&gt;pa tto hi ka tte sai ta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;花火 (はなび) を见 (み) てた&lt;/td&gt;
+&lt;td&gt;ha na bi wo mi te i ta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;きっとまだ终 (お) わらない夏 (なつ) が&lt;/td&gt;
+&lt;td&gt;ki tto ma da o wa ra na i na tsu ga&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;暧昧 (あいまい) な心 (こころ) を解 (と) かして繋 (つな) いだ&lt;/td&gt;
+&lt;td&gt;a i ma i na ko ko ro wo to ka shi te tsu na i da&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;この夜 (よる) が続 (つづ) いて欲 (ほ) しかった&lt;/td&gt;
+&lt;td&gt;ko no yo ru ga tsu zu i te ho shi ka tta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;译文歌词&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;---&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;那天所眺望的海岸&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;直至今日仍能想起&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;在沙滩上刻下的话语&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;和你的背影&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;涌动的波浪&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;掠过脚边究竟掠走了什么&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;风平浪静之中&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;只有黄昏悄悄地流逝&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;光芒砰然绽放&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;烟花映入眼帘&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;一定是夏天还未结束&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;将暧昧的心结解开再紧紧相连&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;愿今夜永不结束&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;还能与你一起看几次同样的烟花呢&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;面对你的笑容 我又能做些什么呢&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;受伤亦或是喜悦&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;浪来浪去与情动&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;焦躁响起了末班列车的声音&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;无数次用言语呼唤着你&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;向着海浪 再一次…&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;祈祷不再感受那份悲伤&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;如果突然屏住呼吸&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;那么即将消逝的光芒&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;一定仍能够留存心中&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;伸出手就能触及&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;那温暖的未来&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;默默地守望着两人&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;怦然绽放的烟花 (怦然绽放的烟花)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;在夜空中绽放 (在夜空中绽放)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;在夜空中绽放后 (在夜空中绽放后)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;又静静地消失 (又静静地消失)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;请不要离开 (请不要离开)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;再给一点点时间 (再给一点点时间)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;再给一点点时间&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;就一直这样&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;那天所眺望的海岸&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;直至今日仍能想起&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;在沙滩上刻下的话语&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;和你的背影&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;光芒怦然绽放&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;烟花映入眼帘&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;还未结束的夏天 一定会将&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;暧昧的心结融化相连在一起&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;愿今夜永不结束 [2]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+        <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
+        <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
+        <category term="日语" scheme="https://yuan-uyume.github.io/tags/jp/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E7%B4%85%E8%93%AE%E8%8F%AF/</id>
+        <title>红莲华</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E7%B4%85%E8%93%AE%E8%8F%AF/"/>
+        <content type="html">&lt;p&gt;強く　なれる　理由を知った　僕を　連れて　進め&lt;br /&gt;
+つゆく　なれる　りゆうをしった　ぼくを　つれて　すすめ&lt;/p&gt;
+&lt;p&gt;泥だらけの　走馬灯に酔う&lt;br /&gt;
+どろだらけの　そうまとうによう&lt;/p&gt;
+&lt;p&gt;強張る　心　震える手は&lt;br /&gt;
+こわばる　こころ　ふるえるては&lt;/p&gt;
+&lt;p&gt;掴みたい　ものがある　それだけさ&lt;br /&gt;
+つかみたい    ものがある    それだけさ&lt;/p&gt;
+&lt;p&gt;夜の　部匂いに　空　睨んでも&lt;br /&gt;
+よるの　においに    そらにらんでも&lt;/p&gt;
+&lt;p&gt;変わっていけるのは    自分自身だけ　それだけさ&lt;br /&gt;
+かわっていけるのは    じぶんじしんだけ    それだけさ&lt;/p&gt;
+&lt;p&gt;強く    なれる    理由を知った    僕を連れて進め&lt;br /&gt;
+つよく　なれる    りゆうをしった　ぼくをつれてすすめ&lt;/p&gt;
+&lt;p&gt;どうしたって消せない夢も　止まれない今も&lt;br /&gt;
+どうしたって　けせないゆめも    とまれない　いまも&lt;/p&gt;
+&lt;p&gt;誰かのてめに強くなれるなら　ありがとう　悲しみよ&lt;br /&gt;
+だれかのてめに    つゆくなれるなら    ありがとう　かなしみよ&lt;/p&gt;
+&lt;p&gt;世界に打ちのめされて    負ける意味を知った&lt;br /&gt;
+せかいにうちのめされて    まけるいみをしった&lt;/p&gt;
+&lt;p&gt;紅蓮の華よ　咲き誇れ　運命を照らして&lt;br /&gt;
+ぐれんのはなよ    さきほこれ    うんめいをてらして&lt;/p&gt;
+&lt;p&gt;稲光の雑音が耳を刺す&lt;br /&gt;
+いなびかりの  ざつおんがみみをさす&lt;/p&gt;
+&lt;p&gt;戸惑う心優しいだけじゃ&lt;br /&gt;
+とまどうこころ  やさしいだけじゃ&lt;/p&gt;
+&lt;p&gt;守れないのがある分かってるけど&lt;br /&gt;
+まもれない  ものがある  わかってるけど&lt;/p&gt;
+&lt;p&gt;水面下で絡まる善悪&lt;br /&gt;
+すいめんかで  からまる  ぜんあく&lt;/p&gt;
+&lt;p&gt;透けて燃える偽善に天罰&lt;br /&gt;
+すけてみえる  ぎぜんに   てんばつ&lt;/p&gt;
+&lt;p&gt;逸材の花より挑み続け咲いた一輪が美し&lt;br /&gt;
+いつざいのはなよりいどみつづけさいた  いちりんがうつくしい&lt;/p&gt;
+&lt;p&gt;乱暴に敷き詰められた棘だらけの道も&lt;br /&gt;
+らんぼうに  しきつめられた　とげだらけのみちも&lt;/p&gt;
+&lt;p&gt;本気の僕だけに現れるから乗り越えてみせるよ&lt;br /&gt;
+ほんきの    ぼくだけに    ありわれるから　のりこえてみせるよ&lt;/p&gt;
+&lt;p&gt;簡単に片付けられた守れなかった夢も&lt;br /&gt;
+かんたんにかたずけられた　まもれなかったゆめも&lt;/p&gt;
+&lt;p&gt;紅蓮の心臓に根を生やしこの血に宿って&lt;br /&gt;
+ぐれんのしんぞうに　ねをはやし    このちに    やどって&lt;/p&gt;
+&lt;p&gt;人知れず儚い散りゆく結末&lt;br /&gt;
+ひと    しれず　はかない　ちり    ゆく    けつまつ&lt;/p&gt;
+&lt;p&gt;無情に破れて悲鳴の風吹く&lt;br /&gt;
+むじょう    に    やぶれて    ひめ    いのかぜふく&lt;/p&gt;
+&lt;p&gt;誰かの笑う影誰かの鳴き声&lt;br /&gt;
+だれかのわらうかげ　だれのなきごえ&lt;/p&gt;
+&lt;p&gt;誰もが幸せを願ってる&lt;br /&gt;
+だれもがしあわせをねがってる&lt;/p&gt;
+&lt;p&gt;どうしたって消せない夢も止まれない今も&lt;br /&gt;
+どうしたって  けせないゆめも とまれないいまも&lt;/p&gt;
+&lt;p&gt;誰かのために強くなれるなら　ありがとう悲しみよ&lt;br /&gt;
+だれかのために  つよくなれるなら  ありがとう  かなしみよ&lt;/p&gt;
+&lt;p&gt;世界に打ちのめされて　負ける意味を知った&lt;br /&gt;
+せかいにうちのめされて  まけるいみをしった&lt;/p&gt;
+&lt;p&gt;紅蓮の花よ    咲き誇れ    運命を照らして&lt;br /&gt;
+ぐれんのはなよ  さきひこれ  うんめいをてらして&lt;/p&gt;
+</content>
+        <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
+        <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
+        <category term="日语" scheme="https://yuan-uyume.github.io/tags/jp/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E8%8B%8F%E4%B8%9C%E5%9D%A1/</id>
+        <title>苏东坡</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E8%8B%8F%E4%B8%9C%E5%9D%A1/"/>
+        <content type="html">&lt;p&gt;小舟悠悠水中摇&lt;br /&gt;
+世人诸多忧扰&lt;br /&gt;
+我自饮酒逍遥&lt;br /&gt;
+穿过烟波明月缥    缈&lt;br /&gt;
+看不穿明日预兆&lt;br /&gt;
+又何必悲戚今朝&lt;br /&gt;
+不如醉倒&lt;/p&gt;
+&lt;p&gt;惟江中的水月与行舟知我寂寥&lt;br /&gt;
+看波光覆来路已烟云    渺渺&lt;br /&gt;
+这悠长的时间    这浩大的江面&lt;br /&gt;
+未说完的一切千言万语都做云烟&lt;br /&gt;
+这一梦的开端    这半生的辗转&lt;br /&gt;
+随美酒的饮完只谈风月不问从前&lt;br /&gt;
+这一宵    高歌醉卧    高山流水    才是眷恋&lt;/p&gt;
+&lt;p&gt;惟山间的清风与明月    无需讨好&lt;br /&gt;
+寄浮生于天地便不惧    终老&lt;br /&gt;
+这久远的悲欢    这沧海的变换&lt;br /&gt;
+这流年催白发千丝万缕都已难辨&lt;br /&gt;
+这一船的疯癫    这一宿的未眠&lt;br /&gt;
+纵流转过多年    仍会记得此间欢颜&lt;br /&gt;
+歌唱着桂棹兰桨空明流光逆流而上&lt;br /&gt;
+情思啊悠悠茫茫美人却在天一方    遥望&lt;/p&gt;
+&lt;p&gt;这明月缺又圆    这江水到天边&lt;br /&gt;
+这世事多变迁    沧海桑田都做诗篇&lt;br /&gt;
+这一曲唱几遍    这小舟未搁浅&lt;br /&gt;
+这一时的酣梦    枕着衣袖更似神仙&lt;br /&gt;
+这一生归去    无晴也无风雨    便是心愿&lt;/p&gt;
+&lt;p&gt;小舟悠悠水中摇&lt;br /&gt;
+随它天涯海角&lt;br /&gt;
+一枕一梦一觉&lt;br /&gt;
+露水打湿眼角    眉梢&lt;/p&gt;
+&lt;p&gt;愿醒来还未破晓&lt;br /&gt;
+再偷得浮生半宵&lt;br /&gt;
+如此便好&lt;/p&gt;
+</content>
+        <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
+        <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
+        <category term="中文" scheme="https://yuan-uyume.github.io/tags/zh/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
 </feed>
