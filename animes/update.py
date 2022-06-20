@@ -1,9 +1,8 @@
 import requests
-import os
+import sys
 import json
 import re
 from concurrent.futures import ThreadPoolExecutor, wait, ALL_COMPLETED
-import threading
 
 notFields = ['sid' , 'status', 'image', 'like']
 
@@ -116,7 +115,9 @@ def getOutFileJSON(path, finish):
         return json.dumps(jsonn, ensure_ascii=False, indent=2)
 
 if __name__ == '__main__':
-    outFile = getOutFileJSON('animes.json', True)
+    path = sys.argv[1]
+    print(path)
+    outFile = getOutFileJSON(path, True)
     print(outFile)
     with open('animes.json', 'w', encoding="utf-8") as file:
         file.write(outFile)

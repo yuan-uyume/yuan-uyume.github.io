@@ -65,6 +65,34 @@ if (params.trim() == &#39;&#39;) &amp;#123;
         <updated>2022-06-18T04:45:25.000Z</updated>
     </entry>
     <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/computer/environment/windows_kms_enable/</id>
+        <title>windows系统激活</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/computer/environment/windows_kms_enable/"/>
+        <content type="html">&lt;p&gt;#卸载安装的密钥&lt;br /&gt;
+ slmgr /upk&lt;/p&gt;
+&lt;p&gt;#安装密钥&lt;br /&gt;
+ slmgr /ipk&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vd2luZG93cy1zZXJ2ZXIvZ2V0LXN0YXJ0ZWQva21zLWNsaWVudC1hY3RpdmF0aW9uLWtleXM=&#34;&gt;https://docs.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys&lt;/span&gt;&lt;br /&gt;
+2019 lstc M7XTQ-FN8P6-TTKYV-9D4CC-J462D&lt;/p&gt;
+&lt;p&gt;#测试 kms 服务商联通性&lt;br /&gt;
+ ping &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3poLnVzLnRv&#34;&gt;zh.us.to&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ttcy4wM2sub3JnLw==&#34;&gt;kms.03k.org&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;#设置 kms 服务商&lt;br /&gt;
+ slmgr /skms &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ttcy4wM2sub3JnLw==&#34;&gt;kms.03k.org&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;#激活密钥&lt;br /&gt;
+ slmgr /ato&lt;/p&gt;
+&lt;p&gt;#查看到期时间&lt;br /&gt;
+ slmgr –xpr&lt;/p&gt;
+&lt;p&gt;#确认激活状态&lt;br /&gt;
+ slmgr -dlv&lt;/p&gt;
+</content>
+        <category term="计算机领域" scheme="https://yuan-uyume.github.io/categories/computer/" />
+        <category term="环境配置" scheme="https://yuan-uyume.github.io/categories/computer/environment/" />
+        <category term="kms激活" scheme="https://yuan-uyume.github.io/tags/kms/" />
+        <category term="windows" scheme="https://yuan-uyume.github.io/tags/windows/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
         <id>https://yuan-uyume.github.io/2022/06/18/computer/environment/office_kms_enable/</id>
         <title>windows系统激活</title>
         <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/computer/environment/office_kms_enable/"/>
@@ -236,194 +264,6 @@ cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP&lt;/p&gt;
         <updated>2022-06-18T04:45:25.000Z</updated>
     </entry>
     <entry>
-        <id>https://yuan-uyume.github.io/2022/06/18/computer/environment/windows_kms_enable/</id>
-        <title>windows系统激活</title>
-        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/computer/environment/windows_kms_enable/"/>
-        <content type="html">&lt;p&gt;#卸载安装的密钥&lt;br /&gt;
- slmgr /upk&lt;/p&gt;
-&lt;p&gt;#安装密钥&lt;br /&gt;
- slmgr /ipk&lt;br /&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vd2luZG93cy1zZXJ2ZXIvZ2V0LXN0YXJ0ZWQva21zLWNsaWVudC1hY3RpdmF0aW9uLWtleXM=&#34;&gt;https://docs.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys&lt;/span&gt;&lt;br /&gt;
-2019 lstc M7XTQ-FN8P6-TTKYV-9D4CC-J462D&lt;/p&gt;
-&lt;p&gt;#测试 kms 服务商联通性&lt;br /&gt;
- ping &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3poLnVzLnRv&#34;&gt;zh.us.to&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ttcy4wM2sub3JnLw==&#34;&gt;kms.03k.org&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;#设置 kms 服务商&lt;br /&gt;
- slmgr /skms &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ttcy4wM2sub3JnLw==&#34;&gt;kms.03k.org&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;#激活密钥&lt;br /&gt;
- slmgr /ato&lt;/p&gt;
-&lt;p&gt;#查看到期时间&lt;br /&gt;
- slmgr –xpr&lt;/p&gt;
-&lt;p&gt;#确认激活状态&lt;br /&gt;
- slmgr -dlv&lt;/p&gt;
-</content>
-        <category term="计算机领域" scheme="https://yuan-uyume.github.io/categories/computer/" />
-        <category term="环境配置" scheme="https://yuan-uyume.github.io/categories/computer/environment/" />
-        <category term="kms激活" scheme="https://yuan-uyume.github.io/tags/kms/" />
-        <category term="windows" scheme="https://yuan-uyume.github.io/tags/windows/" />
-        <updated>2022-06-18T04:45:25.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://yuan-uyume.github.io/2022/06/18/info/markdown/markdowm/</id>
-        <title>mardown语法</title>
-        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/info/markdown/markdowm/"/>
-        <content type="html">&lt;p&gt;#space 标题 1&lt;/p&gt;
-&lt;h1 id=&#34;标题1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#标题1&#34;&gt;#&lt;/a&gt; 标题 1&lt;/h1&gt;
-&lt;hr /&gt;
-&lt;p&gt;-space 无序列表&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;无序列表&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;粗体&lt;/strong&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;em&gt;语雀斜体&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;语雀斜体&lt;/em&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;blockquote&gt;
-&lt;p&gt;space 引用块&lt;br /&gt;
-应用块&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;code&gt;代码&lt;/code&gt; &lt;br /&gt;
- &lt;code&gt;代码&lt;/code&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;--- 分割线&lt;/p&gt;
-&lt;hr /&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZXhhbXBsZS5jb20=&#34;&gt;链接&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZXhhbXBsZS5jb20=&#34;&gt;链接&lt;/span&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;img data-src=&#34;image.jpg&#34; alt=&#34;提示&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;image.jpg#crop=0&amp;amp;crop=0&amp;amp;crop=1&amp;amp;crop=1&amp;amp;id=f6xjB&amp;amp;originalType=binary&amp;amp;ratio=1&amp;amp;rotation=0&amp;amp;showTitle=false&amp;amp;status=done&amp;amp;style=none&amp;amp;title=&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mtext&gt;公式&lt;/mtext&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;公式
-&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.68333em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;公&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;式&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;pre&gt;&lt;code&gt;代码块
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;代码块
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr /&gt;
-&lt;p&gt;生成一个脚注 1&lt;sup class=&#34;footnote-ref&#34;&gt;&lt;a href=&#34;#fn1&#34; id=&#34;fnref1&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;h1 id=&#34;语雀markdown&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语雀markdown&#34;&gt;#&lt;/a&gt; 语雀 Markdown&lt;/h1&gt;
-&lt;h3 id=&#34;快捷输入对照表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#快捷输入对照表&#34;&gt;#&lt;/a&gt; 快捷输入对照表&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;示例&lt;/th&gt;
-&lt;th&gt;快捷输入&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;大标题，技术范叫 H1&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;#&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，魔法就会发生&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;中标题，对，H2&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;##&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;小标题，H3&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;###&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;|&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;有序列表&lt;br /&gt;
- |  &lt;code&gt;1&lt;/code&gt;  +  &lt;code&gt;.&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，魔法又发生，尝试回车和  &lt;code&gt;tab&lt;/code&gt;  看看更多神奇的效果吧。 |&lt;br /&gt;
-|&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;无序列表&lt;br /&gt;
- |  &lt;code&gt;-&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，当然也可以使用  &lt;code&gt;*&lt;/code&gt;  代替  &lt;code&gt;-&lt;/code&gt;  |&lt;br /&gt;
-|&lt;/li&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; 未完成任务列表&lt;br /&gt;
- |  &lt;code&gt;[&lt;/code&gt;  +  &lt;code&gt;]&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，秒建 TODO 功能 |&lt;br /&gt;
-|&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_1&#34;&gt; 已完成任务列表&lt;br /&gt;
- |  &lt;code&gt;[&lt;/code&gt;  +  &lt;code&gt;x&lt;/code&gt;  +  &lt;code&gt;]&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，任务完成！😊 |&lt;br /&gt;
-| &amp;gt; 引用文本，引用名人名句，引用大大的发言&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;|  &lt;code&gt;&amp;gt;&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  |&lt;br /&gt;
-| 快速创建表格 |  &lt;code&gt;&amp;amp;#124;&lt;/code&gt;  +  &lt;code&gt;A&lt;/code&gt;  +  &lt;code&gt;&amp;amp;#124;&lt;/code&gt;  +  &lt;code&gt;B&lt;/code&gt;  +  &lt;code&gt;&amp;amp;#124;&lt;/code&gt;  +  &lt;code&gt;回车&lt;/code&gt;  ，快速创建两列表格 |&lt;br /&gt;
-| 快速创建代码块 | 连续 3 个  &lt;code&gt;+ `回车` ，出现工程师最😍的代码块 | | 长长的分割线 | 连续 3 个 `-` + `回车` ，会出现一条长长的分割线 | | **粗体文本** | `*` + `*` + `文本` + `*` + `*` + `Space` ，文本变粗！ | | _斜体文本_ | `_` +_ _`文本` + `_` + `Space` ，文本变右倾斜了。 | | ~~删除线~~ | `~` + `~` + `文本` + `~` + `~` + `Space`，文本加删除线 | | `行内代码 foo = bar` |&lt;/code&gt;  +  &lt;code&gt;代码文本&lt;/code&gt;  + ``` +  &lt;code&gt;Space&lt;/code&gt; ，不明白程序员为何就喜欢写代码 |&lt;br /&gt;
-| 上标 21th 1st 邮票 🎫 |  &lt;code&gt;^&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  +  &lt;code&gt;^&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  ，文本飘上去了 |&lt;br /&gt;
-| 下标 H2O 是水，化学没白学 |  &lt;code&gt;~&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  +  &lt;code&gt;~&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  ，各种公式少不了的技能 |&lt;br /&gt;
-| 高亮，亮瞎眼的文本 |  &lt;code&gt;=&lt;/code&gt;  +  &lt;code&gt;=&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  +  &lt;code&gt;=&lt;/code&gt;  +  &lt;code&gt;=&lt;/code&gt;  ，就像荧光笔一笔划过 |&lt;/p&gt;
-&lt;hr class=&#34;footnotes-sep&#34; /&gt;
-&lt;section class=&#34;footnotes&#34;&gt;
-&lt;ol class=&#34;footnotes-list&#34;&gt;
-&lt;li id=&#34;fn1&#34; class=&#34;footnote-item&#34;&gt;&lt;p&gt;这里是脚注的内容 &lt;a href=&#34;#fnref1&#34; class=&#34;footnote-backref&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</content>
-        <category term="说明" scheme="https://yuan-uyume.github.io/categories/info/" />
-        <category term="markdown" scheme="https://yuan-uyume.github.io/categories/info/markdown/" />
-        <category term="markdown" scheme="https://yuan-uyume.github.io/tags/markdown/" />
-        <updated>2022-06-18T04:45:25.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/aLIEz/</id>
-        <title>aLIEz</title>
-        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/aLIEz/"/>
-        <content type="html">&lt;p&gt;決めつけ    ばかり&lt;/p&gt;
-&lt;p&gt;自惚れ    を着た&lt;/p&gt;
-&lt;p&gt;チープな　hokori で　音荒げても&lt;/p&gt;
-&lt;p&gt;棚に隠して　哀れな　恥に濡れた    鏡の中&lt;/p&gt;
-&lt;p&gt;都合の　傷だけ　ひけらかして&lt;/p&gt;
-&lt;p&gt;手軽な強さて　勝ち取るすべを&lt;/p&gt;
-&lt;p&gt;どれだけ    問でも　気はやつれる&lt;/p&gt;
-&lt;p&gt;ふらついた    思想通りだ&lt;/p&gt;
-&lt;p&gt;愛 - same-CRIER 愛撫 - save-LIAR&lt;/p&gt;
-&lt;p&gt;Eid - 聖 - Rising HELL&lt;/p&gt;
-&lt;p&gt;愛してる Game 世界の Day&lt;/p&gt;
-&lt;p&gt;Don&#39;t - 生 - War Lie - 兵士 - War-World&lt;/p&gt;
-&lt;p&gt;Eyes-Hate-War&lt;/p&gt;
-&lt;p&gt;A-Z Looser-Krankheit-Was IS das?&lt;/p&gt;
-&lt;p&gt;受け売り盾に 見下してても そこには地面しかない事さえ&lt;/p&gt;
-&lt;p&gt;気付かぬままに 壊れた 過去に負けた鏡の奥&lt;/p&gt;
-&lt;p&gt;どこまで叫べば位置を知れる とどめもないまま息が切れる&lt;/p&gt;
-&lt;p&gt;堂々さらした罪の群れと 後ろ向きにあらがう&lt;/p&gt;
-&lt;p&gt;愛 - same-CRIER 愛撫 - save-LIAR&lt;/p&gt;
-&lt;p&gt;Aid - 聖 - Rising HELL&lt;/p&gt;
-&lt;p&gt;I&#39;ll-ness Reset-End じゃない Burst&lt;/p&gt;
-&lt;p&gt;Don&#39;t - 生 - War Lie - 兵士 - War-World&lt;/p&gt;
-&lt;p&gt;Eyes-Hate-War&lt;/p&gt;
-&lt;p&gt;A-Z 想像 High-de-Siehst YOU das?&lt;/p&gt;
-&lt;p&gt;偽の態度な 臆病 Loud Voice&lt;/p&gt;
-&lt;p&gt;気高さを 勘違いした心臓音&lt;/p&gt;
-&lt;p&gt;狙い通りの 幻見ても&lt;/p&gt;
-&lt;p&gt;満たせない 何度も目を開けても&lt;/p&gt;
-&lt;p&gt;どこまで叫べば位置を知れる とどめもないまま息が切れる&lt;/p&gt;
-&lt;p&gt;堂々さらした罪の群れと 後ろ向きにあらがう&lt;/p&gt;
-&lt;p&gt;愛 - same-CRIER 愛撫 - save-LIAR&lt;/p&gt;
-&lt;p&gt;Eid - 聖 - Rising HELL&lt;/p&gt;
-&lt;p&gt;愛してる Game 世界の Day&lt;/p&gt;
-&lt;p&gt;Don&#39;t - 生 - War Lie - 兵士 - War-World&lt;/p&gt;
-&lt;p&gt;Eyes-Hate-War&lt;/p&gt;
-&lt;p&gt;A-Z Looser-Krankheit-Was IS das?&lt;/p&gt;
-&lt;p&gt;Leben,was ist das?&lt;/p&gt;
-&lt;p&gt;Signal,Siehst du das?&lt;/p&gt;
-&lt;p&gt;Rade,die du nicht weisst&lt;/p&gt;
-&lt;p&gt;Aus eigenem Willen&lt;/p&gt;
-&lt;p&gt;Leben,was ist das?&lt;/p&gt;
-&lt;p&gt;Signal,Siehst du das?&lt;/p&gt;
-&lt;p&gt;Rade,die du nicht weisst&lt;/p&gt;
-&lt;p&gt;Sieh mit deinen Augen&lt;/p&gt;
-</content>
-        <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
-        <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
-        <category term="日语" scheme="https://yuan-uyume.github.io/tags/jp/" />
-        <updated>2022-06-18T04:45:25.000Z</updated>
-    </entry>
-    <entry>
         <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E4%BC%AF%E8%99%8E%E8%AF%B4/</id>
         <title>伯虎说</title>
         <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E4%BC%AF%E8%99%8E%E8%AF%B4/"/>
@@ -487,6 +327,60 @@ cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP&lt;/p&gt;
         <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
         <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
         <category term="中文" scheme="https://yuan-uyume.github.io/tags/zh/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/aLIEz/</id>
+        <title>aLIEz</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/aLIEz/"/>
+        <content type="html">&lt;p&gt;決めつけ    ばかり&lt;/p&gt;
+&lt;p&gt;自惚れ    を着た&lt;/p&gt;
+&lt;p&gt;チープな　hokori で　音荒げても&lt;/p&gt;
+&lt;p&gt;棚に隠して　哀れな　恥に濡れた    鏡の中&lt;/p&gt;
+&lt;p&gt;都合の　傷だけ　ひけらかして&lt;/p&gt;
+&lt;p&gt;手軽な強さて　勝ち取るすべを&lt;/p&gt;
+&lt;p&gt;どれだけ    問でも　気はやつれる&lt;/p&gt;
+&lt;p&gt;ふらついた    思想通りだ&lt;/p&gt;
+&lt;p&gt;愛 - same-CRIER 愛撫 - save-LIAR&lt;/p&gt;
+&lt;p&gt;Eid - 聖 - Rising HELL&lt;/p&gt;
+&lt;p&gt;愛してる Game 世界の Day&lt;/p&gt;
+&lt;p&gt;Don&#39;t - 生 - War Lie - 兵士 - War-World&lt;/p&gt;
+&lt;p&gt;Eyes-Hate-War&lt;/p&gt;
+&lt;p&gt;A-Z Looser-Krankheit-Was IS das?&lt;/p&gt;
+&lt;p&gt;受け売り盾に 見下してても そこには地面しかない事さえ&lt;/p&gt;
+&lt;p&gt;気付かぬままに 壊れた 過去に負けた鏡の奥&lt;/p&gt;
+&lt;p&gt;どこまで叫べば位置を知れる とどめもないまま息が切れる&lt;/p&gt;
+&lt;p&gt;堂々さらした罪の群れと 後ろ向きにあらがう&lt;/p&gt;
+&lt;p&gt;愛 - same-CRIER 愛撫 - save-LIAR&lt;/p&gt;
+&lt;p&gt;Aid - 聖 - Rising HELL&lt;/p&gt;
+&lt;p&gt;I&#39;ll-ness Reset-End じゃない Burst&lt;/p&gt;
+&lt;p&gt;Don&#39;t - 生 - War Lie - 兵士 - War-World&lt;/p&gt;
+&lt;p&gt;Eyes-Hate-War&lt;/p&gt;
+&lt;p&gt;A-Z 想像 High-de-Siehst YOU das?&lt;/p&gt;
+&lt;p&gt;偽の態度な 臆病 Loud Voice&lt;/p&gt;
+&lt;p&gt;気高さを 勘違いした心臓音&lt;/p&gt;
+&lt;p&gt;狙い通りの 幻見ても&lt;/p&gt;
+&lt;p&gt;満たせない 何度も目を開けても&lt;/p&gt;
+&lt;p&gt;どこまで叫べば位置を知れる とどめもないまま息が切れる&lt;/p&gt;
+&lt;p&gt;堂々さらした罪の群れと 後ろ向きにあらがう&lt;/p&gt;
+&lt;p&gt;愛 - same-CRIER 愛撫 - save-LIAR&lt;/p&gt;
+&lt;p&gt;Eid - 聖 - Rising HELL&lt;/p&gt;
+&lt;p&gt;愛してる Game 世界の Day&lt;/p&gt;
+&lt;p&gt;Don&#39;t - 生 - War Lie - 兵士 - War-World&lt;/p&gt;
+&lt;p&gt;Eyes-Hate-War&lt;/p&gt;
+&lt;p&gt;A-Z Looser-Krankheit-Was IS das?&lt;/p&gt;
+&lt;p&gt;Leben,was ist das?&lt;/p&gt;
+&lt;p&gt;Signal,Siehst du das?&lt;/p&gt;
+&lt;p&gt;Rade,die du nicht weisst&lt;/p&gt;
+&lt;p&gt;Aus eigenem Willen&lt;/p&gt;
+&lt;p&gt;Leben,was ist das?&lt;/p&gt;
+&lt;p&gt;Signal,Siehst du das?&lt;/p&gt;
+&lt;p&gt;Rade,die du nicht weisst&lt;/p&gt;
+&lt;p&gt;Sieh mit deinen Augen&lt;/p&gt;
+</content>
+        <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
+        <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
+        <category term="日语" scheme="https://yuan-uyume.github.io/tags/jp/" />
         <updated>2022-06-18T04:45:25.000Z</updated>
     </entry>
     <entry>
@@ -678,124 +572,6 @@ cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP&lt;/p&gt;
         <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
         <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
         <category term="中文" scheme="https://yuan-uyume.github.io/tags/zh/" />
-        <updated>2022-06-18T04:45:25.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E6%80%AA%E7%89%A9/</id>
-        <title>怪物</title>
-        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E6%80%AA%E7%89%A9/"/>
-        <content type="html">&lt;p&gt;素晴（すば）らしき世界（せかい）に今日（きょう）も乾杯（かんぱい）&lt;br /&gt;
-今天也为美妙的世界干杯&lt;/p&gt;
-&lt;p&gt;街（まち）に飛（と）び交（か）う笑（わら）い声（ごえ）も&lt;br /&gt;
-街道上飞舞着的笑声&lt;/p&gt;
-&lt;p&gt;見（み）て見（み）ぬフリしてるだけの作（つく）りもんさ&lt;br /&gt;
-我也只是装作看不见罢了&lt;/p&gt;
-&lt;p&gt;気（き）が触（ふ）れそうだ&lt;br /&gt;
-就快失控了&lt;/p&gt;
-&lt;p&gt;クラクラするほどの良（い）い匂（にお）いが&lt;br /&gt;
-令人头晕目眩的诱人味道&lt;/p&gt;
-&lt;p&gt;ツンと刺（さ）した鼻（はな）の奥（おく）&lt;br /&gt;
-刺入我的鼻腔深处&lt;/p&gt;
-&lt;p&gt;目（め）を覚（さ）ます本能（ほんのう）のまま&lt;br /&gt;
-唤醒我的本能&lt;/p&gt;
-&lt;p&gt;今日（きょう）は誰（だれ）の番（ばん）だ？&lt;br /&gt;
- 今日又轮到谁了？&lt;/p&gt;
-&lt;p&gt;この世界（せかい）で何（なに）が出来（でき）るのか&lt;br /&gt;
-在这个世界能做些什么&lt;/p&gt;
-&lt;p&gt;僕（ぼく）には何（なに）が出来（でき）るのか&lt;br /&gt;
-我能够做到的有什么&lt;/p&gt;
-&lt;p&gt;ただその真（ま）っ黒（くろ）な目（め）から&lt;br /&gt;
-我只愿你那漆黑的眼眸&lt;/p&gt;
-&lt;p&gt;涙（なみだ）溢（こぼ）れ落（お）ちないように&lt;br /&gt;
-不会有泪水溢出&lt;/p&gt;
-&lt;p&gt;願（ねが）う未来（みらい）に何度（なんど）でもずっと&lt;br /&gt;
-不论几次也要紧咬住我所期盼的未来&lt;/p&gt;
-&lt;p&gt;喰（く）らいつく绝不松口 この間違（まちが）いだらけの世界（せかい）の中（なか）&lt;br /&gt;
-在这个错漏百出的世界之中&lt;/p&gt;
-&lt;p&gt;君（きみ）には笑（わら）ってほしいから&lt;br /&gt;
-只为让你保持微笑&lt;/p&gt;
-&lt;p&gt;もう誰（だれ）も傷（きず）付（つ）けない&lt;br /&gt;
-我不会再伤害任何人&lt;/p&gt;
-&lt;p&gt;強（つよ）く強（つよ）くなりたいんだよ&lt;br /&gt;
-只要我能够变得更加强大&lt;/p&gt;
-&lt;p&gt;僕（ぼく）が僕（ぼく）でいられるように&lt;br /&gt;
-为了让我能够成为真正的自己&lt;/p&gt;
-&lt;p&gt;素晴（すば）らしき世界（せかい）は今日（きょう）も安泰（あんたい）&lt;br /&gt;
-美妙的世界今天也一切安泰&lt;/p&gt;
-&lt;p&gt;街（まち）に渦巻（うずま）く悪（わる）い話（はなし）も&lt;br /&gt;
-街道上席卷而来的坏消息&lt;/p&gt;
-&lt;p&gt;知（し）らない知（し）らないフリして目（め）を逸（そ）らした&lt;br /&gt;
-我也假装不知道的样子　转移视线&lt;/p&gt;
-&lt;p&gt;正気（しょうき）の沙汰（さた）じゃないな&lt;br /&gt;
-一点也不正常&lt;/p&gt;
-&lt;p&gt;真面目（まじめ）に着飾（きかざ）った行進（こうしん）&lt;br /&gt;
-假装很认真地前行&lt;/p&gt;
-&lt;p&gt;鳴（な）らす足音（あしおと）が弾（はず）む行（い）き先（さき）は&lt;br /&gt;
-回响起脚步声的目的地是&lt;/p&gt;
-&lt;p&gt;消（き）えない消（き）えない味（あじ）が染（し）み付（つ）いている&lt;br /&gt;
-渗透着永不散去的味道&lt;/p&gt;
-&lt;p&gt;裏側（うらがわ）の世界（せかい）&lt;br /&gt;
-背面的世界&lt;/p&gt;
-&lt;p&gt;清（きよ）く正（ただ）しく生（い）きること&lt;br /&gt;
-想要清白正确地活着&lt;/p&gt;
-&lt;p&gt;誰（だれ）も悲（かな）しませずに生（い）きること&lt;br /&gt;
-不会让谁悲伤地活着&lt;/p&gt;
-&lt;p&gt;はみ出（だ）さず真（ま）っ直（す）ぐに生（い）きること&lt;br /&gt;
-要不逾矩直率地活着&lt;/p&gt;
-&lt;p&gt;それが間違（まちが）わないで生（い）きること？&lt;br /&gt;
- 要正确不犯错地活着&lt;/p&gt;
-&lt;p&gt;ありのまま生（い）きることが正義（せいぎ）か&lt;br /&gt;
-实事求是的活着是正义吗&lt;/p&gt;
-&lt;p&gt;騙（だま）し騙（だま）し生（い）きるのは正義（せいぎ）か&lt;br /&gt;
-以欺骗谋生才是正义吗&lt;/p&gt;
-&lt;p&gt;僕（ぼく）の在（あ）るべき姿（すがた）とはなんだ&lt;br /&gt;
-我应该存在的姿态是什么&lt;/p&gt;
-&lt;p&gt;本当（ほんとう）の僕（ぼく）は何者（なにもの）なんだ&lt;br /&gt;
-我到底是什么人&lt;/p&gt;
-&lt;p&gt;教（おし）えてくれよ　教（おし）えてくれよ&lt;br /&gt;
-教给我吧　教教我吧&lt;/p&gt;
-&lt;p&gt;今日（きょう）も&lt;br /&gt;
-今天也&lt;/p&gt;
-&lt;p&gt;答（こた）えのない世界（せかい）の中（なか）で&lt;br /&gt;
-在没有答案的世界里活着&lt;/p&gt;
-&lt;p&gt;願（ねが）ってるんだよ&lt;br /&gt;
-我祈祷着&lt;/p&gt;
-&lt;p&gt;不器用（ぶきよう）だけれど&lt;br /&gt;
-虽然我不中用&lt;/p&gt;
-&lt;p&gt;いつまでも君（きみ）とただ&lt;br /&gt;
-但我想要永远和你在一起&lt;/p&gt;
-&lt;p&gt;笑（わら）っていたいから&lt;br /&gt;
-因为想和你一起欢笑&lt;/p&gt;
-&lt;p&gt;跳（は）ねる心臓（しんぞう）が&lt;br /&gt;
-跳动的心脏&lt;/p&gt;
-&lt;p&gt;体（からだ）揺（ゆ）らし叫（さけ）ぶんだよ&lt;br /&gt;
-我为之颤抖着　呐喊着&lt;/p&gt;
-&lt;p&gt;今（いま）こそ動（うご）き出（だ）せ&lt;br /&gt;
-现在开始行动吧&lt;/p&gt;
-&lt;p&gt;弱（よわ）い自分（じぶん）を何度（なんど）でもずっと&lt;br /&gt;
-无论几次&lt;/p&gt;
-&lt;p&gt;喰（く）らい尽（つ）くす&lt;br /&gt;
-也要把懦弱的自己吞噬殆尽&lt;/p&gt;
-&lt;p&gt;この間違（まちが）いだらけの世界（せかい）の中（なか）&lt;br /&gt;
-在这个错漏百出的世界里&lt;/p&gt;
-&lt;p&gt;君（きみ）には笑（わら）ってほしいから&lt;br /&gt;
-只为了让你保持微笑&lt;/p&gt;
-&lt;p&gt;もう誰（だれ）も泣（な）かないよう&lt;br /&gt;
-为了让谁也不必再哭泣&lt;/p&gt;
-&lt;p&gt;強（つよ）く強（つよ）くなりたいんだよ&lt;br /&gt;
-渴望自己能够变得更强大&lt;/p&gt;
-&lt;p&gt;僕（ぼく）が僕（ぼく）でいられるように&lt;br /&gt;
-为了让我能够成为真正的自己&lt;/p&gt;
-&lt;p&gt;ただ君（きみ）を守（まも）るそのために&lt;br /&gt;
-为了能够守护你&lt;/p&gt;
-&lt;p&gt;走（はし）る走（はし）る走（はし）るんだよ&lt;br /&gt;
-拼尽全力地奔跑&lt;/p&gt;
-&lt;p&gt;僕（ぼく）の中（なか）の僕（ぼく）を超（こ）える&lt;br /&gt;
-超越我心中的自己&lt;/p&gt;
-</content>
-        <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
-        <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
-        <category term="日语" scheme="https://yuan-uyume.github.io/tags/jp/" />
         <updated>2022-06-18T04:45:25.000Z</updated>
     </entry>
     <entry>
@@ -1141,6 +917,124 @@ cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP&lt;/p&gt;
         <updated>2022-06-18T04:45:25.000Z</updated>
     </entry>
     <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E6%80%AA%E7%89%A9/</id>
+        <title>怪物</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E6%80%AA%E7%89%A9/"/>
+        <content type="html">&lt;p&gt;素晴（すば）らしき世界（せかい）に今日（きょう）も乾杯（かんぱい）&lt;br /&gt;
+今天也为美妙的世界干杯&lt;/p&gt;
+&lt;p&gt;街（まち）に飛（と）び交（か）う笑（わら）い声（ごえ）も&lt;br /&gt;
+街道上飞舞着的笑声&lt;/p&gt;
+&lt;p&gt;見（み）て見（み）ぬフリしてるだけの作（つく）りもんさ&lt;br /&gt;
+我也只是装作看不见罢了&lt;/p&gt;
+&lt;p&gt;気（き）が触（ふ）れそうだ&lt;br /&gt;
+就快失控了&lt;/p&gt;
+&lt;p&gt;クラクラするほどの良（い）い匂（にお）いが&lt;br /&gt;
+令人头晕目眩的诱人味道&lt;/p&gt;
+&lt;p&gt;ツンと刺（さ）した鼻（はな）の奥（おく）&lt;br /&gt;
+刺入我的鼻腔深处&lt;/p&gt;
+&lt;p&gt;目（め）を覚（さ）ます本能（ほんのう）のまま&lt;br /&gt;
+唤醒我的本能&lt;/p&gt;
+&lt;p&gt;今日（きょう）は誰（だれ）の番（ばん）だ？&lt;br /&gt;
+ 今日又轮到谁了？&lt;/p&gt;
+&lt;p&gt;この世界（せかい）で何（なに）が出来（でき）るのか&lt;br /&gt;
+在这个世界能做些什么&lt;/p&gt;
+&lt;p&gt;僕（ぼく）には何（なに）が出来（でき）るのか&lt;br /&gt;
+我能够做到的有什么&lt;/p&gt;
+&lt;p&gt;ただその真（ま）っ黒（くろ）な目（め）から&lt;br /&gt;
+我只愿你那漆黑的眼眸&lt;/p&gt;
+&lt;p&gt;涙（なみだ）溢（こぼ）れ落（お）ちないように&lt;br /&gt;
+不会有泪水溢出&lt;/p&gt;
+&lt;p&gt;願（ねが）う未来（みらい）に何度（なんど）でもずっと&lt;br /&gt;
+不论几次也要紧咬住我所期盼的未来&lt;/p&gt;
+&lt;p&gt;喰（く）らいつく绝不松口 この間違（まちが）いだらけの世界（せかい）の中（なか）&lt;br /&gt;
+在这个错漏百出的世界之中&lt;/p&gt;
+&lt;p&gt;君（きみ）には笑（わら）ってほしいから&lt;br /&gt;
+只为让你保持微笑&lt;/p&gt;
+&lt;p&gt;もう誰（だれ）も傷（きず）付（つ）けない&lt;br /&gt;
+我不会再伤害任何人&lt;/p&gt;
+&lt;p&gt;強（つよ）く強（つよ）くなりたいんだよ&lt;br /&gt;
+只要我能够变得更加强大&lt;/p&gt;
+&lt;p&gt;僕（ぼく）が僕（ぼく）でいられるように&lt;br /&gt;
+为了让我能够成为真正的自己&lt;/p&gt;
+&lt;p&gt;素晴（すば）らしき世界（せかい）は今日（きょう）も安泰（あんたい）&lt;br /&gt;
+美妙的世界今天也一切安泰&lt;/p&gt;
+&lt;p&gt;街（まち）に渦巻（うずま）く悪（わる）い話（はなし）も&lt;br /&gt;
+街道上席卷而来的坏消息&lt;/p&gt;
+&lt;p&gt;知（し）らない知（し）らないフリして目（め）を逸（そ）らした&lt;br /&gt;
+我也假装不知道的样子　转移视线&lt;/p&gt;
+&lt;p&gt;正気（しょうき）の沙汰（さた）じゃないな&lt;br /&gt;
+一点也不正常&lt;/p&gt;
+&lt;p&gt;真面目（まじめ）に着飾（きかざ）った行進（こうしん）&lt;br /&gt;
+假装很认真地前行&lt;/p&gt;
+&lt;p&gt;鳴（な）らす足音（あしおと）が弾（はず）む行（い）き先（さき）は&lt;br /&gt;
+回响起脚步声的目的地是&lt;/p&gt;
+&lt;p&gt;消（き）えない消（き）えない味（あじ）が染（し）み付（つ）いている&lt;br /&gt;
+渗透着永不散去的味道&lt;/p&gt;
+&lt;p&gt;裏側（うらがわ）の世界（せかい）&lt;br /&gt;
+背面的世界&lt;/p&gt;
+&lt;p&gt;清（きよ）く正（ただ）しく生（い）きること&lt;br /&gt;
+想要清白正确地活着&lt;/p&gt;
+&lt;p&gt;誰（だれ）も悲（かな）しませずに生（い）きること&lt;br /&gt;
+不会让谁悲伤地活着&lt;/p&gt;
+&lt;p&gt;はみ出（だ）さず真（ま）っ直（す）ぐに生（い）きること&lt;br /&gt;
+要不逾矩直率地活着&lt;/p&gt;
+&lt;p&gt;それが間違（まちが）わないで生（い）きること？&lt;br /&gt;
+ 要正确不犯错地活着&lt;/p&gt;
+&lt;p&gt;ありのまま生（い）きることが正義（せいぎ）か&lt;br /&gt;
+实事求是的活着是正义吗&lt;/p&gt;
+&lt;p&gt;騙（だま）し騙（だま）し生（い）きるのは正義（せいぎ）か&lt;br /&gt;
+以欺骗谋生才是正义吗&lt;/p&gt;
+&lt;p&gt;僕（ぼく）の在（あ）るべき姿（すがた）とはなんだ&lt;br /&gt;
+我应该存在的姿态是什么&lt;/p&gt;
+&lt;p&gt;本当（ほんとう）の僕（ぼく）は何者（なにもの）なんだ&lt;br /&gt;
+我到底是什么人&lt;/p&gt;
+&lt;p&gt;教（おし）えてくれよ　教（おし）えてくれよ&lt;br /&gt;
+教给我吧　教教我吧&lt;/p&gt;
+&lt;p&gt;今日（きょう）も&lt;br /&gt;
+今天也&lt;/p&gt;
+&lt;p&gt;答（こた）えのない世界（せかい）の中（なか）で&lt;br /&gt;
+在没有答案的世界里活着&lt;/p&gt;
+&lt;p&gt;願（ねが）ってるんだよ&lt;br /&gt;
+我祈祷着&lt;/p&gt;
+&lt;p&gt;不器用（ぶきよう）だけれど&lt;br /&gt;
+虽然我不中用&lt;/p&gt;
+&lt;p&gt;いつまでも君（きみ）とただ&lt;br /&gt;
+但我想要永远和你在一起&lt;/p&gt;
+&lt;p&gt;笑（わら）っていたいから&lt;br /&gt;
+因为想和你一起欢笑&lt;/p&gt;
+&lt;p&gt;跳（は）ねる心臓（しんぞう）が&lt;br /&gt;
+跳动的心脏&lt;/p&gt;
+&lt;p&gt;体（からだ）揺（ゆ）らし叫（さけ）ぶんだよ&lt;br /&gt;
+我为之颤抖着　呐喊着&lt;/p&gt;
+&lt;p&gt;今（いま）こそ動（うご）き出（だ）せ&lt;br /&gt;
+现在开始行动吧&lt;/p&gt;
+&lt;p&gt;弱（よわ）い自分（じぶん）を何度（なんど）でもずっと&lt;br /&gt;
+无论几次&lt;/p&gt;
+&lt;p&gt;喰（く）らい尽（つ）くす&lt;br /&gt;
+也要把懦弱的自己吞噬殆尽&lt;/p&gt;
+&lt;p&gt;この間違（まちが）いだらけの世界（せかい）の中（なか）&lt;br /&gt;
+在这个错漏百出的世界里&lt;/p&gt;
+&lt;p&gt;君（きみ）には笑（わら）ってほしいから&lt;br /&gt;
+只为了让你保持微笑&lt;/p&gt;
+&lt;p&gt;もう誰（だれ）も泣（な）かないよう&lt;br /&gt;
+为了让谁也不必再哭泣&lt;/p&gt;
+&lt;p&gt;強（つよ）く強（つよ）くなりたいんだよ&lt;br /&gt;
+渴望自己能够变得更强大&lt;/p&gt;
+&lt;p&gt;僕（ぼく）が僕（ぼく）でいられるように&lt;br /&gt;
+为了让我能够成为真正的自己&lt;/p&gt;
+&lt;p&gt;ただ君（きみ）を守（まも）るそのために&lt;br /&gt;
+为了能够守护你&lt;/p&gt;
+&lt;p&gt;走（はし）る走（はし）る走（はし）るんだよ&lt;br /&gt;
+拼尽全力地奔跑&lt;/p&gt;
+&lt;p&gt;僕（ぼく）の中（なか）の僕（ぼく）を超（こ）える&lt;br /&gt;
+超越我心中的自己&lt;/p&gt;
+</content>
+        <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
+        <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
+        <category term="日语" scheme="https://yuan-uyume.github.io/tags/jp/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
         <id>https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E7%B4%85%E8%93%AE%E8%8F%AF/</id>
         <title>红莲华</title>
         <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E7%B4%85%E8%93%AE%E8%8F%AF/"/>
@@ -1250,6 +1144,112 @@ cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP&lt;/p&gt;
         <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
         <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
         <category term="中文" scheme="https://yuan-uyume.github.io/tags/zh/" />
+        <updated>2022-06-18T04:45:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yuan-uyume.github.io/2022/06/18/info/markdown/markdowm/</id>
+        <title>mardown语法</title>
+        <link rel="alternate" href="https://yuan-uyume.github.io/2022/06/18/info/markdown/markdowm/"/>
+        <content type="html">&lt;p&gt;#space 标题 1&lt;/p&gt;
+&lt;h1 id=&#34;标题1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#标题1&#34;&gt;#&lt;/a&gt; 标题 1&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;-space 无序列表&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;无序列表&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;粗体&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;语雀斜体&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;语雀斜体&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;space 引用块&lt;br /&gt;
+应用块&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;code&gt;代码&lt;/code&gt; &lt;br /&gt;
+ &lt;code&gt;代码&lt;/code&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;--- 分割线&lt;/p&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZXhhbXBsZS5jb20=&#34;&gt;链接&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZXhhbXBsZS5jb20=&#34;&gt;链接&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img data-src=&#34;image.jpg&#34; alt=&#34;提示&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;image.jpg#crop=0&amp;amp;crop=0&amp;amp;crop=1&amp;amp;crop=1&amp;amp;id=f6xjB&amp;amp;originalType=binary&amp;amp;ratio=1&amp;amp;rotation=0&amp;amp;showTitle=false&amp;amp;status=done&amp;amp;style=none&amp;amp;title=&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mtext&gt;公式&lt;/mtext&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;公式
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.68333em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;公&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;式&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;代码块
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;代码块
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;p&gt;生成一个脚注 1&lt;sup class=&#34;footnote-ref&#34;&gt;&lt;a href=&#34;#fn1&#34; id=&#34;fnref1&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h1 id=&#34;语雀markdown&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语雀markdown&#34;&gt;#&lt;/a&gt; 语雀 Markdown&lt;/h1&gt;
+&lt;h3 id=&#34;快捷输入对照表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#快捷输入对照表&#34;&gt;#&lt;/a&gt; 快捷输入对照表&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;示例&lt;/th&gt;
+&lt;th&gt;快捷输入&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;大标题，技术范叫 H1&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;#&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，魔法就会发生&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中标题，对，H2&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;##&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;小标题，H3&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;###&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;|&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;有序列表&lt;br /&gt;
+ |  &lt;code&gt;1&lt;/code&gt;  +  &lt;code&gt;.&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，魔法又发生，尝试回车和  &lt;code&gt;tab&lt;/code&gt;  看看更多神奇的效果吧。 |&lt;br /&gt;
+|&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;无序列表&lt;br /&gt;
+ |  &lt;code&gt;-&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，当然也可以使用  &lt;code&gt;*&lt;/code&gt;  代替  &lt;code&gt;-&lt;/code&gt;  |&lt;br /&gt;
+|&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; 未完成任务列表&lt;br /&gt;
+ |  &lt;code&gt;[&lt;/code&gt;  +  &lt;code&gt;]&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，秒建 TODO 功能 |&lt;br /&gt;
+|&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_1&#34;&gt; 已完成任务列表&lt;br /&gt;
+ |  &lt;code&gt;[&lt;/code&gt;  +  &lt;code&gt;x&lt;/code&gt;  +  &lt;code&gt;]&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  ，任务完成！😊 |&lt;br /&gt;
+| &amp;gt; 引用文本，引用名人名句，引用大大的发言&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;|  &lt;code&gt;&amp;gt;&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  |&lt;br /&gt;
+| 快速创建表格 |  &lt;code&gt;&amp;amp;#124;&lt;/code&gt;  +  &lt;code&gt;A&lt;/code&gt;  +  &lt;code&gt;&amp;amp;#124;&lt;/code&gt;  +  &lt;code&gt;B&lt;/code&gt;  +  &lt;code&gt;&amp;amp;#124;&lt;/code&gt;  +  &lt;code&gt;回车&lt;/code&gt;  ，快速创建两列表格 |&lt;br /&gt;
+| 快速创建代码块 | 连续 3 个  &lt;code&gt;+ `回车` ，出现工程师最😍的代码块 | | 长长的分割线 | 连续 3 个 `-` + `回车` ，会出现一条长长的分割线 | | **粗体文本** | `*` + `*` + `文本` + `*` + `*` + `Space` ，文本变粗！ | | _斜体文本_ | `_` +_ _`文本` + `_` + `Space` ，文本变右倾斜了。 | | ~~删除线~~ | `~` + `~` + `文本` + `~` + `~` + `Space`，文本加删除线 | | `行内代码 foo = bar` |&lt;/code&gt;  +  &lt;code&gt;代码文本&lt;/code&gt;  + ``` +  &lt;code&gt;Space&lt;/code&gt; ，不明白程序员为何就喜欢写代码 |&lt;br /&gt;
+| 上标 21th 1st 邮票 🎫 |  &lt;code&gt;^&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  +  &lt;code&gt;^&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  ，文本飘上去了 |&lt;br /&gt;
+| 下标 H2O 是水，化学没白学 |  &lt;code&gt;~&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  +  &lt;code&gt;~&lt;/code&gt;  +  &lt;code&gt;Space&lt;/code&gt;  ，各种公式少不了的技能 |&lt;br /&gt;
+| 高亮，亮瞎眼的文本 |  &lt;code&gt;=&lt;/code&gt;  +  &lt;code&gt;=&lt;/code&gt;  +  &lt;code&gt;文本&lt;/code&gt;  +  &lt;code&gt;=&lt;/code&gt;  +  &lt;code&gt;=&lt;/code&gt;  ，就像荧光笔一笔划过 |&lt;/p&gt;
+&lt;hr class=&#34;footnotes-sep&#34; /&gt;
+&lt;section class=&#34;footnotes&#34;&gt;
+&lt;ol class=&#34;footnotes-list&#34;&gt;
+&lt;li id=&#34;fn1&#34; class=&#34;footnote-item&#34;&gt;&lt;p&gt;这里是脚注的内容 &lt;a href=&#34;#fnref1&#34; class=&#34;footnote-backref&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+        <category term="说明" scheme="https://yuan-uyume.github.io/categories/info/" />
+        <category term="markdown" scheme="https://yuan-uyume.github.io/categories/info/markdown/" />
+        <category term="markdown" scheme="https://yuan-uyume.github.io/tags/markdown/" />
         <updated>2022-06-18T04:45:25.000Z</updated>
     </entry>
 </feed>
