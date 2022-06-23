@@ -1,0 +1,166 @@
+<!-- build time:Thu Jun 23 2022 10:30:08 GMT+0800 (中国标准时间) --><!DOCTYPE html><html lang="zh-CN"><head><meta name="msvalidate.01" content="D4D00659F4B52A12EEFF44818E37F023"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#FFF"><link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png"><link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="alternate" type="application/rss+xml" title="嗨~垃圾桶在哪？" href="https://yuan-uyume.github.io/rss.xml"><link rel="alternate" type="application/atom+xml" title="嗨~垃圾桶在哪？" href="https://yuan-uyume.github.io/atom.xml"><link rel="alternate" type="application/json" title="嗨~垃圾桶在哪？" href="https://yuan-uyume.github.io/feed.json"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext"><link rel="stylesheet" href="/css/app.css?v=0.2.5"><meta name="keywords" content="python"><link rel="canonical" href="https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/"><title>python函数式编程 - python - 笔记 - 计算机领域 | Yuan u Yume = 嗨~垃圾桶在哪？ = 舒服的家</title><meta name="generator" content="Hexo 6.2.0"></head><body itemscope itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">python函数式编程</h1><div class="meta"><span class="item" title="创建时间：2022-06-23 09:19:25"><span class="icon"><i class="ic i-calendar"></i> </span><span class="text">发表于</span> <time itemprop="dateCreated datePublished" datetime="2022-06-23T09:19:25+08:00">2022-06-23</time> </span><span class="item" title="本文字数"><span class="icon"><i class="ic i-pen"></i> </span><span class="text">本文字数</span> <span>2.5k</span> <span class="text">字</span> </span><span class="item" title="阅读时长"><span class="icon"><i class="ic i-clock"></i> </span><span class="text">阅读时长</span> <span>2 分钟</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切换导航栏"><span class="line"></span> <span class="line"></span> <span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">Yuan u Yume</a></li></ul><ul class="right"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div><div class="percentH"></div><script>!function(){var t=document.createElement("script"),s=window.location.protocol.split(":")[0];"https"===s?t.src="https://zz.bdstatic.com/linksubmit/push.js":t.src="http://push.zhanzhang.baidu.com/push.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}()</script></nav></div><div id="imgs" class="pjax"><ul><li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gicm0fdw5cj20zk0m8hdt.jpg"></li><li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclfb3vzhj20zk0m8wny.jpg"></li><li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclgi503lj20zk0m8hdt.jpg"></li><li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipey84bjtj20zk0m8hdt.jpg"></li><li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giph4lm9i7j20zk0m84qp.jpg"></li><li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclj61ylzj20zk0m8b29.jpg"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"/></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"/><use xlink:href="#gentle-wave" x="48" y="3"/><use xlink:href="#gentle-wave" x="48" y="5"/><use xlink:href="#gentle-wave" x="48" y="7"/></g></svg></div><main><div class="inner"><div id="main" class="pjax"><div class="article wrap"><div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i> <span><a href="/">垃圾桶</a></span><i class="ic i-angle-right"></i> <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/computer/" itemprop="item" rel="index" title="分类于 计算机领域"><span itemprop="name">计算机领域</span></a><meta itemprop="position" content="1"></span><i class="ic i-angle-right"></i> <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/computer/notes/" itemprop="item" rel="index" title="分类于 笔记"><span itemprop="name">笔记</span></a><meta itemprop="position" content="2"></span><i class="ic i-angle-right"></i> <span class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/computer/notes/python/" itemprop="item" rel="index" title="分类于 python"><span itemprop="name">python</span></a><meta itemprop="position" content="3"></span></div><article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN"><link itemprop="mainEntityOfPage" href="https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/"><span hidden itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="image" content="/images/avatar.jpg"><meta itemprop="name" content="Yuan u Yume"><meta itemprop="description" content="舒服的家, uyume a i shi te ru"></span><span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="嗨~垃圾桶在哪？"></span><div class="body md" itemprop="articleBody"><pre><code class="language-python"># map()函数,两个参数第一个参数接受一个函数，第二个参数接受一个Iterable对象
+ay = [1,2,3,4,5,6]
+ty = (1,2,3,4,5,6)
+def f(x):
+    return x*x
+# map()函数返回的是一个Iterator,迭代器
+ma = map(f,ay)
+mt = map(f,ty)
+print(list(ma))
+print(mt)
+# Iterator对象只能被遍历一次，原因是他是数据流
+for a in ma:
+    print(a)
+for t in mt:
+    print(t)
+print(tuple(mt))
+</code></pre><pre><code>[1, 4, 9, 16, 25, 36]
+&lt;map object at 0x000001E3ADFBB4F0&gt;
+1
+4
+9
+16
+25
+36
+()
+</code></pre><blockquote><p>这是因为 Python 的 Iterator 对象表示的是一个数据流，Iterator 对象可以被 next () 函数调用并不断返回下一个数据，直到没有数据时抛出 StopIteration 错误。可以把这个数据流看做是一个有序序列，但我们却不能提前知道序列的长度，只能不断通过 next () 函数实现按需计算下一个数据，所以 Iterator 的计算是惰性的，只有在需要返回下一个数据时它才会计算。</p></blockquote><pre><code class="language-python"># reduce() 套娃递归函数,接受一个函数和一个序列，返回递归结果. python3中从全局函数中移除了，需要functools中引入
+from functools import reduce
+a = [1,2,3,4,5,6]
+t = (1,2,3,4,5,6)
+def f(x,y):
+    return x+y
+print(reduce(f,a))
+print(reduce(f,t))
+</code></pre><pre><code>21
+21
+</code></pre><pre><code class="language-python"># filter() 用于过滤数组，第一个参数是过滤函数，true保存false丢弃。第二个参数接受数组
+a = [1,2,3,4,5,6,7,8]
+# 可以使用lambda来使用匿名函数，同时0可表False，1可表True
+print(list(filter(lambda x: True if x%2 == 0 else False ,a)))
+print(list(filter(lambda x: x%2,a)))
+</code></pre><pre><code>[1, 2, 3, 4, 5, 6, 7, 8]
+[2, 4, 6, 8]
+[1, 3, 5, 7]
+</code></pre><pre><code class="language-python"># sorted函数,key函数作用于每个元素后在进行排序
+print(sorted([1,2,2,1,5,6,3,8]))
+print(sorted([1,2,2,1,5,6,3,8], key = abs))
+print(sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower, reverse=True))
+</code></pre><pre><code>[1, 1, 2, 2, 3, 5, 6, 8]
+[1, 1, 2, 2, 3, 5, 6, 8]
+['Zoo', 'Credit', 'bob', 'about']
+</code></pre><pre><code class="language-python"># 函数作为返回值
+def lazy_sum(*args):
+    def sum():
+        ax = 0
+        for n in args:
+            ax = ax + n
+        return ax
+    return sum
+f = lazy_sum(1,2,3,4)
+ff = lazy_sum(1,2,3,4)
+print(f)
+print(f())
+print(f == ff)
+</code></pre><pre><code>&lt;function lazy_sum.&lt;locals&gt;.sum at 0x7ff339798d30&gt;
+10
+False
+</code></pre><pre><code class="language-python"># 闭包问题
+def count():
+    fs = []
+    for i in range(1, 4):
+        def f():
+             return i*i
+        fs.append(f)
+    return fs
+
+f1, f2, f3 = count()
+print(f1())
+print(f2())
+print(f3())
+
+# 解决方案
+def count():
+    def g(j):
+        def f():
+            return j*j
+        return f
+    fs = []
+    for i in range(1, 4):
+        fs.append(g(i))
+    return fs
+f1, f2, f3 = count()
+print(f1())
+print(f2())
+print(f3())
+
+# 使用lambda 简化
+def count():
+    f = lambda j: lambda: j*j
+    fs = []
+    for i in range(1, 4):
+        fs.append(f(i))
+    return fs
+f1, f2, f3 = count()
+print(f1())
+print(f2())
+print(f3())
+</code></pre><pre><code>9
+9
+9
+1
+4
+9
+1
+4
+9
+</code></pre><pre><code class="language-python"># 装饰器（decorator）,本质为一个返回函数的函数。接受一个函数，然后在源函数前后添加语句返回修饰后的函数。
+# 即返回一个新的函数，新的函数中调用了传入的函数，不改变原来的函数
+def log(func):
+    def wrapper(*args, **kw):
+        print('call %s():' % func.__name__)
+        return func(*args, **kw)
+    return wrapper
+@log
+def now():
+    print('2015-3-25')
+now()
+
+#同
+def now1():
+    print('2077-7-7')
+now1 = log(now1)
+now1()
+
+# 前后同时修饰
+def log2(func):
+    def wrapper():
+        print('call %s():' % func.__name__)
+        func()
+        print('call %s() end:' % func.__name__)
+    return wrapper
+@log2
+def now2():
+    print('2015-3-25')
+now2()
+</code></pre><pre><code>call now():
+2015-3-25
+call now1():
+2077-7-7
+call now2():
+2015-3-25
+call now2() end:
+</code></pre><pre><code class="language-python"># Python的functools模块提供了很多有用的功能，其中一个就是偏函数（Partial function）
+# 给源函数固定参数默认值或者添加一个参数，返回修改的后的参数
+from functools import partial
+# 给max函数固定添加一个参数 10
+max2 = partial(max,10)
+print(max2(1,2,3,4))
+# 给int函数固定base参数为 2
+int2 = partial(int, base = 2)
+print(int2(&quot;101&quot;))
+print(int2(&quot;101&quot;, base = 10))
+</code></pre><pre><code>10
+5
+101
+</code></pre><pre><code class="language-python">
+</code></pre><div class="tags"><a href="/tags/python/" rel="tag"><i class="ic i-tag"></i> python</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i> </span><span class="text">更新于</span> <time title="修改时间：2022-06-23 10:27:47" itemprop="dateModified" datetime="2022-06-23T10:27:47+08:00">2022-06-23</time> </span><span id="2022/06/23/computer/notes/python/python函数式编程/" class="item leancloud_visitors" data-flag-title="python函数式编程" title="阅读次数"><span class="icon"><i class="ic i-eye"></i> </span><span class="text">阅读次数</span> <span class="leancloud-visitors-count"></span> <span class="text">次</span></span></div><div class="reward"><button><i class="ic i-heartbeat"></i> 赞赏</button><p>请我喝[茶]~(￣▽￣)~*</p><div id="qr"><div><img data-src="/images/wechatpay.png" alt="Yuan u Yume 微信支付"><p>微信支付</p></div><div><img data-src="/images/alipay.png" alt="Yuan u Yume 支付宝"><p>支付宝</p></div><div><img data-src="/images/paypal.png" alt="Yuan u Yume 贝宝"><p>贝宝</p></div></div></div><div id="copyright"><ul><li class="author"><strong>Yuan u Yume： </strong>Yuan u Yume <i class="ic i-at"><em>@</em></i>嗨~垃圾桶在哪？</li><li class="link"><strong>本文链接：</strong> <a href="https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/" title="python函数式编程">https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python函数式编程/</a></li><li class="license"><strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/2022/06/23/computer/notes/python/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipevo9j1jj20zk0m8e81.jpg" title="python高级特性"><span class="type">上一篇</span> <span class="category"><i class="ic i-flag"></i> python</span><h3>python高级特性</h3></a></div><div class="item right"><a href="/2022/06/23/computer/notes/python/python%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E5%87%BD%E6%95%B0/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipeu7txpzj20zk0m81kx.jpg" title="python中常用的函数"><span class="type">下一篇</span> <span class="category"><i class="ic i-flag"></i> python</span><h3>python中常用的函数</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目录"></div><div class="related panel pjax" data-title="系列文章"><ul><li><a href="/2022/06/23/computer/notes/python/python%E5%9F%BA%E7%A1%80/" rel="bookmark" title="python基础">python基础</a></li><li><a href="/2022/06/23/computer/notes/python/python%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/" rel="bookmark" title="python面向对象编程">python面向对象编程</a></li><li><a href="/2022/06/23/computer/notes/python/python%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%E9%AB%98%E7%BA%A7/" rel="bookmark" title="python面向对象高级">python面向对象高级</a></li><li><a href="/2022/06/23/computer/notes/python/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/" rel="bookmark" title="python高级特性">python高级特性</a></li><li class="active"><a href="/2022/06/23/computer/notes/python/python%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/" rel="bookmark" title="python函数式编程">python函数式编程</a></li><li><a href="/2022/06/23/computer/notes/python/python%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E5%87%BD%E6%95%B0/" rel="bookmark" title="python中常用的函数">python中常用的函数</a></li></ul></div><div class="overview panel" data-title="站点概览"><div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person"><img class="image" itemprop="image" alt="Yuan u Yume" data-src="/images/avatar.jpg"><p class="name" itemprop="name">Yuan u Yume</p><div class="description" itemprop="description">uyume a i shi te ru</div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">21</span> <span class="name">文章</span></a></div><div class="item categories"><a href="/categories/"><span class="count">8</span> <span class="name">分类</span></a></div><div class="item tags"><a href="/tags/"><span class="count">12</span> <span class="name">标签</span></a></div></nav><div class="social"><span class="exturl item github" data-url="aHR0cHM6Ly9naXRodWIuY29tL3l1YW4tdXl1bWU=" title="https:&#x2F;&#x2F;github.com&#x2F;yuan-uyume"><i class="ic i-github"></i></span> <span class="exturl item bilibili" data-url="aHR0cHM6Ly9zcGFjZS5iaWxpYmlsaS5jb20vMTQwNDkwMjg1" title="https:&#x2F;&#x2F;space.bilibili.com&#x2F;140490285"><i class="ic i-bilibili"></i></span> <span class="exturl item music" data-url="aHR0cHM6Ly9tdXNpYy4xNjMuY29tLyMvdXNlci9ob21lP2lkPTEyODg5MDEyNDg=" title="https:&#x2F;&#x2F;music.163.com&#x2F;#&#x2F;user&#x2F;home?id&#x3D;1288901248"><i class="ic i-cloud-music"></i></span> <a href="https://yuan-uyume.github.io//2022/06/17/Yuan-u-Yume/" title="https:&#x2F;&#x2F;yuan-uyume.github.io&#x2F;&#x2F;2022&#x2F;06&#x2F;17&#x2F;Yuan-u-Yume&#x2F;" class="item about"><i class="ic i-address-card"></i></a> <span class="exturl item email" data-url="bWFpbHRvOmRha2VyakBxcS5jb20=" title="mailto:dakerj@qq.com"><i class="ic i-envelope"></i></span></div><ul class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>垃圾桶</a></li><li class="item dropdown"><a href="/about/" rel="section"><i class="ic i-user"></i>垃圾桶の神様</a><ul class="submenu"><li class="item"><a href="/about/site-list" rel="section"><i class="ic i-cloud"></i>垃圾桶の位置</a></li><li class="item"><a href="/about/build" rel="section"><i class="ic i-clock"></i>垃圾桶の未来</a></li></ul></li><li class="item dropdown"><a href="javascript:void(0);"><i class="ic i-feather"></i>垃圾</a><ul class="submenu"><li class="item"><a href="/archives/" rel="section"><i class="ic i-list-alt"></i>归档</a></li><li class="item"><a href="/categories/" rel="section"><i class="ic i-th"></i>分类</a></li><li class="item"><a href="/tags/" rel="section"><i class="ic i-tags"></i>标签</a></li></ul></li><li class="item"><a href="/animes/" rel="section"><i class="ic i-heart"></i>追番板</a></li><li class="item"><a href="/kits/" rel="section"><i class="ic i-star"></i>桶中星❤</a></li></ul></div></div></div><ul id="quick"><li class="prev pjax"><a href="/2022/06/23/computer/notes/python/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/2022/06/23/computer/notes/python/python%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E5%87%BD%E6%95%B0/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>随机文章</h2><ul><li class="item"><div class="breadcrumb"><a href="/categories/songs/" title="分类于 歌">歌</a> <i class="ic i-angle-right"></i> <a href="/categories/songs/lrc/" title="分类于 歌词">歌词</a></div><span><a href="/2022/06/18/songs/lrc/%E8%8B%8F%E4%B8%9C%E5%9D%A1/" title="苏东坡">苏东坡</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer/" title="分类于 计算机领域">计算机领域</a> <i class="ic i-angle-right"></i> <a href="/categories/computer/environment/" title="分类于 环境配置">环境配置</a></div><span><a href="/2022/06/18/computer/environment/windows_kms_enable/" title="windows系统激活">windows系统激活</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer/" title="分类于 计算机领域">计算机领域</a> <i class="ic i-angle-right"></i> <a href="/categories/computer/notes/" title="分类于 笔记">笔记</a></div><span><a href="/2022/06/21/computer/notes/freesite/" title="如何白嫖个网站">如何白嫖个网站</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/songs/" title="分类于 歌">歌</a> <i class="ic i-angle-right"></i> <a href="/categories/songs/lrc/" title="分类于 歌词">歌词</a></div><span><a href="/2022/06/18/songs/lrc/%E7%B4%85%E8%93%AE%E8%8F%AF/" title="红莲华">红莲华</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/songs/" title="分类于 歌">歌</a> <i class="ic i-angle-right"></i> <a href="/categories/songs/lrc/" title="分类于 歌词">歌词</a></div><span><a href="/2022/06/18/songs/lrc/%E6%80%AA%E7%89%A9/" title="怪物">怪物</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/songs/" title="分类于 歌">歌</a> <i class="ic i-angle-right"></i> <a href="/categories/songs/lrc/" title="分类于 歌词">歌词</a></div><span><a href="/2022/06/18/songs/lrc/aLIEz/" title="aLIEz">aLIEz</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer/" title="分类于 计算机领域">计算机领域</a> <i class="ic i-angle-right"></i> <a href="/categories/computer/environment/" title="分类于 环境配置">环境配置</a></div><span><a href="/2022/06/18/computer/environment/office_kms_enable/" title="office激活">office激活</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer/" title="分类于 计算机领域">计算机领域</a> <i class="ic i-angle-right"></i> <a href="/categories/computer/notes/" title="分类于 笔记">笔记</a> <i class="ic i-angle-right"></i> <a href="/categories/computer/notes/python/" title="分类于 python">python</a></div><span><a href="/2022/06/23/computer/notes/python/python%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/" title="python函数式编程">python函数式编程</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer/" title="分类于 计算机领域">计算机领域</a> <i class="ic i-angle-right"></i> <a href="/categories/computer/notes/" title="分类于 笔记">笔记</a> <i class="ic i-angle-right"></i> <a href="/categories/computer/notes/python/" title="分类于 python">python</a></div><span><a href="/2022/06/23/computer/notes/python/python%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E5%87%BD%E6%95%B0/" title="python中常用的函数">python中常用的函数</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer/" title="分类于 计算机领域">计算机领域</a> <i class="ic i-angle-right"></i> <a href="/categories/computer/environment/" title="分类于 环境配置">环境配置</a></div><span><a href="/2022/06/18/computer/environment/idea_template/" title="idea注释模板配置">idea注释模板配置</a></span></li></ul></div><div><h2>最新评论</h2><ul class="leancloud-recent-comment"></ul></div></div><div class="status"><div class="copyright">&copy; <span itemprop="copyrightYear">2022</span> <span class="with-love"><i class="ic i-sakura rotate"></i> </span><span class="author" itemprop="copyrightHolder">Yuan u Yume @ Yuan u Yume</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i> </span><span title="站点总字数">36k 字</span> <span class="post-meta-divider">|</span> <span class="post-meta-item-icon"><i class="ic i-coffee"></i> </span><span title="站点阅读时长">33 分钟</span></div><div class="powered-by">基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span></div></div></div></footer></div><script data-config type="text/javascript">var LOCAL={path:"2022/06/23/computer/notes/python/python函数式编程/",favicon:{show:"（●´3｀●）やれやれだぜ",hide:"(´Д｀)大変だ！"},search:{placeholder:"文章搜索",empty:"关于 「 ${query} 」，什么也没搜到",stats:"${time} ms 内找到 ${hits} 条结果"},valine:!0,fancybox:!0,copyright:'复制成功，转载请遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 协议。',ignores:[function(e){return e.includes("#")},function(e){return new RegExp(LOCAL.path+"$").test(e)}]}</script><script src="https://cdn.polyfill.io/v2/polyfill.js"></script><script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script><script src="/js/app.js?v=0.2.5"></script></body></html><!-- rebuild by hrmmi -->

@@ -10,11 +10,984 @@
         </author>
         <description>uyume a i shi te ru</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 21 Jun 2022 12:45:25 +0800</pubDate>
-        <lastBuildDate>Tue, 21 Jun 2022 12:45:25 +0800</lastBuildDate>
+        <pubDate>Thu, 23 Jun 2022 09:21:25 +0800</pubDate>
+        <lastBuildDate>Thu, 23 Jun 2022 09:21:25 +0800</lastBuildDate>
         <category term="anime" />
         <category term="draw" />
         <category term="uyume" />
+        <item>
+            <guid isPermalink="true">https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E5%87%BD%E6%95%B0/</guid>
+            <title>python中常用的函数</title>
+            <link>https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E5%87%BD%E6%95%B0/</link>
+            <category term="计算机领域" scheme="https://yuan-uyume.github.io/categories/computer/" />
+            <category term="笔记" scheme="https://yuan-uyume.github.io/categories/computer/notes/" />
+            <category term="python" scheme="https://yuan-uyume.github.io/categories/computer/notes/python/" />
+            <category term="python" scheme="https://yuan-uyume.github.io/tags/python/" />
+            <pubDate>Thu, 23 Jun 2022 09:21:25 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;文件操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件操作&#34;&gt;#&lt;/a&gt; 文件操作&lt;/h1&gt;
+&lt;h2 id=&#34;读取or写入文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#读取or写入文件&#34;&gt;#&lt;/a&gt; 读取 or 写入文件&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 读取二进制
+# 自动关闭文件流
+with open(path, &#39;rb&#39;) as file:
+    # size为读取多少，不填为-1读取全部
+    file.read(size)
+    # 写入文件
+    file.write(btyes)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;路径操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#路径操作&#34;&gt;#&lt;/a&gt; 路径操作&lt;/h2&gt;
+&lt;h3 id=&#34;拼接路径&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#拼接路径&#34;&gt;#&lt;/a&gt; 拼接路径&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;os.path.join(path1, path2, ...)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;遍历-判断-操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#遍历-判断-操作&#34;&gt;#&lt;/a&gt; 遍历、判断、操作&lt;/h2&gt;
+&lt;h3 id=&#34;遍历&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#遍历&#34;&gt;#&lt;/a&gt; 遍历&lt;/h3&gt;
+&lt;h4 id=&#34;遍历一层&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#遍历一层&#34;&gt;#&lt;/a&gt; 遍历一层&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 某路径下的所有文件，包括文件和目录（只遍历一层）
+os.listdir(path)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;判断&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#判断&#34;&gt;#&lt;/a&gt; 判断&lt;/h3&gt;
+&lt;h4 id=&#34;是否为文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#是否为文件&#34;&gt;#&lt;/a&gt; 是否为文件&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;os.path.isfile(path)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;是否存在文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#是否存在文件&#34;&gt;#&lt;/a&gt; 是否存在文件&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;os.path.exists(path)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#操作&#34;&gt;#&lt;/a&gt; 操作&lt;/h3&gt;
+&lt;h4 id=&#34;创建目录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建目录&#34;&gt;#&lt;/a&gt; 创建目录&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;os.mkdir(path)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;移动文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#移动文件&#34;&gt;#&lt;/a&gt; 移动文件&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 可以重命名 (./a.jpn , ./b.jpg)
+shutil.move(sourcePath, targetPath)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;复制文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#复制文件&#34;&gt;#&lt;/a&gt; 复制文件&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;shutil.copy(sourcePath, targetPath)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;多线程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多线程&#34;&gt;#&lt;/a&gt; 多线程&lt;/h1&gt;
+&lt;h2 id=&#34;多线程并同步结果&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多线程并同步结果&#34;&gt;#&lt;/a&gt; 多线程并同步结果&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from concurrent.futures import ThreadPoolExecutor, wait, ALL_COMPLETED
+pool = ThreadPoolExecutor(max_workers=size)
+allTask = [ ]
+for obj in need:
+    task = pool.submit(func, params)
+    allTask.append(task)
+# 等待所有完成
+wait(allTask, return_when=ALL_COMPLETED)
+result = [task.result() for task in allTask]
+pool.shutdown()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;正则&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#正则&#34;&gt;#&lt;/a&gt; 正则&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;result = re.search(&#39;电话号码(\d+)&#39;, str)
+    if result:
+        result = result.group(1)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;加密&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#加密&#34;&gt;#&lt;/a&gt; 加密&lt;/h1&gt;
+&lt;h2 id=&#34;md5&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#md5&#34;&gt;#&lt;/a&gt; MD5&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from hashlib import md5
+def md(obj):
+    md = md5()
+    # update在字符串后面拼接字符
+    md.update(obj)
+    return md.hexdigest().lower()
+&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</guid>
+            <title>python函数式编程</title>
+            <link>https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</link>
+            <category term="计算机领域" scheme="https://yuan-uyume.github.io/categories/computer/" />
+            <category term="笔记" scheme="https://yuan-uyume.github.io/categories/computer/notes/" />
+            <category term="python" scheme="https://yuan-uyume.github.io/categories/computer/notes/python/" />
+            <category term="python" scheme="https://yuan-uyume.github.io/tags/python/" />
+            <pubDate>Thu, 23 Jun 2022 09:19:25 +0800</pubDate>
+            <description><![CDATA[ &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# map()函数,两个参数第一个参数接受一个函数，第二个参数接受一个Iterable对象
+ay = [1,2,3,4,5,6]
+ty = (1,2,3,4,5,6)
+def f(x):
+    return x*x
+# map()函数返回的是一个Iterator,迭代器
+ma = map(f,ay)
+mt = map(f,ty)
+print(list(ma))
+print(mt)
+# Iterator对象只能被遍历一次，原因是他是数据流
+for a in ma:
+    print(a)
+for t in mt:
+    print(t)
+print(tuple(mt))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[1, 4, 9, 16, 25, 36]
+&amp;lt;map object at 0x000001E3ADFBB4F0&amp;gt;
+1
+4
+9
+16
+25
+36
+()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这是因为 Python 的 Iterator 对象表示的是一个数据流，Iterator 对象可以被 next () 函数调用并不断返回下一个数据，直到没有数据时抛出 StopIteration 错误。可以把这个数据流看做是一个有序序列，但我们却不能提前知道序列的长度，只能不断通过 next () 函数实现按需计算下一个数据，所以 Iterator 的计算是惰性的，只有在需要返回下一个数据时它才会计算。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# reduce() 套娃递归函数,接受一个函数和一个序列，返回递归结果. python3中从全局函数中移除了，需要functools中引入
+from functools import reduce
+a = [1,2,3,4,5,6]
+t = (1,2,3,4,5,6)
+def f(x,y):
+    return x+y
+print(reduce(f,a))
+print(reduce(f,t))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;21
+21
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# filter() 用于过滤数组，第一个参数是过滤函数，true保存false丢弃。第二个参数接受数组
+a = [1,2,3,4,5,6,7,8]
+# 可以使用lambda来使用匿名函数，同时0可表False，1可表True
+print(list(filter(lambda x: True if x%2 == 0 else False ,a)))
+print(list(filter(lambda x: x%2,a)))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[1, 2, 3, 4, 5, 6, 7, 8]
+[2, 4, 6, 8]
+[1, 3, 5, 7]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# sorted函数,key函数作用于每个元素后在进行排序
+print(sorted([1,2,2,1,5,6,3,8]))
+print(sorted([1,2,2,1,5,6,3,8], key = abs))
+print(sorted([&#39;bob&#39;, &#39;about&#39;, &#39;Zoo&#39;, &#39;Credit&#39;], key=str.lower, reverse=True))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[1, 1, 2, 2, 3, 5, 6, 8]
+[1, 1, 2, 2, 3, 5, 6, 8]
+[&#39;Zoo&#39;, &#39;Credit&#39;, &#39;bob&#39;, &#39;about&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 函数作为返回值
+def lazy_sum(*args):
+    def sum():
+        ax = 0
+        for n in args:
+            ax = ax + n
+        return ax
+    return sum
+f = lazy_sum(1,2,3,4)
+ff = lazy_sum(1,2,3,4)
+print(f)
+print(f())
+print(f == ff)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;function lazy_sum.&amp;lt;locals&amp;gt;.sum at 0x7ff339798d30&amp;gt;
+10
+False
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 闭包问题
+def count():
+    fs = []
+    for i in range(1, 4):
+        def f():
+             return i*i
+        fs.append(f)
+    return fs
+
+f1, f2, f3 = count()
+print(f1())
+print(f2())
+print(f3())
+
+# 解决方案
+def count():
+    def g(j):
+        def f():
+            return j*j
+        return f
+    fs = []
+    for i in range(1, 4):
+        fs.append(g(i))
+    return fs
+f1, f2, f3 = count()
+print(f1())
+print(f2())
+print(f3())
+
+# 使用lambda 简化
+def count():
+    f = lambda j: lambda: j*j
+    fs = []
+    for i in range(1, 4):
+        fs.append(f(i))
+    return fs
+f1, f2, f3 = count()
+print(f1())
+print(f2())
+print(f3())
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;9
+9
+9
+1
+4
+9
+1
+4
+9
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 装饰器（decorator）,本质为一个返回函数的函数。接受一个函数，然后在源函数前后添加语句返回修饰后的函数。
+# 即返回一个新的函数，新的函数中调用了传入的函数，不改变原来的函数
+def log(func):
+    def wrapper(*args, **kw):
+        print(&#39;call %s():&#39; % func.__name__)
+        return func(*args, **kw)
+    return wrapper
+@log
+def now():
+    print(&#39;2015-3-25&#39;)
+now()
+
+#同
+def now1():
+    print(&#39;2077-7-7&#39;)
+now1 = log(now1)
+now1()
+
+# 前后同时修饰
+def log2(func):
+    def wrapper():
+        print(&#39;call %s():&#39; % func.__name__)
+        func()
+        print(&#39;call %s() end:&#39; % func.__name__)
+    return wrapper
+@log2
+def now2():
+    print(&#39;2015-3-25&#39;)
+now2()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;call now():
+2015-3-25
+call now1():
+2077-7-7
+call now2():
+2015-3-25
+call now2() end:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Python的functools模块提供了很多有用的功能，其中一个就是偏函数（Partial function）
+# 给源函数固定参数默认值或者添加一个参数，返回修改的后的参数
+from functools import partial
+# 给max函数固定添加一个参数 10
+max2 = partial(max,10)
+print(max2(1,2,3,4))
+# 给int函数固定base参数为 2
+int2 = partial(int, base = 2)
+print(int2(&amp;quot;101&amp;quot;))
+print(int2(&amp;quot;101&amp;quot;, base = 10))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;10
+5
+101
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/</guid>
+            <title>python高级特性</title>
+            <link>https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/</link>
+            <category term="计算机领域" scheme="https://yuan-uyume.github.io/categories/computer/" />
+            <category term="笔记" scheme="https://yuan-uyume.github.io/categories/computer/notes/" />
+            <category term="python" scheme="https://yuan-uyume.github.io/categories/computer/notes/python/" />
+            <category term="python" scheme="https://yuan-uyume.github.io/tags/python/" />
+            <pubDate>Thu, 23 Jun 2022 09:18:55 +0800</pubDate>
+            <description><![CDATA[ &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 切片
+ay = [&#39;Michael&#39;, &#39;Sarah&#39;, &#39;Tracy&#39;, &#39;Bob&#39;, &#39;Jack&#39;]
+# 取前三个
+print(ay[:3])
+# 取到最后一个前
+print(ay[:-1])
+# 取第二个到最后一个前
+print(ay[1:-1])
+# 每两个取一个
+print(ay[::2])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[&#39;Michael&#39;, &#39;Sarah&#39;, &#39;Tracy&#39;]
+[&#39;Michael&#39;, &#39;Sarah&#39;, &#39;Tracy&#39;, &#39;Bob&#39;]
+[&#39;Sarah&#39;, &#39;Tracy&#39;, &#39;Bob&#39;]
+[&#39;Michael&#39;, &#39;Tracy&#39;, &#39;Jack&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 列表生成式
+print([x*x for x in range(1,11)])
+# 后接过滤添加
+print([x*x for x in range(1,11) if x%2==0])
+# 前加表达式条件
+print([x*x if x%2==0 else x for x in range(1,11)])
+# 偶数相乘奇数原值，同时过滤掉4的倍数
+print([x*x if x%2==0 else x for x in range(1,11) if x%4!=0])
+# 双层条件
+print([x+y for x in &amp;quot;abc&amp;quot; for y in &amp;quot;xyz&amp;quot;])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+[4, 16, 36, 64, 100]
+[1, 4, 3, 16, 5, 36, 7, 64, 9, 100]
+[1, 4, 3, 5, 36, 7, 9, 100]
+[&#39;ax&#39;, &#39;ay&#39;, &#39;az&#39;, &#39;bx&#39;, &#39;by&#39;, &#39;bz&#39;, &#39;cx&#39;, &#39;cy&#39;, &#39;cz&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 生成器，可用来减少直接生成列表的内存
+g = (x*x if x%2==0 else x for x in range(1,11) if x%4!=0)
+l = []
+for n in g:
+    l.append(n)
+print(l)
+# 函数式用法
+def odd():
+    print(&#39;step 1&#39;)
+    yield 1
+    print(&#39;step 2&#39;)
+    yield(3)
+    print(&#39;step 3&#39;)
+    yield(5)
+for n in odd():
+    print(n)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[1, 4, 3, 5, 36, 7, 9, 100]
+step 1
+1
+step 2
+3
+step 3
+5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Iterable和Iterator的区别
+# 生成器是一个Iterator对象而list是一个Iterable对象
+x = [1,2,3,4,5,6,7,8,9,10]
+y = range(1,11)
+g = (x*x if x%2==0 else x for x in y if x%4!=0)
+print(x)
+print(y)
+print(g)
+# Iterable 和 Iterator都可用for in进行迭代
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+range(1, 11)
+&amp;lt;generator object &amp;lt;genexpr&amp;gt; at 0x7f1d4651c120&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%E9%AB%98%E7%BA%A7/</guid>
+            <title>python面向对象高级</title>
+            <link>https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%E9%AB%98%E7%BA%A7/</link>
+            <category term="计算机领域" scheme="https://yuan-uyume.github.io/categories/computer/" />
+            <category term="笔记" scheme="https://yuan-uyume.github.io/categories/computer/notes/" />
+            <category term="python" scheme="https://yuan-uyume.github.io/categories/computer/notes/python/" />
+            <category term="python" scheme="https://yuan-uyume.github.io/tags/python/" />
+            <pubDate>Thu, 23 Jun 2022 09:18:45 +0800</pubDate>
+            <description><![CDATA[ &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 对动态添加属性进行限制
+# 定义类时，给类定义一个__slots__属性，类实例化后只能添加__slots__里列出的属性
+class MyClass(object):
+    __slots__ = (&#39;name&#39;,&#39;age&#39;)
+cla = MyClass()
+cla.name = &#39;abc&#39;
+# cla.gender = &#39;man&#39;
+# 若继承的子类不定义__slots__属性，那么子类并不会进行限制
+class SonClass(MyClass):
+    pass
+scla = SonClass()
+scla.name = &#39;sabc&#39;
+scla.gender = &#39;sman&#39;
+class SSonClass(MyClass):
+    __slots__ = ()
+sscla = SSonClass()
+# 子类定义了__slots__属性后，子类可以动态添加的实例属性是 父类和子类中__slots__列出的属性相加
+sscla.name = &#39;ssman&#39;
+# sscla.gender = &#39;ssman&#39;
+MyClass.name = &amp;quot;cba&amp;quot;
+# __slots__属性只对实例属性有效,类属性貌似只读
+MyClass.gender = &amp;quot;nam&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# python中定义getter setter的简单写法，用装饰器@property将类方法转换为属性
+# 当没有设置setter方式时属性为只读属性
+class aclass(object):
+    @property
+    def score(self):
+        return self._score
+    @score.setter
+    def score(self,value):
+        if not isinstance(value, int):
+            raise ValueError(&#39;score must be an integer!&#39;)
+        if value &amp;lt; 0 or value &amp;gt; 100:
+            raise ValueError(&#39;score must between 0 ~ 100!&#39;)
+        self._score = value
+acla = aclass()
+acla.score = &amp;quot;a&amp;quot;
+acla.score = 110
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;---------------------------------------------------------------------------
+
+ValueError                                Traceback (most recent call last)
+
+&amp;lt;ipython-input-18-9ae45d2b9ac0&amp;gt; in &amp;lt;module&amp;gt;
+     12         self._score = value
+     13 acla = aclass()
+---&amp;gt; 14 acla.score = &amp;quot;a&amp;quot;
+     15 acla.score = 110
+
+
+&amp;lt;ipython-input-18-9ae45d2b9ac0&amp;gt; in score(self, value)
+      7     def score(self,value):
+      8         if not isinstance(value, int):
+----&amp;gt; 9             raise ValueError(&#39;score must be an integer!&#39;)
+     10         if value &amp;lt; 0 or value &amp;gt; 100:
+     11             raise ValueError(&#39;score must between 0 ~ 100!&#39;)
+
+
+ValueError: score must be an integer!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;多重继承&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多重继承&#34;&gt;#&lt;/a&gt; 多重继承&lt;/h2&gt;
+&lt;h3 id=&#34;mixin&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mixin&#34;&gt;#&lt;/a&gt; MixIn&lt;/h3&gt;
+&lt;p&gt;在设计类的继承关系时，通常，主线都是单一继承下来的，例如，Ostrich 继承自 Bird。但是，如果需要 “混入” 额外的功能，通过多重继承就可以实现，比如，让 Ostrich 除了继承自 Bird 外，再同时继承 Runnable。这种设计通常称之为 MixIn。&lt;/p&gt;
+&lt;p&gt;为了更好地看出继承关系，我们把 Runnable 和 Flyable 改为 RunnableMixIn 和 FlyableMixIn。类似的，你还可以定义出肉食动物 CarnivorousMixIn 和植食动物 HerbivoresMixIn，让某个动物同时拥有好几个 MixIn：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;class Dog(Mammal, RunnableMixIn, CarnivorousMixIn):
+    pass
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# python打印实例调用的是类内部的特殊方法__str__,输出调试信息则是__repr__
+class mc(object):
+    __name = &amp;quot;mc&amp;quot;
+    def __str__(self):
+        return &#39;the class name is %s&#39; % self.__name
+    def __repr__(self):
+        return &amp;quot;repr the class name is %s&amp;quot; % self.__name
+myclass = mc()
+# print(dir(myclass))
+print(myclass)
+myclass
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;the class name is mc
+
+
+
+
+
+repr the class name is mc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# __iter__返回一个迭代器，list等类的for in循环实现就是通过类中的__iter__函数
+class Fib(object):
+    def __init__(self):
+        self.a, self.b = 0, 1 # 初始化两个计数器a，b
+
+    def __iter__(self):
+        return self # 实例本身就是迭代对象，故返回自己
+
+    def __next__(self):
+        self.a, self.b = self.b, self.a + self.b # 计算下一个值
+        if self.a &amp;gt; 100000: # 退出循环的条件
+            raise StopIteration()
+        return self.a # 返回下一个值
+fb = Fib()
+for f in fb:
+    print(f) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
+233
+377
+610
+987
+1597
+2584
+4181
+6765
+10946
+17711
+28657
+46368
+75025
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 要表现得像list那样按照下标取出元素，需要实现__getitem__()方法：
+class Fib(object):
+    def __getitem__(self, n):
+        a, b = 1, 1
+        for x in range(n):
+            a, b = b, a + b
+        return a
+f = Fib()
+f[12]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;233
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 某对像是否能被调用，取决于它是否实现了__call__方法，我们可以使用callable()来判断对象是不是一个可执行对象
+callable(int)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;True
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Python提供了Enum类来实现这个功能：
+
+from enum import Enum, unique
+
+Month = Enum(&#39;Month&#39;, (&#39;Jan&#39;, &#39;Feb&#39;, &#39;Mar&#39;, &#39;Apr&#39;, &#39;May&#39;, &#39;Jun&#39;, &#39;Jul&#39;, &#39;Aug&#39;, &#39;Sep&#39;, &#39;Oct&#39;, &#39;Nov&#39;, &#39;Dec&#39;))
+# 这样我们就获得了Month类型的枚举类，可以直接使用Month.Jan来引用一个常量，或者枚举它的所有成员：
+
+for name, member in Month.__members__.items():
+    print(name, &#39;=&amp;gt;&#39;, member, &#39;,&#39;, member.value)
+# value属性则是自动赋给成员的int常量，默认从1开始计数。
+
+# 如果需要更精确地控制枚举类型，可以从Enum派生出自定义类：
+
+@unique
+class Weekday(Enum):
+    Sun = 0 # Sun的value被设定为0
+    Mon = 1
+    Tue = 2
+    Wed = 3
+    Thu = 4
+    Fri = 5
+    Sat = 6
+# @unique装饰器可以帮助我们检查保证没有重复值。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Jan =&amp;gt; Month.Jan , 1
+Feb =&amp;gt; Month.Feb , 2
+Mar =&amp;gt; Month.Mar , 3
+Apr =&amp;gt; Month.Apr , 4
+May =&amp;gt; Month.May , 5
+Jun =&amp;gt; Month.Jun , 6
+Jul =&amp;gt; Month.Jul , 7
+Aug =&amp;gt; Month.Aug , 8
+Sep =&amp;gt; Month.Sep , 9
+Oct =&amp;gt; Month.Oct , 10
+Nov =&amp;gt; Month.Nov , 11
+Dec =&amp;gt; Month.Dec , 12
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;要创建一个 class 对象，type () 函数依次传入 3 个参数：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;class 的名称；&lt;/li&gt;
+&lt;li&gt;继承的父类集合，注意 Python 支持多重继承，如果只有一个父类，别忘了 tuple 的单元素写法；&lt;/li&gt;
+&lt;li&gt;class 的方法名称与函数绑定，这里我们把函数 fn 绑定到方法名 hello 上。&lt;br /&gt;
+通过 type () 函数创建的类和直接写 class 是完全一样的，因为 Python 解释器遇到 class 定义时，仅仅是扫描一下 class 定义的语法，然后调用 type () 函数创建出 class。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;正常情况下，我们都用 class Xxx... 来定义类，但是，type () 函数也允许我们动态创建出类来，也就是说，动态语言本身支持运行期动态创建类，这和静态语言有非常大的不同，要在静态语言运行期创建类，必须构造源代码字符串再调用编译器，或者借助一些工具生成字节码实现，本质上都是动态编译，会非常复杂。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-PYTHON&#34;&gt;Hello = type(&#39;Hello&#39;, (object,), dict(hello=fn)) # 创建Hello class
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;metaclass&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#metaclass&#34;&gt;#&lt;/a&gt; metaclass&lt;/h1&gt;
+&lt;p&gt;除了使用 type () 动态创建类以外，要控制类的创建行为，还可以使用 metaclass。&lt;/p&gt;
+&lt;p&gt;metaclass，直译为元类，简单的解释就是：&lt;/p&gt;
+&lt;p&gt;当我们定义了类以后，就可以根据这个类创建出实例，所以：先定义类，然后创建实例。&lt;/p&gt;
+&lt;p&gt;但是如果我们想创建出类呢？那就必须根据 metaclass 创建出类，所以：先定义 metaclass，然后创建类。&lt;/p&gt;
+&lt;p&gt;连接起来就是：先定义 metaclass，就可以创建类，最后创建实例。&lt;/p&gt;
+&lt;p&gt;所以，metaclass 允许你创建类或者修改类。换句话说，你可以把类看成是 metaclass 创建出来的 “实例”。&lt;/p&gt;
+&lt;p&gt;metaclass 是 Python 面向对象里最难理解，也是最难使用的魔术代码。正常情况下，你不会碰到需要使用 metaclass 的情况，所以，以下内容看不懂也没关系，因为基本上你不会用到。&lt;/p&gt;
+&lt;p&gt;我们先看一个简单的例子，这个 metaclass 可以给我们自定义的 MyList 增加一个 add 方法：&lt;/p&gt;
+&lt;p&gt;定义 ListMetaclass，按照默认习惯，metaclass 的类名总是以 Metaclass 结尾，以便清楚地表示这是一个 metaclass：&lt;/p&gt;
+&lt;h2 id=&#34;metaclass是类的模板所以必须从type类型派生&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#metaclass是类的模板所以必须从type类型派生&#34;&gt;#&lt;/a&gt; metaclass 是类的模板，所以必须从 &lt;code&gt;type&lt;/code&gt;  类型派生：&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-PYTHON&#34;&gt;class ListMetaclass(type):
+    def __new__(cls, name, bases, attrs):
+        attrs[&#39;add&#39;] = lambda self, value: self.append(value)
+        return type.__new__(cls, name, bases, attrs)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;有了 ListMetaclass，我们在定义类的时候还要指示使用 ListMetaclass 来定制类，传入关键字参数 metaclass：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;class MyList(list, metaclass=ListMetaclass):
+    pass
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;当我们传入关键字参数 metaclass 时，魔术就生效了，它指示 Python 解释器在创建 MyList 时，要通过 ListMetaclass.&lt;strong&gt;new&lt;/strong&gt; () 来创建，在此，我们可以修改类的定义，比如，加上新的方法，然后，返回修改后的定义。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;new&lt;/strong&gt; () 方法接收到的参数依次是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;当前准备创建的类的对象；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;类的名字；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;类继承的父类集合；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;类的方法集合。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;测试一下 MyList 是否可以调用 add () 方法：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ipython&#34;&gt;&amp;gt;&amp;gt;&amp;gt; L = MyList()
+&amp;gt;&amp;gt;&amp;gt; L.add(1)
+&amp;gt;&amp;gt; L
+[1]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;而普通的 list 没有 add () 方法：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ipython&#34;&gt;&amp;gt;&amp;gt;&amp;gt; L2 = list()
+&amp;gt;&amp;gt;&amp;gt; L2.add(1)
+Traceback (most recent call last):
+  File &amp;quot;&amp;lt;stdin&amp;gt;&amp;quot;, line 1, in &amp;lt;module&amp;gt;
+AttributeError: &#39;list&#39; object has no attribute &#39;add&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;动态修改有什么意义？直接在 MyList 定义中写上 add () 方法不是更简单吗？正常情况下，确实应该直接写，通过 metaclass 修改纯属变态。&lt;/p&gt;
+&lt;p&gt;但是，总会遇到需要通过 metaclass 修改类定义的。ORM 就是一个典型的例子。&lt;/p&gt;
+&lt;p&gt;ORM 全称 “Object Relational Mapping”，即对象 - 关系映射，就是把关系数据库的一行映射为一个对象，也就是一个类对应一个表，这样，写代码更简单，不用直接操作 SQL 语句。&lt;/p&gt;
+&lt;p&gt;要编写一个 ORM 框架，所有的类都只能动态定义，因为只有使用者才能根据表的结构定义出对应的类来。&lt;/p&gt;
+&lt;p&gt;让我们来尝试编写一个 ORM 框架。&lt;/p&gt;
+&lt;p&gt;编写底层模块的第一步，就是先把调用接口写出来。比如，使用者如果使用这个 ORM 框架，想定义一个 User 类来操作对应的数据库表 User，我们期待他写出这样的代码：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;class User(Model):
+    # 定义类的属性到列的映射：
+    id = IntegerField(&#39;id&#39;)
+    name = StringField(&#39;username&#39;)
+    email = StringField(&#39;email&#39;)
+    password = StringField(&#39;password&#39;)
+# 创建一个实例：
+u = User(id=12345, name=&#39;Michael&#39;, email=&#39;test@orm.org&#39;, password=&#39;my-pwd&#39;)
+# 保存到数据库：
+u.save()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;其中，父类 Model 和属性类型 StringField、IntegerField 是由 ORM 框架提供的，剩下的魔术方法比如 save () 全部由父类 Model 自动完成。虽然 metaclass 的编写会比较复杂，但 ORM 的使用者用起来却异常简单。&lt;/p&gt;
+&lt;p&gt;现在，我们就按上面的接口来实现该 ORM。&lt;/p&gt;
+&lt;p&gt;首先来定义 Field 类，它负责保存数据库表的字段名和字段类型：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;class Field(object):
+
+    def __init__(self, name, column_type):
+        self.name = name
+        self.column_type = column_type
+
+    def __str__(self):
+        return &#39;&amp;lt;%s:%s&amp;gt;&#39; % (self.__class__.__name__, self.name)
+# 在Field的基础上，进一步定义各种类型的Field，比如StringField，IntegerField等等：
+
+class StringField(Field):
+
+    def __init__(self, name):
+        super(StringField, self).__init__(name, &#39;varchar(100)&#39;)
+
+class IntegerField(Field):
+
+    def __init__(self, name):
+        super(IntegerField, self).__init__(name, &#39;bigint&#39;)
+# 下一步，就是编写最复杂的ModelMetaclass了：
+
+class ModelMetaclass(type):
+
+    def __new__(cls, name, bases, attrs):
+        if name==&#39;Model&#39;:
+            return type.__new__(cls, name, bases, attrs)
+        print(&#39;Found model: %s&#39; % name)
+        mappings = dict()
+        for k, v in attrs.items():
+            if isinstance(v, Field):
+                print(&#39;Found mapping: %s ==&amp;gt; %s&#39; % (k, v))
+                mappings[k] = v
+        for k in mappings.keys():
+            attrs.pop(k)
+        attrs[&#39;__mappings__&#39;] = mappings # 保存属性和列的映射关系
+        attrs[&#39;__table__&#39;] = name # 假设表名和类名一致
+        return type.__new__(cls, name, bases, attrs)
+# 以及基类Model：
+
+class Model(dict, metaclass=ModelMetaclass):
+
+    def __init__(self, **kw):
+        super(Model, self).__init__(**kw)
+
+    def __getattr__(self, key):
+        try:
+            return self[key]
+        except KeyError:
+            raise AttributeError(r&amp;quot;&#39;Model&#39; object has no attribute &#39;%s&#39;&amp;quot; % key)
+
+    def __setattr__(self, key, value):
+        self[key] = value
+
+    def save(self):
+        fields = []
+        params = []
+        args = []
+        for k, v in self.__mappings__.items():
+            fields.append(v.name)
+            params.append(&#39;?&#39;)
+            args.append(getattr(self, k, None))
+        sql = &#39;insert into %s (%s) values (%s)&#39; % (self.__table__, &#39;,&#39;.join(fields), &#39;,&#39;.join(params))
+        print(&#39;SQL: %s&#39; % sql)
+        print(&#39;ARGS: %s&#39; % str(args))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;当用户定义一个 class User (Model) 时，Python 解释器首先在当前类 User 的定义中查找 metaclass，如果没有找到，就继续在父类 Model 中查找 metaclass，找到了，就使用 Model 中定义的 metaclass 的 ModelMetaclass 来创建 User 类，也就是说，metaclass 可以隐式地继承到子类，但子类自己却感觉不到。&lt;/p&gt;
+&lt;p&gt;在 ModelMetaclass 中，一共做了几件事情：&lt;/p&gt;
+&lt;p&gt;排除掉对 Model 类的修改；&lt;/p&gt;
+&lt;p&gt;在当前类（比如 User）中查找定义的类的所有属性，如果找到一个 Field 属性，就把它保存到一个__mappings__的 dict 中，同时从类属性中删除该 Field 属性，否则，容易造成运行时错误（实例的属性会遮盖类的同名属性）；&lt;/p&gt;
+&lt;p&gt;把表名保存到__table__中，这里简化为表名默认为类名。&lt;/p&gt;
+&lt;p&gt;在 Model 类中，就可以定义各种操作数据库的方法，比如 save ()，delete ()，find ()，update 等等。&lt;/p&gt;
+&lt;p&gt;我们实现了 save () 方法，把一个实例保存到数据库中。因为有表名，属性到字段的映射和属性值的集合，就可以构造出 INSERT 语句。&lt;/p&gt;
+&lt;p&gt;编写代码试试：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;u = User(id=12345, name=&#39;Michael&#39;, email=&#39;test@orm.org&#39;, password=&#39;my-pwd&#39;)
+u.save()
+# 输出如下：
+
+Found model: User
+Found mapping: email ==&amp;gt; &amp;lt;StringField:email&amp;gt;
+Found mapping: password ==&amp;gt; &amp;lt;StringField:password&amp;gt;
+Found mapping: id ==&amp;gt; &amp;lt;IntegerField:uid&amp;gt;
+Found mapping: name ==&amp;gt; &amp;lt;StringField:username&amp;gt;
+SQL: insert into User (password,email,username,id) values (?,?,?,?)
+ARGS: [&#39;my-pwd&#39;, &#39;test@orm.org&#39;, &#39;Michael&#39;, 12345]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;可以看到，save () 方法已经打印出了可执行的 SQL 语句，以及参数列表，只需要真正连接到数据库，执行该 SQL 语句，就可以完成真正的功能。&lt;/p&gt;
+&lt;p&gt;不到 100 行代码，我们就通过 metaclass 实现了一个精简的 ORM 框架，是不是非常简单？&lt;/p&gt;
+&lt;h2 id=&#34;小结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#小结&#34;&gt;#&lt;/a&gt; 小结&lt;/h2&gt;
+&lt;p&gt;metaclass 是 Python 中非常具有魔术性的对象，它可以改变类创建时的行为。这种强大的功能使用起来务必小心。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/</guid>
+            <title>python面向对象编程</title>
+            <link>https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/</link>
+            <category term="计算机领域" scheme="https://yuan-uyume.github.io/categories/computer/" />
+            <category term="笔记" scheme="https://yuan-uyume.github.io/categories/computer/notes/" />
+            <category term="python" scheme="https://yuan-uyume.github.io/categories/computer/notes/python/" />
+            <category term="python" scheme="https://yuan-uyume.github.io/tags/python/" />
+            <pubDate>Thu, 23 Jun 2022 09:18:30 +0800</pubDate>
+            <description><![CDATA[ &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# python 中对象的定义方法 （）中为继承于哪个父类，python与js、java一样所有的类都最终继承于object
+class MyClass(object):
+    cname = &amp;quot;aaaa&amp;quot;
+    msg = &amp;quot;qqqq&amp;quot;
+#     def __init__(self):
+#         self.cname = cname
+#         self.msg = msg
+    #初始化函数__init__在类实例化时调用，且不能被重载
+    def __init__(self,cname,msg):
+        self.cname = cname
+        self.msg = msg
+        self.__v = &amp;quot;1111&amp;quot;
+    # python中没有绝对的权限控制，默认使用_前缀来提醒使用者此为私有变量不要调用，类似的还有用大写变量表示常数。
+    # __为前缀则表示为私有变量，但是只是解释器将 __*变成了_classname__*，来控制访问，不同版本的解释器可能变换规则不同
+    __version = &amp;quot;0.112&amp;quot;
+    # 在python的类中，定义的函数一个参数将接受实例本身
+    def getVersion(self):
+        return self.__version
+mc = MyClass(&#39;init&#39;,&#39;in&#39;)
+ver = mc.getVersion()
+print(mc.msg)
+# 绕过限制直接访问私有变量__version
+print(mc._MyClass__version)
+print(ver)
+# python中的类接近于js中的对象
+mc.addp = &amp;quot;add&amp;quot;
+print(mc.addp)
+# 此时是直接向类实例对象中添加变量
+mc.__vadd = &amp;quot;1111&amp;quot;
+print(mc.__vadd)
+# __init__中设置的变量也会被转化名字
+print(mc.__v)
+# 直接输出报的错误是 没有该属性，所以私有属性只不过是在实例化时将变量名转换了
+print(mc.__version)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;python中的继承和多态&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python中的继承和多态&#34;&gt;#&lt;/a&gt; python 中的继承和多态&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;python 相较于 java 等静态语言，他并不要求严格的继承体系，一个对象只要 “看起来像鸭子，走起路来像鸭子”，那它就可以被看做是鸭子。&amp;lt;br&amp;gt;&lt;br /&gt;
+ 对于静态语言（例如 Java）来说，如果需要传入 Animal 类型，则传入的对象必须是 Animal 类型或者它的子类，否则，将无法调用 run () 方法。&amp;lt;br&amp;gt;&lt;br /&gt;
+Python 的 “file-like object“就是一种鸭子类型。对真正的文件对象，它有一个 read () 方法，返回其内容。但是，许多对象，只要有 read () 方法，都被视为 “file-like object“。许多函数接收的参数就是 “file-like object“，你不一定要传入真正的文件对象，完全可以传入任何实现了 read () 方法的对象。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 获取对象信息
+# 判断一个普通对象的类型
+l = [11111]
+print(type(l))
+# 判断一个继承对象的类型
+print(isinstance(l,list))
+print(isinstance(l,object))
+# 输出对象的所有属性
+print(dir(l))
+# len(l) 等价于 l.__len__()
+print(l.__len__())
+# 对象属性获取、设置或判断
+print(hasattr(l,&amp;quot;__len__&amp;quot;))
+print(getattr(l,&#39;__len__&#39;))
+# setattr 方法不能对python引用变量类型进行修改
+# print(setattr(l,&#39;abc&#39;,4))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;class &#39;list&#39;&amp;gt;
+True
+True
+[&#39;__add__&#39;, &#39;__class__&#39;, &#39;__class_getitem__&#39;, &#39;__contains__&#39;, &#39;__delattr__&#39;, &#39;__delitem__&#39;, &#39;__dir__&#39;, &#39;__doc__&#39;, &#39;__eq__&#39;, &#39;__format__&#39;, &#39;__ge__&#39;, &#39;__getattribute__&#39;, &#39;__getitem__&#39;, &#39;__gt__&#39;, &#39;__hash__&#39;, &#39;__iadd__&#39;, &#39;__imul__&#39;, &#39;__init__&#39;, &#39;__init_subclass__&#39;, &#39;__iter__&#39;, &#39;__le__&#39;, &#39;__len__&#39;, &#39;__lt__&#39;, &#39;__mul__&#39;, &#39;__ne__&#39;, &#39;__new__&#39;, &#39;__reduce__&#39;, &#39;__reduce_ex__&#39;, &#39;__repr__&#39;, &#39;__reversed__&#39;, &#39;__rmul__&#39;, &#39;__setattr__&#39;, &#39;__setitem__&#39;, &#39;__sizeof__&#39;, &#39;__str__&#39;, &#39;__subclasshook__&#39;, &#39;append&#39;, &#39;clear&#39;, &#39;copy&#39;, &#39;count&#39;, &#39;extend&#39;, &#39;index&#39;, &#39;insert&#39;, &#39;pop&#39;, &#39;remove&#39;, &#39;reverse&#39;, &#39;sort&#39;]
+1
+True
+&amp;lt;method-wrapper &#39;__len__&#39; of list object at 0x000001E200A8FF00&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 实例属性和类属性
+class Oneclass(object):
+    name = &#39;classAttr&#39;
+    def __init__(self):
+        self.name = &#39;entityAttr&#39;
+oc = Oneclass()
+# 实例属性优先于类属性显示，当实例属性不存在或被删除时将显示实例属性
+print(oc.name)
+# 删除实例的name属性
+del oc.name
+print(oc.name)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;entityAttr
+classAttr
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E5%9F%BA%E7%A1%80/</guid>
+            <title>python基础</title>
+            <link>https://yuan-uyume.github.io/2022/06/23/computer/notes/python/python%E5%9F%BA%E7%A1%80/</link>
+            <category term="计算机领域" scheme="https://yuan-uyume.github.io/categories/computer/" />
+            <category term="笔记" scheme="https://yuan-uyume.github.io/categories/computer/notes/" />
+            <category term="python" scheme="https://yuan-uyume.github.io/categories/computer/notes/python/" />
+            <category term="python" scheme="https://yuan-uyume.github.io/tags/python/" />
+            <pubDate>Thu, 23 Jun 2022 09:18:25 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; ？？？&lt;/h2&gt;
+&lt;p&gt;不是说支持 MarkDown 吗？&lt;/p&gt;
+&lt;p&gt;懂了，移开就显示了。&lt;/p&gt;
+&lt;p&gt;移开后双击进入编辑模式&lt;/p&gt;
+&lt;p&gt;现在我要开始学习 python 的基础用法了&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#我的第一个python程序
+print(&amp;quot;hello,notebook&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;hello,notebook
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#python中变量一直都是指向地址的？
+a = &amp;quot;aaa&amp;quot;
+b = a
+a = &amp;quot;bbb&amp;quot;
+print(a,b)
+c = 1
+d = c
+c = 2
+print(c,d)
+#结论为 变量赋变量为地址引用指向同一地址，直接赋值则为地址指向新建的内存地址
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;bbb aaa
+2 1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# 字符串格式化输出
+print(&amp;quot;张三捡到%d元，去%s消费掉了，然后被打了%.2f次&amp;quot;%(123,&amp;quot;花街&amp;quot;,1.324))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;张三捡到123元，去花街消费掉了，然后被打了1.32次
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# python 数组，python有两种类型的数组分别是list和tuple，list是可变数组类似于js里的数组。tuple则一旦初始化就就无法修改其元素的指向
+list = [&amp;quot;aa&amp;quot;,1,12.2]
+print(list)
+list[2] = &amp;quot;bb&amp;quot;
+print(list)
+tuple = (1,2.2,&amp;quot;afs&amp;quot;)
+print(tuple)
+#tuple[2] = &amp;quot;aa&amp;quot;    &#39;tuple&#39; object does not support item assignment
+tuple = (12,)   #定义长度为1的tuple时需要在元素后面加上“,”消除歧义
+print(tuple)
+# 通过一个“可变”tuple来理解tuple初始化后不能修改的意思
+tuple2 = (1,2,[&amp;quot;a&amp;quot;,&amp;quot;b&amp;quot;])
+tuple2[2][0],tuple2[2][1] = &amp;quot;x&amp;quot;,&amp;quot;y&amp;quot;
+print(tuple2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[&#39;aa&#39;, 1, 12.2]
+[&#39;aa&#39;, 1, &#39;bb&#39;]
+(1, 2.2, &#39;afs&#39;)
+(12,)
+(1, 2, [&#39;x&#39;, &#39;y&#39;])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# python 中的条件控制与input()
+# vs code 的jupyter note好像不接受输入
+#val = input(&amp;quot;val: &amp;quot;)
+#print(val) #val 为字符,所以在进行数字比较时需要转换类型
+val = &amp;quot;13&amp;quot;
+val = int(val)
+if val&amp;gt;20 and val&amp;lt;100:
+    print(&amp;quot;20&amp;lt;val&amp;lt;100&amp;quot;)
+elif val&amp;lt;=20:
+    print(&amp;quot;val&amp;lt;=20&amp;quot;)
+else:
+    print(&amp;quot;val&amp;gt;=100&amp;quot;)
+#python中可以使用如下方法来实现三目运算
+el = 2 if 1&amp;gt;2 else 3
+print(el)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;val&amp;lt;=20
+3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# python 提供两种循环方式分别是 for in 和 while
+# 循环数组
+for e in [&amp;quot;aa&amp;quot;,2,&amp;quot;bb&amp;quot;,2.33,(2,5)]:
+    print(e)
+# 循环1至4
+for n in range(1,5):
+    print(n)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;aa
+2
+bb
+2.33
+(2, 5)
+1
+2
+3
+4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# python中的dict(字典) 类似js的对象java的map
+
+map = &amp;#123;&amp;quot;111&amp;quot;:1,&amp;quot;222&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;333&amp;quot;:(&amp;quot;a&amp;quot;,1)&amp;#125;
+print(map)
+print(map[&amp;quot;222&amp;quot;])
+map[&amp;quot;222&amp;quot;] = &amp;quot;b&amp;quot;
+print(map[&amp;quot;222&amp;quot;])
+#for in 循环能循环 map的键，值
+# items()返回字典的元组数组
+print(map.items())
+for k,v in map.items():
+    print(k,v)
+for o in map.items():
+    print(o)
+#没有for of的语法
+
+#set 没有value的dict, key唯一。Java中一样,但是最新的python中set中元素的顺序和插入顺序一致，而java中set原型是无序的。
+set1 = set([1,2,2,2,3,1])
+print(set1)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;#123;&#39;111&#39;: 1, &#39;222&#39;: &#39;a&#39;, &#39;333&#39;: (&#39;a&#39;, 1)&amp;#125;
+a
+b
+dict_items([(&#39;111&#39;, 1), (&#39;222&#39;, &#39;b&#39;), (&#39;333&#39;, (&#39;a&#39;, 1))])
+111 1
+222 b
+333 (&#39;a&#39;, 1)
+(&#39;111&#39;, 1)
+(&#39;222&#39;, &#39;b&#39;)
+(&#39;333&#39;, (&#39;a&#39;, 1))
+&amp;#123;1, 2, 3&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# python 中函数的定义、调用、多参数和多返回值
+import sys
+
+def maxTwo(*nums):
+    one = two = -sys.maxsize -1
+    for n in nums:
+        if n&amp;gt;one:
+            two = one
+            one = n
+        elif n&amp;gt;two:
+            two = n
+    return one,two
+#可以看出函数返回的是一个元组
+print(maxTwo(1,2,3,4,5,6))
+#可以用两个变量来分别接收元组里的两个元素
+n,m = maxTwo(1,2,3,4,5,6)
+x,y = (&amp;quot;a&amp;quot;,&amp;quot;b&amp;quot;)
+print(n,m)
+print(x,y)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;(6, 5)
+6 5
+a b
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://yuan-uyume.github.io/2022/06/21/computer/notes/freesite/</guid>
             <title>如何白嫖个网站</title>
@@ -1448,50 +2421,6 @@ cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP&lt;/p&gt;
 せかいにうちのめされて  まけるいみをしった&lt;/p&gt;
 &lt;p&gt;紅蓮の花よ    咲き誇れ    運命を照らして&lt;br /&gt;
 ぐれんのはなよ  さきひこれ  うんめいをてらして&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E8%8B%8F%E4%B8%9C%E5%9D%A1/</guid>
-            <title>苏东坡</title>
-            <link>https://yuan-uyume.github.io/2022/06/18/songs/lrc/%E8%8B%8F%E4%B8%9C%E5%9D%A1/</link>
-            <category term="歌" scheme="https://yuan-uyume.github.io/categories/songs/" />
-            <category term="歌词" scheme="https://yuan-uyume.github.io/categories/songs/lrc/" />
-            <category term="中文" scheme="https://yuan-uyume.github.io/tags/zh/" />
-            <pubDate>Sat, 18 Jun 2022 12:45:25 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;小舟悠悠水中摇&lt;br /&gt;
-世人诸多忧扰&lt;br /&gt;
-我自饮酒逍遥&lt;br /&gt;
-穿过烟波明月缥    缈&lt;br /&gt;
-看不穿明日预兆&lt;br /&gt;
-又何必悲戚今朝&lt;br /&gt;
-不如醉倒&lt;/p&gt;
-&lt;p&gt;惟江中的水月与行舟知我寂寥&lt;br /&gt;
-看波光覆来路已烟云    渺渺&lt;br /&gt;
-这悠长的时间    这浩大的江面&lt;br /&gt;
-未说完的一切千言万语都做云烟&lt;br /&gt;
-这一梦的开端    这半生的辗转&lt;br /&gt;
-随美酒的饮完只谈风月不问从前&lt;br /&gt;
-这一宵    高歌醉卧    高山流水    才是眷恋&lt;/p&gt;
-&lt;p&gt;惟山间的清风与明月    无需讨好&lt;br /&gt;
-寄浮生于天地便不惧    终老&lt;br /&gt;
-这久远的悲欢    这沧海的变换&lt;br /&gt;
-这流年催白发千丝万缕都已难辨&lt;br /&gt;
-这一船的疯癫    这一宿的未眠&lt;br /&gt;
-纵流转过多年    仍会记得此间欢颜&lt;br /&gt;
-歌唱着桂棹兰桨空明流光逆流而上&lt;br /&gt;
-情思啊悠悠茫茫美人却在天一方    遥望&lt;/p&gt;
-&lt;p&gt;这明月缺又圆    这江水到天边&lt;br /&gt;
-这世事多变迁    沧海桑田都做诗篇&lt;br /&gt;
-这一曲唱几遍    这小舟未搁浅&lt;br /&gt;
-这一时的酣梦    枕着衣袖更似神仙&lt;br /&gt;
-这一生归去    无晴也无风雨    便是心愿&lt;/p&gt;
-&lt;p&gt;小舟悠悠水中摇&lt;br /&gt;
-随它天涯海角&lt;br /&gt;
-一枕一梦一觉&lt;br /&gt;
-露水打湿眼角    眉梢&lt;/p&gt;
-&lt;p&gt;愿醒来还未破晓&lt;br /&gt;
-再偷得浮生半宵&lt;br /&gt;
-如此便好&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
