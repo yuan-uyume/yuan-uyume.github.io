@@ -1,17 +1,22 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
-    <title>uyume的记录本</title>
-    <link href="http://example.com" />
-    <updated>2023-08-25T13:50:05.000Z</updated>
-    <category term="指北" />
-    <category term="计划" />
-    <category term="搁浅" />
-    <entry>
-        <id>http://example.com/2023/08/25/zhibei/hexo%E4%B8%BB%E9%A2%98shokaX%E5%AE%89%E8%A3%85%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97/</id>
-        <title>hexo主题shokaX安装踩坑指北</title>
-        <link rel="alternate" href="http://example.com/2023/08/25/zhibei/hexo%E4%B8%BB%E9%A2%98shokaX%E5%AE%89%E8%A3%85%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97/"/>
-        <content type="html">&lt;h1 id=&#34;背景&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#背景&#34;&gt;#&lt;/a&gt; 背景&lt;/h1&gt;
+<rss version="2.0">
+    <channel>
+        <title>uyume的记录本 • Posts by &#34;指北&#34; category</title>
+        <link>http://example.com</link>
+        <description>记录想法和闲言碎语</description>
+        <language>zh-CN</language>
+        <pubDate>Fri, 25 Aug 2023 21:50:05 +0800</pubDate>
+        <lastBuildDate>Fri, 25 Aug 2023 21:50:05 +0800</lastBuildDate>
+        <category>指北</category>
+        <category>计划</category>
+        <category>搁浅</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/08/25/zhibei/hexo%E4%B8%BB%E9%A2%98shokaX%E5%AE%89%E8%A3%85%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97/</guid>
+            <title>hexo主题shokaX安装踩坑指北</title>
+            <link>http://example.com/2023/08/25/zhibei/hexo%E4%B8%BB%E9%A2%98shokaX%E5%AE%89%E8%A3%85%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97/</link>
+            <category>指北</category>
+            <pubDate>Fri, 25 Aug 2023 21:50:05 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;背景&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#背景&#34;&gt;#&lt;/a&gt; 背景&lt;/h1&gt;
 &lt;p&gt;最近又萌生了用文字记录、分享一些东西的想法。&lt;br&gt;
 最开始我想用 WordPress 加云服务器来实现的我想法，这样我还可以在上面跑一些定时的爬虫来更新我的一些内容。&lt;br&gt;
 遗憾的是当我打开腾讯云的页面，后面又看了看阿里云和华为云的页面。我不得不承认一个事实那就是，我浑身透出一股子穷酸的气息。至此，不得不得从新走回老路子，用 hexo 加 github 几乎零成本的方式搭建我的博客。&lt;/p&gt;
@@ -51,26 +56,7 @@
 &lt;p&gt;未填写网站信息导致报错，在 &lt;code&gt;_config.yml&lt;/code&gt;  配置文件中将网站信息完善。&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/yuan-uyume/imghub/master/5.png&#34; alt=&#34;5.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;接下来是配置好 shokax 主题时间。&lt;/p&gt;
-</content>
-        <category term="指北" />
-        <updated>2023-08-25T13:50:05.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2023/08/21/uyume%E7%9A%84%E4%B8%96%E7%95%8C%E9%87%8D%E5%90%AF%E8%AE%A1%E5%88%92/</id>
-        <title>uyume的世界重启计划</title>
-        <link rel="alternate" href="http://example.com/2023/08/21/uyume%E7%9A%84%E4%B8%96%E7%95%8C%E9%87%8D%E5%90%AF%E8%AE%A1%E5%88%92/"/>
-        <content type="html">&lt;p&gt;红中老大&lt;strong&gt;成仙&lt;/strong&gt;了！&lt;br&gt;
-uyume 表示也想&lt;strong&gt;成仙&lt;/strong&gt;。&lt;br&gt;
-所以重启了世界。&lt;br&gt;
-现在世界重开，一切刚刚开始。&lt;br&gt;
-只要&lt;strong&gt; 998&lt;/strong&gt; 就可以助力世界演化，我劝你最好不要赞助。&lt;br&gt;
-&lt;strong&gt;uRem theme&lt;/strong&gt;， &lt;code&gt;启动&lt;/code&gt; ！&lt;/p&gt;
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_0&#34;&gt; 主题底部布局界面&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        <category term="计划" />
-        <category term="搁浅" />
-        <updated>2023-08-21T12:18:24.000Z</updated>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>
