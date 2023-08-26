@@ -2,11 +2,11 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "uyume的记录本 • All posts by \"搁浅\" tag",
     "description": "记录想法和闲言碎语",
-    "home_page_url": "http://example.com",
+    "home_page_url": "http://yuan-uyume.github.io",
     "items": [
         {
-            "id": "http://example.com/2023/08/21/uyume%E7%9A%84%E4%B8%96%E7%95%8C%E9%87%8D%E5%90%AF%E8%AE%A1%E5%88%92/",
-            "url": "http://example.com/2023/08/21/uyume%E7%9A%84%E4%B8%96%E7%95%8C%E9%87%8D%E5%90%AF%E8%AE%A1%E5%88%92/",
+            "id": "http://yuan-uyume.github.io/2023/08/21/uyume%E7%9A%84%E4%B8%96%E7%95%8C%E9%87%8D%E5%90%AF%E8%AE%A1%E5%88%92/",
+            "url": "http://yuan-uyume.github.io/2023/08/21/uyume%E7%9A%84%E4%B8%96%E7%95%8C%E9%87%8D%E5%90%AF%E8%AE%A1%E5%88%92/",
             "title": "uyume的世界重启计划",
             "date_published": "2023-08-21T12:18:24.000Z",
             "content_html": "<p>红中老大<strong>成仙</strong>了！<br>\nuyume 表示也想<strong>成仙</strong>。<br>\n所以重启了世界。<br>\n现在世界重开，一切刚刚开始。<br>\n只要<strong> 998</strong> 就可以助力世界演化，我劝你最好不要赞助。<br>\n<strong>uRem theme</strong>， <code>启动</code> ！</p>\n<ul class=\"task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"cbx_0\" checked=\"true\" disabled=\"true\"><label for=\"cbx_0\"> 主题底部布局界面</label></li>\n</ul>\n",

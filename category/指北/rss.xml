@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>uyume的记录本 • Posts by &#34;指北&#34; category</title>
-        <link>http://example.com</link>
+        <link>http://yuan-uyume.github.io</link>
         <description>记录想法和闲言碎语</description>
         <language>zh-CN</language>
         <pubDate>Fri, 25 Aug 2023 21:50:05 +0800</pubDate>
@@ -11,9 +11,9 @@
         <category>搁浅</category>
         <category>指北</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/08/25/zhibei/hexo%E4%B8%BB%E9%A2%98shokaX%E5%AE%89%E8%A3%85%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97/</guid>
+            <guid isPermalink="true">http://yuan-uyume.github.io/2023/08/25/zhibei/hexo%E4%B8%BB%E9%A2%98shokaX%E5%AE%89%E8%A3%85%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97/</guid>
             <title>hexo主题shokaX安装踩坑指北</title>
-            <link>http://example.com/2023/08/25/zhibei/hexo%E4%B8%BB%E9%A2%98shokaX%E5%AE%89%E8%A3%85%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97/</link>
+            <link>http://yuan-uyume.github.io/2023/08/25/zhibei/hexo%E4%B8%BB%E9%A2%98shokaX%E5%AE%89%E8%A3%85%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97/</link>
             <category>指北</category>
             <pubDate>Fri, 25 Aug 2023 21:50:05 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;背景&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#背景&#34;&gt;#&lt;/a&gt; 背景&lt;/h1&gt;
