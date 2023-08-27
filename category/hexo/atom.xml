@@ -4,14 +4,14 @@
     <title>uyume的记录本 • Posts by &#34;hexo&#34; category</title>
     <link href="http://yuan-uyume.github.io" />
     <updated>2023-08-26T03:47:37.000Z</updated>
+    <category term="脚本" />
+    <category term="hexo" />
     <category term="计划" />
     <category term="搁浅" />
     <category term="记录" />
     <category term="shokaX" />
     <category term="插件" />
     <category term="指北" />
-    <category term="脚本" />
-    <category term="hexo" />
     <entry>
         <id>http://yuan-uyume.github.io/2023/08/26/script/hexo%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E8%84%9A%E6%9C%AC/</id>
         <title>hexo自动更新文章更新时间脚本</title>
