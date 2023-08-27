@@ -9,19 +9,19 @@
         <lastBuildDate>Sun, 27 Aug 2023 07:36:00 +0800</lastBuildDate>
         <category>计划</category>
         <category>搁浅</category>
-        <category>指北</category>
+        <category>记录</category>
         <category>shokaX</category>
+        <category>插件</category>
+        <category>指北</category>
         <category>脚本</category>
         <category>hexo</category>
-        <category>记录</category>
-        <category>插件</category>
         <item>
             <guid isPermalink="true">http://yuan-uyume.github.io/2023/08/27/zhibei/shokaX%E4%B8%BB%E9%A2%98%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97/</guid>
             <title>shokaX主题插件配置踩坑指北</title>
             <link>http://yuan-uyume.github.io/2023/08/27/zhibei/shokaX%E4%B8%BB%E9%A2%98%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97/</link>
-            <category>指北</category>
             <category>shokaX</category>
             <category>插件</category>
+            <category>指北</category>
             <pubDate>Sun, 27 Aug 2023 07:36:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;踩坑记录&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#踩坑记录&#34;&gt;#&lt;/a&gt; 踩坑记录&lt;/h1&gt;
 &lt;ul&gt;
@@ -49,8 +49,8 @@
             <guid isPermalink="true">http://yuan-uyume.github.io/2023/08/26/zhibei/hexo%E4%B8%BB%E9%A2%98shokaX%E5%AE%89%E8%A3%85%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97/</guid>
             <title>hexo主题shokaX安装踩坑指北</title>
             <link>http://yuan-uyume.github.io/2023/08/26/zhibei/hexo%E4%B8%BB%E9%A2%98shokaX%E5%AE%89%E8%A3%85%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97/</link>
-            <category>指北</category>
             <category>shokaX</category>
+            <category>指北</category>
             <pubDate>Sat, 26 Aug 2023 18:28:52 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;背景&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#背景&#34;&gt;#&lt;/a&gt; 背景&lt;/h1&gt;
 &lt;p&gt;最近又萌生了用文字记录、分享一些东西的想法。&lt;br&gt;
@@ -98,8 +98,8 @@
             <guid isPermalink="true">http://yuan-uyume.github.io/2023/08/26/zhibei/hexo%E4%B8%BB%E9%A2%98shokaX%E9%85%8D%E7%BD%AE%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97/</guid>
             <title>hexo主题shokaX配置踩坑指北</title>
             <link>http://yuan-uyume.github.io/2023/08/26/zhibei/hexo%E4%B8%BB%E9%A2%98shokaX%E9%85%8D%E7%BD%AE%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97/</link>
-            <category>指北</category>
             <category>shokaX</category>
+            <category>指北</category>
             <pubDate>Sat, 26 Aug 2023 13:24:13 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;本配置内容参考&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLmthaXRha3UueHl6L2d1aWRlL2NvbmZpZy5odG1s&#34;&gt; ShokaX 使用指南&lt;/span&gt;，再加上我的踩坑形成&lt;/p&gt;
