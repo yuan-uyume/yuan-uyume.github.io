@@ -5,23 +5,23 @@
         <link>http://yuan-uyume.github.io</link>
         <description>记录想法和闲言碎语</description>
         <language>zh-CN</language>
-        <pubDate>Sat, 26 Aug 2023 11:47:37 +0800</pubDate>
-        <lastBuildDate>Sat, 26 Aug 2023 11:47:37 +0800</lastBuildDate>
+        <pubDate>Sat, 26 Aug 2023 19:57:36 +0800</pubDate>
+        <lastBuildDate>Sat, 26 Aug 2023 19:57:36 +0800</lastBuildDate>
         <category>计划</category>
         <category>搁浅</category>
         <category>记录</category>
         <category>shokaX</category>
         <category>插件</category>
-        <category>指北</category>
         <category>脚本</category>
         <category>hexo</category>
+        <category>指北</category>
         <item>
             <guid isPermalink="true">http://yuan-uyume.github.io/2023/08/26/script/hexo%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E8%84%9A%E6%9C%AC/</guid>
             <title>hexo自动更新文章更新时间脚本</title>
             <link>http://yuan-uyume.github.io/2023/08/26/script/hexo%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E8%84%9A%E6%9C%AC/</link>
             <category>脚本</category>
             <category>hexo</category>
-            <pubDate>Sat, 26 Aug 2023 11:47:37 +0800</pubDate>
+            <pubDate>Sat, 26 Aug 2023 19:57:36 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;hexo自动更新文章更新时间脚本&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo自动更新文章更新时间脚本&#34;&gt;#&lt;/a&gt; hexo 自动更新文章更新时间脚本&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;updateTime.js&lt;/code&gt;  文件的作用是遍历 hexo 下所有文章，如果文件最后修改时间和文章中的更新时间大于五分钟，那么将自动更新文章中的更新时间。&lt;/p&gt;
 &lt;p&gt;建议将 &lt;code&gt;updateTime.js&lt;/code&gt;  放在 hexo 根目录 &lt;code&gt;./script&lt;/code&gt;  下，然后输入 &lt;code&gt;node ./script/updateTime.js&lt;/code&gt;  命令。&lt;/p&gt;
